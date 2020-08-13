@@ -10,9 +10,15 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 Note: for this kata y isn't considered a vowel.
 */
 
-function disemvowel(str) {
-  return string
-};
+const disemvowel = (str) => {
+  let newString = "";
+  for (let e of str) {
+    if (e.toLowerCase() !== 'a' && e.toLowerCase() !== 'e' && e.toLowerCase() !== 'i' && e.toLowerCase() !== 'o' && e.toLowerCase() !== 'u')
+      newString += e;
+  }
+  return newString
+}
+ 
 
 disemvowel("This website is for losers LOL!")
 // should return "Ths wbst s fr lsrs LL!"
