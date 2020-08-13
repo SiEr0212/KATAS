@@ -32,4 +32,4 @@ function disemvowel(str) {
 }
 
 disemvowel("This website is for losers LOL!")
-// should return "Ths wbst s fr lsrs LL!"
+//Returns "Ths wbst s fr lsrs LL!"
