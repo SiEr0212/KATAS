@@ -18,3 +18,19 @@ Examples
 ...because there are 4 pairs: 2, 20, 6 and 2 (again)
 
 */
+
+//My solution:
+
+const duplicates = (ar) =>{
+const pairs = [];
+let count = 0;
+ar.forEach(el => {
+  if(pairs[el] != el) {
+    pairs[el] = el
+  } else {
+    pairs[el] = undefined
+    count ++
+  }  
+}) 
+  return count
+}  
