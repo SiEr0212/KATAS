@@ -23,5 +23,13 @@ const disemvowel = (str) => {
 
 //another aproach from Codewars
 
+function disemvowel(str) {
+  var vowels = ['a', 'e', 'i', 'o', 'u'];
+  
+  return str.split('').filter(function(el) {
+    return vowels.indexOf(el.toLowerCase()) == -1;
+  }).join('');
+}
+
 disemvowel("This website is for losers LOL!")
 // should return "Ths wbst s fr lsrs LL!"
