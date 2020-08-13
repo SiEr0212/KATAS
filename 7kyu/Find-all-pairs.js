@@ -34,3 +34,6 @@ ar.forEach(el => {
 }) 
   return count
 }  
+
+ duplicates([1, 2, 5, 6, 5, 2])
+// returns 2 
