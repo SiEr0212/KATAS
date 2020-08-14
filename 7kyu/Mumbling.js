@@ -24,3 +24,6 @@ function accum(str) {
   return res.join("-")
 }
 
+accum("ZpglnRxqenU")
+
+// returns "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu");
