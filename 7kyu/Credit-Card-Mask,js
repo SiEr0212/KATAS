@@ -14,3 +14,18 @@ maskify("Skippy")                                   == "##ippy"
 maskify("Nananananananananananananananana Batman!") == "####################################man!
 */
 
+
+//My solution
+
+function maskify(cc) {
+ if (cc.length <=4) {
+    return cc
+  } else {
+    let masked = cc.substring(0, cc.length - 4).replace(/[a-z\d]/gi,"#") + 
+    cc.substring(cc.length - 4, cc.length)
+    return masked;
+  }
+} 
+
+maskify('4556364607935616')
+// returns '############5616'
