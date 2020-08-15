@@ -34,4 +34,7 @@ const queueTime = (customers, n) => {
     }
   };
   
+  queueTime([1, 2, 3, 4], 1); //10
+  queueTime([2, 2, 3, 3, 4, 4], 9); // 2
+  queueTime([1, 2, 3, 4, 5], 100); // 5
   
