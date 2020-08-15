@@ -32,6 +32,9 @@ string s = "01000000X000X011X0X"
 ➕ For maps without "0" and "1" return 0 as there is no population.
 
 */
+
+//My solution
+
 let map1 = "01000000X000X011X0X";
 
 function infected(s) {
