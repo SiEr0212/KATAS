@@ -26,14 +26,12 @@ queueTime([2,3,10], 2)
 */
 
 const queueTime = (customers, n) => {
-  let result = Array(n).fill(0);
-  for (let i = 0; i < customers.length; i++) {
-    result[0] += customers[1];
-    console.log(result);
-    result.sort((a, b) => a - b);
-  }
-};
-
-queueTime([1, 2, 3, 4], 1); //10
-queueTime([2, 2, 3, 3, 4, 4], 9); // 2
-queueTime([1, 2, 3, 4, 5], 100); // 5
+    let result = Array(n).fill(0);
+    for (let i = 0; i < customers.length; i++) {
+      result[0] += customers[1];
+      console.log(result);
+      result.sort((a, b) => a - b);
+    }
+  };
+  
+  
