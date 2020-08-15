@@ -32,3 +32,22 @@ string s = "01000000X000X011X0X"
 ➕ For maps without "0" and "1" return 0 as there is no population.
 
 */
+let map1 = "01000000X000X011X0X";
+
+function infected(s) {
+  const continents = map1.split("X");
+  let total = 0;
+  let infected = 0;
+  for (let continent of continents) {
+    total += continent.length;
+    if (continent.includes("1")) {
+      infected += continent.length;
+    }
+  }
+  if (total == 0) {
+    return 0;
+  }
+  return (infected / total) * 100;
+}
+
+infected(map1);
