@@ -12,3 +12,10 @@ Should return: 160 (the only even number)
 
 //My solution
 
+const even = (num) => num % 2 === 0;
+const odd = (num) => num % 2 !== 0;
+const findOutlier = (integers) => {
+    return integers.slice(0, 3).filter(even).length >= 2 ?
+        integers.find(odd) :
+        integers.find(even);
+};
