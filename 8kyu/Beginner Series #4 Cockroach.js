@@ -10,10 +10,9 @@ Note! The input is a Real number (actual type is language dependent) and is >= 0
 // My solution
 
 const cockroachSpeed = (s) => {
-    return Math.floor((s * 100000) / 60 ** 2);
-  };
+  return Math.floor((s * 100000) / 60 ** 2);
+};
 
-
-cockroachSpeed(1.09)
+cockroachSpeed(1.09);
 
 // returns 30
