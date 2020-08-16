@@ -19,3 +19,6 @@ const findOutlier = (integers) => {
         integers.find(odd) :
         integers.find(even);
 };
+
+findOutlier([2,6,8,10,3]) 
+// returns 3
