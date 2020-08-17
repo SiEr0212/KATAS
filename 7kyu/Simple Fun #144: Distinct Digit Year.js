@@ -32,4 +32,6 @@ const distinctDigitYear = (year) => {
   }
 };
 
-distinctDigitYear(1987)
+distinctDigitYear(1987);
+
+//returns 2013
