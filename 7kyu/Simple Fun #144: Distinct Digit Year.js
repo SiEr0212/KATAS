@@ -25,3 +25,9 @@ const numberIsDistinct = (num) => {
   }
   return true;
 };
+
+const distinctDigitYear = (year) => {
+  for (let i = year + 1; i <= 9999; i++) {
+    if (numberIsDistinct(i)) return i;
+  }
+};
