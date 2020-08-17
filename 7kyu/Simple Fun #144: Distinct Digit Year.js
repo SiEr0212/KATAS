@@ -13,3 +13,5 @@ Input/Output
 
 the minimum year number that is strictly larger than the input number year and all its digits are distinct.
 */
+
+//My solution
