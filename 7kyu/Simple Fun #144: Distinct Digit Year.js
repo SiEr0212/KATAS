@@ -31,3 +31,4 @@ const distinctDigitYear = (year) => {
     if (numberIsDistinct(i)) return i;
   }
 };
+
