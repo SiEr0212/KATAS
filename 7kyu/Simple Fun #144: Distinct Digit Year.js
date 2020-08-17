@@ -15,3 +15,13 @@ the minimum year number that is strictly larger than the input number year and a
 */
 
 //My solution
+
+const numberIsDistinct = (num) => {
+  const str = num.toString();
+  for (let i = 0; i < str.length; i++) {
+    if (str.indexOf(str[i], i + 1) !== -1) {
+      return false;
+    }
+  }
+  return true;
+};
