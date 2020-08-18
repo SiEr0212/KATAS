@@ -17,3 +17,11 @@ Note that if s contains three instances of the letter 'l', that still scores thr
 
 If the sum of the three parameters (as described above) is > 22, return 'Sabbatical! Boom!', else return 'Back to your desk, boy.'.
 */
+
+function sabb(s, val, happiness) {
+  const b = "sabbatical";
+  const sSum = s.split("").filter((s_) => b.includes(s_)).length;
+  if (sSum + val + happiness > 22) {
+    return "Sabbatical! Boom!";
+  } else return "Back to your desk, boy.";
+}
