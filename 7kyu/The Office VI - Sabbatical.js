@@ -25,3 +25,5 @@ function sabb(s, val, happiness) {
     return "Sabbatical! Boom!";
   } else return "Back to your desk, boy.";
 }
+
+sabb("Can I have a sabbatical?", 5, 5);
