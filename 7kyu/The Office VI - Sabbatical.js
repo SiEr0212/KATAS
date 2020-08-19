@@ -29,3 +29,15 @@ function sabb(s, val, happiness) {
 sabb("Can I have a sabbatical?", 5, 5);
 
 //returns Sabbatical! Boom!'
+
+const broken = (x) => {
+  let y = [...x];
+  for (let el of y) {
+    if (el === "0") {
+      el = "1";
+    } else {
+      el = "0";
+    }
+  }
+  return y.join("");
+};
