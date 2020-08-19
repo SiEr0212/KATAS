@@ -24,3 +24,11 @@ function top3(products, amounts, prices) {
     return el.name;
   });
 }
+
+top3(
+  ["Computer", "Cell Phones", "Vacuum Cleaner"],
+  [3, 24, 8],
+  [199, 299, 399]
+);
+
+// returns ["Cell Phones", "Vacuum Cleaner", "Computer"]);
