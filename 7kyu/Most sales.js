@@ -12,3 +12,15 @@ return the three product names with the highest revenue (amount * price).
 Note: if multiple products have the same revenue, order them according to their original positions in the input list.
 
 */
+
+function top3(products, amounts, prices) {
+  const rev = products.map(function (el, i, arr) {
+    return { name: el, revenue: prices[i] * amounts[i], index: i };
+  });
+  const sorted = rev.sort(function (a, b) {
+    return b.revenue - a.revenue || a.index - b.index;
+  });
+  return sorted.slice(0, 3).map(function (el) {
+    return el.name;
+  });
+}
