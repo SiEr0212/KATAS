@@ -24,3 +24,8 @@ const validParentheses = (parens) => {
   return queue.length === 0;
 };
 const string = "()()";
+
+validParentheses("()");
+// returns  true
+
+// validParentheses( "())" )  returns false
