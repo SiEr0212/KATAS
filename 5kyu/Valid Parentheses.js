@@ -1,3 +1,12 @@
+/*
+Valid Parentheses
+
+
+*/
+
+
+
+
 const validParentheses = (parens) => {
   let queue = [];
   for (let el of parens) {
