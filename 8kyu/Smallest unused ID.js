@@ -14,3 +14,11 @@ Go on and code some pure awesomeness!
 
 
 */
+
+const nextId = (ids) => {
+  let x = 0;
+  while (ids.includes(x)) {
+    x++;
+  }
+  return x;
+};
