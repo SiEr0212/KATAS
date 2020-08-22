@@ -1,5 +1,4 @@
 /*
-
 Smallest unused ID
 
 Hey awesome programmer!
@@ -11,8 +10,6 @@ Therefore you need a method, which returns the smallest unused ID for your next 
 Note: The given array of used IDs may be unsorted. For test reasons there may be duplicate IDs, but you don't have to find or remove them!
 
 Go on and code some pure awesomeness!
-
-
 */
 
 const nextId = (ids) => {
@@ -23,4 +20,5 @@ const nextId = (ids) => {
   return x;
 };
 
-nextId([0,1,2,3,4,5,6,7,8,9,10]);
+nextId([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+// returns 11
