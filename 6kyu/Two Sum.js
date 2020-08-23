@@ -23,5 +23,5 @@ const twoSum = (numbers, target) => {
   }
 };
 
-
-twoSum([1,2,3], 4);
+twoSum([1, 2, 3], 4);
+// returns (0,2)
