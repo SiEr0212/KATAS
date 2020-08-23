@@ -11,3 +11,14 @@ Based on: http://oj.leetcode.com/problems/two-sum/
 */
 
 //My solution:
+
+const twoSum = (numbers, target) => {
+  const numsIndices = {};
+  numbers.forEach((el, index) => (numsIndices[el] = index));
+  for (let i = 0; i < numbers.length; i++) {
+    const difference = target - numbers[i];
+    if (numsIndices[difference] !== undefined) {
+      return [i, numsIndices[difference]];
+    }
+  }
+};
