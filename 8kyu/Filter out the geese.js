@@ -27,5 +27,5 @@ const gooseFilter = (birds) => {
   return filteredBirds;
 };
 
-
-gooseFilter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"])
+gooseFilter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]);
+// should return ["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"])
