@@ -18,3 +18,11 @@ The elements in the returned array should be in the same order as in the initial
 */
 
 //My solutuion:
+
+const gooseFilter = (birds) => {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  const filteredBirds = birds.filter(function (bird) {
+    return !geese.includes(bird);
+  });
+  return filteredBirds;
+};
