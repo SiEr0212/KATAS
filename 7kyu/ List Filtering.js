@@ -20,4 +20,5 @@ function filter_list(l) {
   });
 }
 
-filter_list([1,2,'aasf','1','123',123]);
+filter_list([1, 2, "aasf", "1", "123", 123]);
+//returns [1,2,123]
