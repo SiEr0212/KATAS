@@ -15,3 +15,4 @@ The array will never be empty.
 const getAverage = (marks) => marks.reduce((a, b) => a + b) / marks.length;
 
 getAverage([1,2,3,4,5,]);
+// returns 3
