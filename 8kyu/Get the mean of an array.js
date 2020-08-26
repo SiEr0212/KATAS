@@ -12,7 +12,9 @@ The array will never be empty.
 
 //My solution
 
-const getAverage = (marks) => marks.reduce((a, b) => a + b) / marks.length;
+const getAverage = (marks) => {
+  return Math.floor(marks.reduce((a, b) => a + b) / marks.length);
+};
 
-getAverage([1,2,3,4,5,]);
+getAverage([1, 2, 3, 4, 5]);
 // returns 3
