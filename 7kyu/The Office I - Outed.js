@@ -14,4 +14,20 @@ Happiness rating will be total score / number of people in the room.
 Note that your boss is in the room (boss), their score is worth double it's face value (but they are still just one person!).
 */
 
-//My solutiion
+//My solutiion:
+
+function outed(meet, boss) {
+  let sum = 0;
+  for (let name in meet) {
+    if (name === boss) {
+      sum += meet[name] * 2;
+    } else {
+      sum += meet[name];
+    }
+  }
+  if (sum / Object.keys(meet).length <= 5) {
+    return "Get Out Now!";
+  } else {
+    return "Nice Work Champ!";
+  }
+}
