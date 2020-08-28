@@ -16,4 +16,18 @@ Input/Output
 
 //My solution
 
+const numberIsDistinct = (num) => {
+  const str = num.toString();
+  for (let i = 0; i < str.length; i++) {
+    if (str.indexOf(str[i], i + 1) !== -1) {
+      return false;
+    }
+  }
+  return true;
+};
 
+const distinctDigitYear = (year) => {
+  for (let i = year + 1; i <= 9000; i++) {
+    if (numberIsDistinct(i)) /* is true*/ return i;
+  }
+};
