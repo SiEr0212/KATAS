@@ -1,4 +1,4 @@
 /*
-Are they the "same"?.
+Are they the "same"?
 
 */
