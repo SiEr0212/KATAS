@@ -13,5 +13,12 @@ b = [121, 14641, 20736, 361, 25921, 361, 20736, 361]
 
 //My solution:
 
+const comp = (a, b) => {
+  if (!a || !b) return false;
 
+  const array1 = JSON.stringify(a.map((num) => num ** 2).sort());
+  const array2 = JSON.stringify(b.sort());
+  return array1 === array2;
+};
 
+                                                    
