@@ -13,3 +13,5 @@ Return True if yes, False otherwise :)
 const hero = (bullets, dragons) => {
   return bullets / 2 >= dragons ? true : false;
 };
+
+hero(10, 5);
