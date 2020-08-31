@@ -10,3 +10,6 @@ Return True if yes, False otherwise :)
 
 //My solution:
 
+const hero = (bullets, dragons) => {
+  return bullets / 2 >= dragons ? true : false;
+};
