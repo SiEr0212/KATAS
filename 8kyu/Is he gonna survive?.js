@@ -16,3 +16,4 @@ const hero = (bullets, dragons) => {
 
 hero(10, 5);
 // returns true
+..
