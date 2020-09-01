@@ -16,3 +16,7 @@ If an object is missing the property, you should just leave it as undefined/None
 const pluck = (objs, name) => {
   return objs.map((element) => element[name]);
 };
+
+pluck([{a:1}, {a:2}], 'a');
+
+
