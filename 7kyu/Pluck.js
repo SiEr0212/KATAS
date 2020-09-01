@@ -18,5 +18,5 @@ const pluck = (objs, name) => {
 };
 
 pluck([{a:1}, {a:2}], 'a');
-
+// returns [1,2]
 
