@@ -47,3 +47,7 @@ towerCombination(3) returns 6, because only the following possibilities can be a
 | 0 x 0 |
 | x 0 0 |
 */
+
+function towerCombination(n){
+    return n === 1 ? 1 : n * towerCombination(n - 1);
+  }
