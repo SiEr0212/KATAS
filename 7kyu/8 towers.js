@@ -1,5 +1,6 @@
 /*
 8 towers
+
 from codewars: https://www.codewars.com/kata/535bea76cdbf50281a00004c/train/javascript
 
 Marcus was spending his last summer day playing chess with his friend Rose.
@@ -53,3 +54,4 @@ function towerCombination(n){
   }
 
 towerCombination(3);
+//returns 6
