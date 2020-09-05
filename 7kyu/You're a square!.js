@@ -23,3 +23,6 @@ Examples
 25  =>  true
 26  =>  false
  */
+
+ //My solution:
+ 
