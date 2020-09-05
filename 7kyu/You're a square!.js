@@ -30,3 +30,4 @@ const isSquare = (n) => {
 };
 
 isSquare(4);
+// returns true
