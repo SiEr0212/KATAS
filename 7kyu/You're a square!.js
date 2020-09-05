@@ -1,4 +1,4 @@
- /*
+/*
  You're a square!
  
  from codewars: https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript
@@ -24,5 +24,8 @@ Examples
 26  =>  false
  */
 
- //My solution:
- 
+//My solution:
+const isSquare = (n) => {
+  return Math.sqrt(n) % 1 === 0;
+};
+
