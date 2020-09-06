@@ -27,4 +27,5 @@ const DNAStrand = (dna) => {
 };
 
 DNAStrand("ATTGC");
+
 //returns "TAACG"
