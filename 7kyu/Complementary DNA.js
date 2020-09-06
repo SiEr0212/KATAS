@@ -25,3 +25,5 @@ const DNAStrand = (dna) => {
     .map((c) => pairRules[c])
     .join("");
 };
+
+DNAStrand("ATTGC");
