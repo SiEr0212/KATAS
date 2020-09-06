@@ -18,3 +18,10 @@ DNAStrand ("GTAT") // return "CATA"
 
 //My solution:
 
+const DNAStrand = (dna) => {
+  const pairRules = { A: "T", T: "A", C: "G", G: "C" };
+  return dna
+    .split("")
+    .map((c) => pairRules[c])
+    .join("");
+};
