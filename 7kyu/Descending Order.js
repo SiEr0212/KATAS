@@ -16,9 +16,9 @@ Input: 123456789 Output: 987654321
 //My solution:
 
 const descendingOrder = (n) => {
-    let sortedOrder = Array.from(String(n), Number).sort((a, b) => b - a);
-    return Number(sortedOrder.join(""));
-  };
+  let sortedOrder = Array.from(String(n), Number).sort((a, b) => b - a);
+  return Number(sortedOrder.join(""));
+};
 
 descendingOrder(123456789);
 //returns 987654321
