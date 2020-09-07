@@ -20,3 +20,4 @@ const descendingOrder = (n) => {
     return Number(sortedOrder.join(""));
   };
 
+descendingOrder(123456789);
