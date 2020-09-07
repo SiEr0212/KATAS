@@ -21,4 +21,4 @@ const descendingOrder = (n) => {
   };
 
 descendingOrder(123456789);
-//returns
+//returns 987654321
