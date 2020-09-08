@@ -27,3 +27,4 @@ const iqTest = (numbers) => {
 };
 
 iqTest("2 4 7 8 10");
+//returns 3
