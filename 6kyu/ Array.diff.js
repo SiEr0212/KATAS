@@ -19,7 +19,5 @@ const arrayDiff = (a, b) => {
   return a.filter((val) => !b.includes(val));
 };
 
-arrayDiff([3,4], [3]);
+arrayDiff([3, 4], [3]);
 //returns[4]
-
-
