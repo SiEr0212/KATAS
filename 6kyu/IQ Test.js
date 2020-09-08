@@ -25,3 +25,5 @@ const iqTest = (numbers) => {
   }
   return odds.length > evens.length ? Number(evens) : Number(odds);
 };
+
+iqTest("2 4 7 8 10");
