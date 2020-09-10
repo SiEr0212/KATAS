@@ -27,4 +27,4 @@ const toCamelCase = (s) => {
 };
 
 toCamelCase("the_stealth_warrior");
-
+//returns "theStealthWarrior"
