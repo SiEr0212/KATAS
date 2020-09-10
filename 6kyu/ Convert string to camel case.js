@@ -13,3 +13,15 @@ toCamelCase("The_Stealth_Warrior") // returns "TheStealthWarrior"
 
 //My solution:
 
+const toCamelCase = (s) => {
+    let camelCase = "";
+    for (let i = 0; i < s.length; i++) {
+      if (s[i] === "-" || s[i] === "_") {
+        camelCase += s[i + 1].toUpperCase();
+        i++;
+      } else {
+        camelCase += s[i];
+      }
+    }
+    return camelCase;
+  };
