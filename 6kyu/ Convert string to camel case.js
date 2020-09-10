@@ -25,3 +25,6 @@ const toCamelCase = (s) => {
   }
   return camelCase;
 };
+
+toCamelCase("the_stealth_warrior");
+
