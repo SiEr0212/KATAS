@@ -17,3 +17,5 @@ numberToString(999); // returns '999';`
 const numberToString =(num)=> {
     return JSON.stringify(num)
   };
+
+numberToString(67);
