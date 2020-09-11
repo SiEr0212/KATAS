@@ -13,3 +13,7 @@ numberToString(999); // returns '999';`
 */
 
 //My solution:
+
+const numberToString =(num)=> {
+    return JSON.stringify(num)
+  };
