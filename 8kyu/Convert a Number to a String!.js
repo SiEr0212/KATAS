@@ -19,3 +19,4 @@ const numberToString =(num)=> {
   };
 
 numberToString(67);
+//returns '67'
