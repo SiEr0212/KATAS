@@ -11,7 +11,7 @@ For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 //My solution:
 
 const squareSum = (numbers) => {
-  return numbers.map((x) => x ** 2).reduce((a, b) => a + b, 0);
+  return numbers.map((n) => n ** 2).reduce((a, b) => a + b, 0);
 };
 
 squareSum([0, 3, 4, 5]);
