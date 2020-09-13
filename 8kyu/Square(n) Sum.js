@@ -16,3 +16,4 @@ const squareSum = (numbers) => {
 };
 
 squareSum([0, 3, 4, 5]);
+//returns 50
