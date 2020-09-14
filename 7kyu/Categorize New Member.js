@@ -32,3 +32,4 @@ const openOrSenior = (data) => {
   };
 
 openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]);
+//returns 
