@@ -24,12 +24,17 @@ Example Output
 //My solution:
 
 const openOrSenior = (data) => {
-    let res = [];
-    data.forEach(([key, value]) => {
-      key >= 55 && value > 7 ? res.push("Senior") : res.push("Open");
-    });
-    return res;
-  };
+  let res = [];
+  data.forEach(([key, value]) => {
+    key >= 55 && value > 7 ? res.push("Senior") : res.push("Open");
+  });
+  return res;
+};
 
-openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]);
+openOrSenior([
+  [45, 12],
+  [55, 21],
+  [19, -2],
+  [104, 20],
+]);
 //returns ['Open', 'Senior', 'Open', 'Senior']
