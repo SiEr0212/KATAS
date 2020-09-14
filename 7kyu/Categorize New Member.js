@@ -23,3 +23,10 @@ Example Output
 
 //My solution:
 
+const openOrSenior = (data) => {
+    let res = [];
+    data.forEach(([key, value]) => {
+      key >= 55 && value > 7 ? res.push("Senior") : res.push("Open");
+    });
+    return res;
+  };
