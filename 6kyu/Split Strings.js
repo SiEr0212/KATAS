@@ -21,4 +21,4 @@ const solution = (str) => {
 };
 
 solution("abcdefg");
-// returns ["ab", "cd", "ef", "g_"]);
+//returns ["ab", "cd", "ef", "g_"]);
