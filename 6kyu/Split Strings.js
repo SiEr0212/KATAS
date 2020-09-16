@@ -20,4 +20,5 @@ const solution = (str) => {
   return pairs.map((v) => (v.length === 1 ? v + "_" : v));
 };
 
-solution("abcdefg"); 
+solution("abcdefg");
+// returns ["ab", "cd", "ef", "g_"]);
