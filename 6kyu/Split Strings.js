@@ -12,4 +12,11 @@ solution('abcdef') // should return ['ab', 'cd', 'ef']
 */
 
 //My solution:
+const solution = (str) => {
+  let pairs = [];
+  for (let i = 0, charsLength = str.length; i < charsLength; i += 2) {
+    pairs.push(str.substring(i, i + 2));
+  }
+  return pairs.map((v) => (v.length === 1 ? v + "_" : v));
+};
 
