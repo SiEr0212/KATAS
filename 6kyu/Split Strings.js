@@ -11,6 +11,7 @@ solution('abcdef') // should return ['ab', 'cd', 'ef']
 */
 
 //My solution:
+
 const solution = (str) => {
   let pairs = [];
   for (let i = 0, charsLength = str.length; i < charsLength; i += 2) {
