@@ -15,3 +15,12 @@ friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 Note: keep the original order of the names in the output.
 */
 //My solution:
+
+const friend = (friends) => {
+    return friends.filter((friend) => friend.length === 4);
+  };
+
+
+
+
+
