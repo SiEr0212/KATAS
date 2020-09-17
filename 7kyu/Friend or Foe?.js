@@ -22,4 +22,5 @@ const friend = (friends) => {
 };
 
 friend(["Ryan", "Jimmy", "123", "4", "Cool Man"]);
+// returns ["Ryan"]
 
