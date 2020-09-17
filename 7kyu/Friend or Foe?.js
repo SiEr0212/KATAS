@@ -20,3 +20,6 @@ Note: keep the original order of the names in the output.
 const friend = (friends) => {
   return friends.filter((friend) => friend.length === 4);
 };
+
+friend(["Ryan", "Jimmy", "123", "4", "Cool Man"]);
+
