@@ -24,7 +24,7 @@ const likes = (names) => {
     names.slice(0, 2).join(", ") +
     " and " +
     (names.length - 2) +
-    " other like this";
+    " others like this";
   return names.length == 1
     ? oneName
     : names.length <= 3 && names.length > 1
