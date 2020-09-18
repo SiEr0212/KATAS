@@ -33,3 +33,5 @@ const likes = (names) => {
       ? moreThan3Names
       : "no one likes this";
   };
+
+  likes (["Alex", "Jacob", "Mark", "Max"]);
