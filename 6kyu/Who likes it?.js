@@ -1,5 +1,5 @@
 /*
-
+Who likes it?
 */
 const likes = (names) => {
   const oneName = names.slice(0) + " likes this";
