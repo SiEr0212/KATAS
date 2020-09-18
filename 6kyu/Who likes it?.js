@@ -35,4 +35,5 @@ const likes = (names) => {
 };
 
 likes(["Alex", "Jacob", "Mark", "Max"]);
+
 //returns "Alex, Jacob and 2 others like this"
