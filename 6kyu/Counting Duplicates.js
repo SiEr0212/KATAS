@@ -27,3 +27,4 @@ const duplicateCount = (text) => {
   };
 
 duplicateCount("abcdefghabcdABCabA");
+//returns 4
