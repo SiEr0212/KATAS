@@ -18,3 +18,10 @@ Example
 
 //My solution:
 
+const duplicateCount = (text) => {
+    let newText = text
+      .toLowerCase()
+      .split("")
+      .filter((item, index) => text.indexOf(item) != index);
+    return [...new Set(newText)].length;
+  };
