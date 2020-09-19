@@ -25,3 +25,5 @@ const duplicateCount = (text) => {
       .filter((item, index) => text.indexOf(item) != index);
     return [...new Set(newText)].length;
   };
+
+duplicateCount("abcdefghabcdABCabA");
