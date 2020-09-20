@@ -10,6 +10,8 @@ domainName("http://github.com/carbonfive/raygun") == "github"
 domainName("http://www.zombie-bites.com") == "zombie-bites"
 domainName("https://www.cnet.com") == "cnet"
 */
+//My solution:
+
 
 
 
