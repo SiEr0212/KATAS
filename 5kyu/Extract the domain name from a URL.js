@@ -35,7 +35,6 @@ domainName("http://www.uthdbrx93iddfy2lg-w4-ega6f.co");
 //domainName('ishok6dgyd8v49gn5-3.co.uk') returns 'ishok6dgyd8v49gn5-3.'
 
 // Better solution:
-
 const domainName = (url) => {
   url = url.replace("https://", "");
   url = url.replace("http://", "");
