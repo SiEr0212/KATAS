@@ -1,4 +1,8 @@
 
+/*
+
+*/
+
 
 const domainName = (url) => {
   if (url.indexOf("http") == -1 && url.indexOf("www") == -1) {
