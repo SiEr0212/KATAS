@@ -22,5 +22,11 @@ const domainName = (url) => {
      }
    };
 
-
+   domainName('http://www.uthdbrx93iddfy2lg-w4-ega6f.co')
+   domainName('https://123.net')
+   domainName('xhpp09i26cm.edu')
+   domainName("www.xakep.ru")
+   domainName("http://google.com")
+   domainName('https://www.60h6d96xinocar1k.co.uk/users')
+   domainName('ishok6dgyd8v49gn5-3.co.uk') 
 
