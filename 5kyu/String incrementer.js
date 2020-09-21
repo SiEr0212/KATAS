@@ -30,3 +30,5 @@ function incrementString(input) {
       return up.toString().length > p2.length ? p1.slice(0, -1) + up : p1 + up;
     });
   }
+
+incrementString("foobar001");
