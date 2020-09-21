@@ -32,3 +32,4 @@ function incrementString(input) {
   }
 
 incrementString("foobar001");
+//returns "foobar002"
