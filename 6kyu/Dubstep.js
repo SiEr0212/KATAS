@@ -24,4 +24,10 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 
 //My solution:
 
-
+const songDecoder = (song) => {
+    return song
+      .replace(new RegExp("WUB", "g"), " ")
+      .split(" ")
+      .filter((s) => s)
+      .join(" ");
+  };
