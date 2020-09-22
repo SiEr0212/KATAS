@@ -33,3 +33,4 @@ const songDecoder = (song) => {
   };
 
 songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB");
+//returns:  WE ARE THE CHAMPIONS MY FRIEND
