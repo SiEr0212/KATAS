@@ -31,3 +31,5 @@ const songDecoder = (song) => {
       .filter((s) => s)
       .join(" ");
   };
+
+songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB");
