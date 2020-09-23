@@ -1,6 +1,8 @@
 /*
 Sort the Odd
 
+from Codewars: https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/javascript
+
 You have an array of numbers.
 Your task is to sort ascending odd numbers but even numbers must be on their places.
 
