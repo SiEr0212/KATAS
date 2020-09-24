@@ -17,17 +17,16 @@ basicOp('/', 49, 7)        // Output: 7
 //My solution:
 
 const basicOp = (operation, value1, value2) => {
-    return operation == "+"
-      ? value1 + value2
-      : operation == "-"
-      ? value1 - value2
-      : operation == "*"
-      ? value1 * value2
-      : value1 / value2;
-  };
+  return operation == "+"
+    ? value1 + value2
+    : operation == "-"
+    ? value1 - value2
+    : operation == "*"
+    ? value1 * value2
+    : value1 / value2;
+};
 
-  basicOp('+', 4, 7);         // Output: 11
-  basicOp('-', 15, 18);       // Output: -3
-  basicOp('*', 5, 5);         // Output: 25
-  basicOp('/', 49, 7);        // Output: 7
-
+basicOp("+", 4, 7); // Output: 11
+basicOp("-", 15, 18); // Output: -3
+basicOp("*", 5, 5); // Output: 25
+basicOp("/", 49, 7); // Output: 7
