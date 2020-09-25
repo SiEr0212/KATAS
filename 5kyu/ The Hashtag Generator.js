@@ -30,4 +30,8 @@ const generateHashtag = (str) => {
       : join.length == 0
       ? false
       : hash.concat(join);
-  }
+  };
+
+generateHashtag("Do We have A Hashtag");
+
+
