@@ -33,5 +33,6 @@ const generateHashtag = (str) => {
   };
 
 generateHashtag("Do We have A Hashtag");
+//returns: "#DoWeHaveAHashtag"
 
 
