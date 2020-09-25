@@ -17,3 +17,4 @@ Examples
 "    Hello     World   "                  =>  "#HelloWorld"
 ""                                        =>  false
 */
+//My solution:
