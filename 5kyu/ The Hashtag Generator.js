@@ -20,19 +20,17 @@ Examples
 //My solution:
 
 const generateHashtag = (str) => {
-    let join = str
-      .split(" ")
-      .map((a) => a.charAt(0).toUpperCase() + a.substring(1))
-      .join("");
-    let hash = "#";
-    return join.length >= 140
-      ? false
-      : join.length == 0
-      ? false
-      : hash.concat(join);
-  };
+  let join = str
+    .split(" ")
+    .map((a) => a.charAt(0).toUpperCase() + a.substring(1))
+    .join("");
+  let hash = "#";
+  return join.length >= 140
+    ? false
+    : join.length == 0
+    ? false
+    : hash.concat(join);
+};
 
 generateHashtag("Do We have A Hashtag");
 //returns: "#DoWeHaveAHashtag"
-
-
