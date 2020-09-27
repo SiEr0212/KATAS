@@ -1,6 +1,8 @@
 /*
 The Office III - Broken Photocopier
 
+from codewars: https://www.codewars.com/kata/57ed56657b45ef922300002b/train/javascript
+
 The bloody photocopier is broken... Just as you were sneaking around the office to print off your favourite binary code!
 
 Instead of copying the original, it reverses it: '1' becomes '0' and vice versa.
