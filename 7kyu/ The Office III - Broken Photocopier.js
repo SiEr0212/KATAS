@@ -15,3 +15,6 @@ const broken =(x) =>{
     return x.split('').map(a => a == "0" ? "1" : "0").join('');
   };
 
+broken("10000000101101111110011001000");
+
+  
