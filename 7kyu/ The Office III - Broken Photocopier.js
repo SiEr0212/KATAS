@@ -6,7 +6,4 @@ The bloody photocopier is broken... Just as you were sneaking around the office 
 Instead of copying the original, it reverses it: '1' becomes '0' and vice versa.
 
 Given a string of binary, return the version the photocopier gives you as a string.
-
-
-
 */
