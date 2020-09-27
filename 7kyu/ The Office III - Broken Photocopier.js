@@ -10,3 +10,8 @@ Instead of copying the original, it reverses it: '1' becomes '0' and vice versa.
 Given a string of binary, return the version the photocopier gives you as a string.
 */
 //My solution:
+
+const broken =(x) =>{
+    return x.split('').map(a => a == "0" ? "1" : "0").join('');
+  };
+
