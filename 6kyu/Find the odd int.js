@@ -8,3 +8,13 @@ Given an array of integers, find the one that appears an odd number of times.
 There will always be only one integer that appears an odd number of times.
 */
 
+const findOdd = (A) => {
+    let report = {};
+    A.forEach(function (el) {
+      report[el] = report[el] + 1 || 1;
+    });
+  
+    for (let i in report) {
+      if (report[i] % 2 != 0) return Number(i);
+    }
+  };
