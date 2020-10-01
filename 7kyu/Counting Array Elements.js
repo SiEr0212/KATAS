@@ -17,3 +17,5 @@ const count = (array) => {
     });
     return report;
   };
+
+count(['a', 'a', 'b', 'b', 'b']);
