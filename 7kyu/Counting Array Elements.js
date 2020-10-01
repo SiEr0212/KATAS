@@ -19,3 +19,4 @@ const count = (array) => {
   };
 
 count(['a', 'a', 'b', 'b', 'b']);
+//returns: { 'a': 2, 'b': 3 })
