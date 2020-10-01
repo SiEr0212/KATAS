@@ -8,3 +8,4 @@ Write a function that takes an array and counts the number of each unique elemen
 count(['james', 'james', 'john']) 
 #=> { 'james': 2, 'john': 1}
 */
+//My solution:
