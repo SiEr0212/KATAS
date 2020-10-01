@@ -11,12 +11,12 @@ count(['james', 'james', 'john'])
 //My solution:
 
 const count = (array) => {
-    let report = {};
-    array.forEach(function (el) {
-      report[el] = report[el] + 1 || 1;
-    });
-    return report;
-  };
+  let report = {};
+  array.forEach(function (el) {
+    report[el] = report[el] + 1 || 1;
+  });
+  return report;
+};
 
-count(['a', 'a', 'b', 'b', 'b']);
+count(["a", "a", "b", "b", "b"]);
 //returns: { 'a': 2, 'b': 3 })
