@@ -9,3 +9,11 @@ count(['james', 'james', 'john'])
 #=> { 'james': 2, 'john': 1}
 */
 //My solution:
+
+const count = (array) => {
+    let report = {};
+    array.forEach(function (el) {
+      report[el] = report[el] + 1 || 1;
+    });
+    return report;
+  };
