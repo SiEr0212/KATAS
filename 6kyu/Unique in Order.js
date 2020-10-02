@@ -12,3 +12,10 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 */
 //My solution:
+
+const uniqueInOrder = (iterable) => {
+    return (Array.isArray(iterable) ? iterable : iterable.split("")).filter(
+      (c, i) => c !== iterable[i + 1]
+    );
+  };
+
