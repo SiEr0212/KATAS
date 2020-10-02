@@ -19,3 +19,4 @@ const uniqueInOrder = (iterable) => {
     );
   };
 
+uniqueInOrder('AAAABBBCCDAABBB');
