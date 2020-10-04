@@ -32,4 +32,5 @@ const deleteNth = (arr, n) => {
   };
   
 deleteNth([20,37,20,21], 1);
+// returns: [20,37,21])  
   
