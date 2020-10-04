@@ -15,3 +15,4 @@ Example
   deleteNth ([20,37,20,21],1) // return [20,37,21]
 
 */
+//My solution:
