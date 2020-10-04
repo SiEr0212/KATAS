@@ -18,19 +18,18 @@ Example
 //My solution:
 
 const deleteNth = (arr, n) => {
-    let sorted = [];
-    let counter = arr.reduce(function (acc, curr) {
-      if (typeof acc[curr] == "undefined") {
-        acc[curr] = 1;
-      } else {
-        acc[curr] += 1;
-      }
-      acc[curr] <= n ? sorted.push(curr) : null;
-      return acc;
-    }, {});
-    return sorted;
-  };
-  
-deleteNth([20,37,20,21], 1);
-// returns: [20,37,21])  
-  
+  let sorted = [];
+  let counter = arr.reduce(function (acc, curr) {
+    if (typeof acc[curr] == "undefined") {
+      acc[curr] = 1;
+    } else {
+      acc[curr] += 1;
+    }
+    acc[curr] <= n ? sorted.push(curr) : null;
+    return acc;
+  }, {});
+  return sorted;
+};
+
+deleteNth([20, 37, 20, 21], 1);
+// returns: [20,37,21])
