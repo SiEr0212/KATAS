@@ -22,16 +22,16 @@ Test.assertDeepEquals(solve([4,9,5,0,7,3,8,4,9,0]),[0,0,4,4,9,9,3,5,7,8])
 //My solution:
 
 const solve = (arr) => {
-    const freq = arr.reduce((r, e) => {
-      if (!r[e]) r[e] = 1;
-      else r[e]++;
-      return r;
-    }, {});
-  
-    return [...arr].sort((a, b) => {
-      return freq[b] - freq[a] || a - b;
-    });
-  };
+  const freq = arr.reduce((r, e) => {
+    if (!r[e]) r[e] = 1;
+    else r[e]++;
+    return r;
+  }, {});
 
-solve([2,3,5,3,7,9,5,3,7]);
+  return [...arr].sort((a, b) => {
+    return freq[b] - freq[a] || a - b;
+  });
+};
+
+solve([2, 3, 5, 3, 7, 9, 5, 3, 7]);
 //returns: [3,3,3,5,5,7,7,2,9]
