@@ -19,4 +19,18 @@ Test.assertDeepEquals(solve([4,4,2,5,1,1,3,3,2,8]),[1,1,2,2,3,3,4,4,5,8])
 Test.assertDeepEquals(solve([4,9,5,0,7,3,8,4,9,0]),[0,0,4,4,9,9,3,5,7,8])
 });
 */
+//My solution:
 
+const solve = (arr) => {
+    const freq = arr.reduce((r, e) => {
+      if (!r[e]) r[e] = 1;
+      else r[e]++;
+      return r;
+    }, {});
+  
+    return [...arr].sort((a, b) => {
+      return freq[b] - freq[a] || a - b;
+    });
+  };
+
+  
