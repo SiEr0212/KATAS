@@ -18,5 +18,6 @@ const isDivisible = (n, x, y) => {
   };
 
 isDivisible(3,3,4);
+//returns: false
 
 
