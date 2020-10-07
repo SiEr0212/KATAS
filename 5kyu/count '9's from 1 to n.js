@@ -35,6 +35,5 @@ const number9 = (num) => {
   return res;
 };
 
-
 number9(565754);
 //returns: 275645
