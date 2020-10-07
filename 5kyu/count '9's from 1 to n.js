@@ -17,3 +17,4 @@ number9(10) //should return 1
 number9(98) //should return 18
 number9(100) //should return 20
 */
+//My solution:
