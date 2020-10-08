@@ -29,5 +29,6 @@ const dontGiveMeFive = (start, end) => {
     return total;
   };
 
-  dontGiveMeFive(1,9);
+ dontGiveMeFive(1,9);
+ //returns: 8
  
