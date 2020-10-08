@@ -22,13 +22,12 @@ I have also created other katas. Take a look if you enjoyed this kata!
 //My solution:
 
 const dontGiveMeFive = (start, end) => {
-    let total = 0;
-    for (let i = start; i <= end; i += 1, total += 1) {
-      if ((i + "").indexOf("5") > -1) total -= 1;
-    }
-    return total;
-  };
+  let total = 0;
+  for (let i = start; i <= end; i += 1, total += 1) {
+    if ((i + "").indexOf("5") > -1) total -= 1;
+  }
+  return total;
+};
 
- dontGiveMeFive(1,9);
- //returns: 8
- 
+dontGiveMeFive(1, 9);
+//returns: 8
