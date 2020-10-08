@@ -20,3 +20,11 @@ Have fun coding it and please don't forget to vote and rank this kata! :-)
 I have also created other katas. Take a look if you enjoyed this kata!
 */
 //My solution:
+
+const dontGiveMeFive = (start, end) => {
+    let total = 0;
+    for (let i = start; i <= end; i += 1, total += 1) {
+      if ((i + "").indexOf("5") > -1) total -= 1;
+    }
+    return total;
+  };
