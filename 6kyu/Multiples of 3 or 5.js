@@ -21,7 +21,7 @@ const solution = (number) => {
   }; 
 
   solution(10);
- 
+  //returns: 23
 
 
 
