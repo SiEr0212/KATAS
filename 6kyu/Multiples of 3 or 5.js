@@ -19,7 +19,9 @@ const solution = (number) => {
       i % 5 == 0 || i % 3 == 0 ? (total += i) : null;
     return total;
   }; 
-  
+
+  solution(10);
+ 
 
 
 
