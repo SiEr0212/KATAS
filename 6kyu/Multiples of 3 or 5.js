@@ -13,6 +13,13 @@ Courtesy of projecteuler.net
 */
 //My solution:
 
+const solution = (number) => {
+    let total = 0;
+    for (let i = 3; i < number; i += 1)
+      i % 5 == 0 || i % 3 == 0 ? (total += i) : null;
+    return total;
+  }; 
+  
 
 
 
