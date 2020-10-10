@@ -32,3 +32,5 @@ const validBraces = (braces) => {
     return braces.length == 0;
   };
 
+validBraces("[({})](]");
+  
