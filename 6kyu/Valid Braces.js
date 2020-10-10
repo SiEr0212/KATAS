@@ -19,3 +19,5 @@ Examples
 "[(])"     =>  False
 "[({})](]" =>  False
 */
+//My solution:
+
