@@ -11,7 +11,7 @@ Don't worry about numbers, special characters, or non-string types being passed 
 */
 //My solution:
 
-const capitalizeWord = word => word[0].toUpperCase() + word.substring(1);
+const capitalizeWord = (word) => word[0].toUpperCase() + word.substring(1);
 
-capitalizeWord('glasswear');
+capitalizeWord("glasswear");
 //returns: 'Glasswear'
