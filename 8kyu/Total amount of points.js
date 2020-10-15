@@ -18,3 +18,19 @@ there are 10 matches in the championship
 0 <= x <= 4
 0 <= y <= '4
 */
+
+const points = (games) => {
+    let totalPoints = 0;
+    let result;
+    for (let i = 0; i < games.length; i++) {
+      result = games[i];
+      if (result[0] > result[2]) {
+        totalPoints += 3;
+      } else if (result[0] === result[2]) {
+        totalPoints += 1;
+      }
+    }
+    return totalPoints;
+  };
+
+  
