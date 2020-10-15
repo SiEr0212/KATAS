@@ -20,18 +20,18 @@ there are 10 matches in the championship
 */
 
 const points = (games) => {
-    let totalPoints = 0;
-    let result;
-    for (let i = 0; i < games.length; i++) {
-      result = games[i];
-      if (result[0] > result[2]) {
-        totalPoints += 3;
-      } else if (result[0] === result[2]) {
-        totalPoints += 1;
-      }
+  let totalPoints = 0;
+  let result;
+  for (let i = 0; i < games.length; i++) {
+    result = games[i];
+    if (result[0] > result[2]) {
+      totalPoints += 3;
+    } else if (result[0] === result[2]) {
+      totalPoints += 1;
     }
-    return totalPoints;
-  };
+  }
+  return totalPoints;
+};
 
-  points(["1:0","2:0","3:0","4:0","2:1","3:1","4:1","3:2","4:2","4:3"]);
-  //returns: 30
+points(["1:0", "2:0", "3:0", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3"]);
+//returns: 30
