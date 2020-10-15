@@ -1,2 +1,4 @@
 /*
+Total amount of points
+
 */
