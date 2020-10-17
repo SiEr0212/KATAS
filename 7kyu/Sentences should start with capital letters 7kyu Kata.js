@@ -34,4 +34,4 @@ const fix = (paragraph) => {
   return arr2.join(". ");
 };
 
-
+fix("hello. my name is inigo montoya. you killed my father. prepare to die.");
