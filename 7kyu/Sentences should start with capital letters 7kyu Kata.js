@@ -24,4 +24,14 @@ there will be no punctuation besides full stops and spaces
 all but the last full stop will be followed by a space and at least one word
 */
 
+const fix = (paragraph) => {
+  let arr = paragraph.split(". ");
+  let arr2 = [];
+  for (let s of arr) {
+    s = s.charAt(0).toUpperCase() + s.substr(1);
+    arr2.push(s);
+  }
+  return arr2.join(". ");
+};
+
 
