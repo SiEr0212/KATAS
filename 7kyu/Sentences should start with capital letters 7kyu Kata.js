@@ -35,3 +35,4 @@ const fix = (paragraph) => {
 };
 
 fix("hello. my name is inigo montoya. you killed my father. prepare to die.");
+// returns: 'Hello. My name is inigo montoya. You killed my father. Prepare to die.'
