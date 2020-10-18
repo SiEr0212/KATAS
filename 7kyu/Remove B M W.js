@@ -12,12 +12,9 @@ Your task is to write a function that takes one parameter str that MUST be a str
 //My solution:
 
 const removeBMW = (str) => {
-    if (typeof str === "string") return str.replace(/[bmw]/gi, "");
-    throw new Error("This program only works for text.");
-  };
+  if (typeof str === "string") return str.replace(/[bmw]/gi, "");
+  throw new Error("This program only works for text.");
+};
 
 removeBMW("bmwvolvoBMW");
 //returns: "volvo"
-
-
-
