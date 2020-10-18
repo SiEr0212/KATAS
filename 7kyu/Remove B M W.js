@@ -17,7 +17,7 @@ const removeBMW = (str) => {
   };
 
 removeBMW("bmwvolvoBMW");
-
+//returns: "volvo"
 
 
 
