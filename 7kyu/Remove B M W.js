@@ -1,7 +1,7 @@
 /*
 Remove B M W
 
-from codewars: 
+from codewars: https://www.codewars.com/kata/59de795c289ef9197f000c48/train/javascript
 
 It happened decades before Snapchat, years before Twitter and even before Facebook. Targeted advertising was a bit of a challenge back then. One day, the marketing professor at my university told us a story that I am yet to confirm using reliable sources. Nevertheless, I retold the story to dozens of my students already, so, sorry BMW if it is all a big lie.
 
