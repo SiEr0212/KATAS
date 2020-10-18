@@ -16,6 +16,7 @@ const removeBMW = (str) => {
     throw new Error("This program only works for text.");
   };
 
+removeBMW("bmwvolvoBMW");
 
 
 
