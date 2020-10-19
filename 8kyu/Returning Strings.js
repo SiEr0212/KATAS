@@ -9,12 +9,11 @@ SQL: return results in a column named greeting
 
 [Make sure you type the exact thing I wrote or the program may not execute properly]
 */
-//My solution: 
+//My solution:
 
-const greet = (name) =>{ return `Hello, ${name} how are you doing today?`}
+const greet = (name) => {
+  return `Hello, ${name} how are you doing today?`;
+};
 
 greet("Shingles");
 //returns: "Hello, Shingles how are you doing today?"
-
-
-
