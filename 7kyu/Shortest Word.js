@@ -15,4 +15,6 @@ const findShort = (s) => {
     }
     return Math.min(...lengths);
   };
-  
+
+  findShort("bitcoin take over the world maybe who knows perhaps"); 
+  // 3
