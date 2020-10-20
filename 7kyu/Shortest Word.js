@@ -17,4 +17,4 @@ const findShort = (s) => {
   };
 
   findShort("bitcoin take over the world maybe who knows perhaps"); 
-  // 3
+  //returns: 3
