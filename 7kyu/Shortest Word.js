@@ -9,12 +9,12 @@ String will never be empty and you do not need to account for different data typ
 */
 
 const findShort = (s) => {
-    let lengths = [];
-    for (let word of s.split(" ")) {
-      lengths.push(word.length);
-    }
-    return Math.min(...lengths);
-  };
+  let lengths = [];
+  for (let word of s.split(" ")) {
+    lengths.push(word.length);
+  }
+  return Math.min(...lengths);
+};
 
-  findShort("bitcoin take over the world maybe who knows perhaps"); 
-  //returns: 3
+findShort("bitcoin take over the world maybe who knows perhaps");
+//returns: 3
