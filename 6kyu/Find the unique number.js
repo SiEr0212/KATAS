@@ -11,3 +11,4 @@ It’s guaranteed that array contains at least 3 numbers.
 
 The tests contain some very huge arrays, so think about performance.
 */
+//My solution:
