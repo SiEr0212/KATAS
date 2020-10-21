@@ -14,9 +14,9 @@ The tests contain some very huge arrays, so think about performance.
 //My solution:
 
 const findUniq = (arr) => {
-    arr.sort();
-    return arr[0] !== arr[1] ? arr[0] : arr.pop();
-  };
+  arr.sort();
+  return arr[0] !== arr[1] ? arr[0] : arr.pop();
+};
 
-findUniq([ 1, 1, 1, 2, 1, 1 ]);
+findUniq([1, 1, 1, 2, 1, 1]);
 //returns: 2
