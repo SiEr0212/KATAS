@@ -25,7 +25,7 @@ queueTime([2,3,10], 2)
 
 */
 
-//My solution
+//My solution:
 
 const queueTime = (customers, n) => {
     let result = Array(n).fill(0);
