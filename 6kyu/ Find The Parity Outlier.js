@@ -10,7 +10,7 @@ Should return: 160 (the only even number)
 
 */
 
-//My solution
+//My solution:
 
 const even = (num) => num % 2 === 0;
 const odd = (num) => num % 2 !== 0;
