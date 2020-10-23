@@ -12,11 +12,11 @@ pigIt('Hello world !');     // elloHay orldway !
 //My solution:
 
 const pigIt = (str) => {
-    return str
-      .split(" ")
-      .map((x) => (/[a-zA-Z]+/.test(x) ? x.slice(1) + x[0] + "ay" : x))
-      .join(" ");
-  };
+  return str
+    .split(" ")
+    .map((x) => (/[a-zA-Z]+/.test(x) ? x.slice(1) + x[0] + "ay" : x))
+    .join(" ");
+};
 
-pigIt('Pig latin is cool');
+pigIt("Pig latin is cool");
 //returns: 'igPay atinlay siay oolcay'
