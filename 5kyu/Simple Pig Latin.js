@@ -19,4 +19,4 @@ const pigIt = (str) => {
   };
 
 pigIt('Pig latin is cool');
-
+//returns: 'igPay atinlay siay oolcay'
