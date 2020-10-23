@@ -18,3 +18,5 @@ const pigIt = (str) => {
       .join(" ");
   };
 
+pigIt('Pig latin is cool');
+
