@@ -30,3 +30,17 @@ Negative numbers and duplicate numbers can and will appear.
 NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements. Be sure your code doesn't time out.
 */
 //My solution:
+
+const sum_pairs = (ints, s) => {
+    if (ints.length < 2) return undefined;
+    let intSet = new Set();
+    intSet.add(ints[0]);
+    for (let i = 1; i < ints.length; ++i) {
+      let needed = s - ints[i];
+      if (intSet.has(needed)) {
+        return [needed, ints[i]];
+      }
+      intSet.add(ints[i]);
+    }
+    return undefined;
+  };
