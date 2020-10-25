@@ -46,3 +46,4 @@ const sum_pairs = (ints, s) => {
   };
 
 sum_pairs([10, 5, 2, 3, 7, 5], 10);
+//returns: [3,7]
