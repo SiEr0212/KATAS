@@ -1,2 +1,4 @@
 /*
-*/d
+Sum of pairs
+
+*/
