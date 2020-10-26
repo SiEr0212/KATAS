@@ -16,7 +16,7 @@ longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 */
 //My solution:
 
-const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('');
+const longest = (s1, s2) => [...new Set(s1 + s2)].sort().join("");
 
 longest("aretheyhere", "yestheyarehere");
 //returns: "aehrsty"
