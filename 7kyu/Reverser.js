@@ -7,12 +7,12 @@ Impliment the reverse function, which takes in input n and reverses it. For inst
 */
 
 const reverse = (n) => {
-    for (var r = 0; n; n = Math.floor(n / 10)) {
-      r *= 10;
-      r += n % 10;
-    }
-    return r;
-  };
+  for (var r = 0; n; n = Math.floor(n / 10)) {
+    r *= 10;
+    r += n % 10;
+  }
+  return r;
+};
 
-reverse(1234); 
+reverse(1234);
 //returns: 4321
