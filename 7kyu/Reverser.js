@@ -14,6 +14,5 @@ const reverse = (n) => {
   return r;
 };
 
-
 reverse(1234);
 //returns: 4321
