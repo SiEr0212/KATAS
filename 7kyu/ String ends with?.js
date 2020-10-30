@@ -13,10 +13,9 @@ solution('abc', 'd') // returns false
 //My solution:
 
 const solution = (str, ending) => {
-    let index = str.length - ending.length;
-    return str.substring(index) == ending;
-  };
+  let index = str.length - ending.length;
+  return str.substring(index) == ending;
+};
 
 solution("Simon", "mon");
 //returns: true
-
