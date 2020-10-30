@@ -18,4 +18,5 @@ const solution = (str, ending) => {
   };
 
 solution("Simon", "mon");
+//returns: true
 
