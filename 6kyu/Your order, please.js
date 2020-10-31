@@ -14,3 +14,17 @@ Examples
 "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
 ""  -->  ""
 */
+
+const order = (words) => {
+    let array = [];
+    words = words.split(" ");
+    var j = 1;
+    for (let i = 0; i < words.length; i++) {
+      if (words[i].indexOf(j) > -1) {
+        array.push(words[i]);
+        j++;
+        i = -1;
+      }
+    }
+    return array.join(" ");
+  };
