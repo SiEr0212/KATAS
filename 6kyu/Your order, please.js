@@ -18,7 +18,7 @@ Examples
 const order = (words) => {
   let array = [];
   words = words.split(" ");
-  var j = 1;
+  let j = 1;
   for (let i = 0; i < words.length; i++) {
     if (words[i].indexOf(j) > -1) {
       array.push(words[i]);
