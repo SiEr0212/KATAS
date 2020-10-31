@@ -16,19 +16,18 @@ Examples
 */
 
 const order = (words) => {
-    let array = [];
-    words = words.split(" ");
-    var j = 1;
-    for (let i = 0; i < words.length; i++) {
-      if (words[i].indexOf(j) > -1) {
-        array.push(words[i]);
-        j++;
-        i = -1;
-      }
+  let array = [];
+  words = words.split(" ");
+  var j = 1;
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].indexOf(j) > -1) {
+      array.push(words[i]);
+      j++;
+      i = -1;
     }
-    return array.join(" ");
-  };
+  }
+  return array.join(" ");
+};
 
 order("4of Fo1r pe6ople g3ood th5e the2");
 //returns: "Fo1r the2 g3ood 4of th5e pe6ople"
-
