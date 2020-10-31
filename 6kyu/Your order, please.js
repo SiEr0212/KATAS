@@ -28,3 +28,6 @@ const order = (words) => {
     }
     return array.join(" ");
   };
+
+order("4of Fo1r pe6ople g3ood th5e the2");
+
