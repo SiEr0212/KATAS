@@ -13,17 +13,17 @@ toWeirdCase( "Weird string case" );//=> returns "WeIrD StRiNg CaSe"
 */
 //My solution:
 
-const toWeirdCase = (string) =>{
-    return string
-      .split(" ")
-      .map((v, i) =>
-        v
-          .split("")
-          .map((v, i) => (i % 2 === 0 ? v.toUpperCase() : v.toLowerCase()))
-          .join("")
-      )
-      .join(" ");
-  };
+const toWeirdCase = (string) => {
+  return string
+    .split(" ")
+    .map((v, i) =>
+      v
+        .split("")
+        .map((v, i) => (i % 2 === 0 ? v.toUpperCase() : v.toLowerCase()))
+        .join("")
+    )
+    .join(" ");
+};
 
-toWeirdCase('This is a test'); 
+toWeirdCase("This is a test");
 //returns: 'ThIs Is A TeSt'
