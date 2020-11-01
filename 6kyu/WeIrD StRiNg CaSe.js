@@ -23,4 +23,6 @@ const toWeirdCase = (string) =>{
           .join("")
       )
       .join(" ");
-  }
+  };
+
+toWeirdCase('This is a test'); 
