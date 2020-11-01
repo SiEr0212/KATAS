@@ -1,2 +1,4 @@
 /*
+WeIrD StRiNg CaSe
+
 */
