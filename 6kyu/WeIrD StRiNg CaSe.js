@@ -26,3 +26,4 @@ const toWeirdCase = (string) =>{
   };
 
 toWeirdCase('This is a test'); 
+//returns: 'ThIs Is A TeSt'
