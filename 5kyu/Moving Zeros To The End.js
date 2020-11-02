@@ -19,3 +19,5 @@ const moveZeros = (arr) => {
   };
 
   moveZeros([6,7,4,3,0,9,0,2]);
+  //returns [6,7,4,3,9,2,0,0]
+  
