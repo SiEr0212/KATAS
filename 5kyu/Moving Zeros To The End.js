@@ -17,3 +17,5 @@ const moveZeros = (arr) => {
     }
     return rest.concat(zeros);
   };
+
+  moveZeros([6,7,4,3,0,9,0,2]);
