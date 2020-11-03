@@ -13,3 +13,4 @@ Numbers should use the standard comma for every 3 numbers and dot to separate th
 
 function should return a string 'NaN' if the input is not a valid number
 */
+//My solution, not yet finished!! :
