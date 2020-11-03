@@ -17,11 +17,9 @@ function should return a string 'NaN' if the input is not a valid number
 
 const numberToPrice = (number) => {
     let s = number.toString()
-    //let splice= s.splice(0, 1, ',');
-    //console.log(splice)
     let s3 = parseFloat(s.split('.')[1].substring(0,2));
     console.log(s3);
-    let sx = s.split('.')[0];//+ "." + end3
+    let sx = s.split('.')[0];
     console.log(sx)
     let s1 =  parseFloat(sx.substring(0, (sx.length -3))) ;
     console.log(s1)
@@ -33,4 +31,4 @@ const numberToPrice = (number) => {
      
   }
   numberToPrice(1500.129);
-   //,   '1,500.12');
+  // returns :'1,500.12';
