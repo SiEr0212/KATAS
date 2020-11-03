@@ -28,5 +28,6 @@ const numberToPrice = (number) => {
 
   return "" + s1 + "," + s2 + "." + s3;
 };
+
 numberToPrice(1500.129);
 // returns :'1,500.12';
