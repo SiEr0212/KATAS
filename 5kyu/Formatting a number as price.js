@@ -16,19 +16,17 @@ function should return a string 'NaN' if the input is not a valid number
 //My solution, not yet finished!! :
 
 const numberToPrice = (number) => {
-    let s = number.toString()
-    let s3 = parseFloat(s.split('.')[1].substring(0,2));
-    console.log(s3);
-    let sx = s.split('.')[0];
-    console.log(sx)
-    let s1 =  parseFloat(sx.substring(0, (sx.length -3))) ;
-    console.log(s1)
-    let s2 =  parseFloat(sx.substring(sx.length -3));
-    console.log(s2);
-    
-   
-    return "" + s1 +"," + s2 +"."+ s3;
-     
-  }
-  numberToPrice(1500.129);
-  // returns :'1,500.12';
+  let s = number.toString();
+  let s3 = parseFloat(s.split(".")[1].substring(0, 2));
+  console.log(s3);
+  let sx = s.split(".")[0];
+  console.log(sx);
+  let s1 = parseFloat(sx.substring(0, sx.length - 3));
+  console.log(s1);
+  let s2 = parseFloat(sx.substring(sx.length - 3));
+  console.log(s2);
+
+  return "" + s1 + "," + s2 + "." + s3;
+};
+numberToPrice(1500.129);
+// returns :'1,500.12';
