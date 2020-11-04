@@ -22,13 +22,25 @@ const numberToPrice = (number) => {
     return number.toString() + ".00";
   } else {
     let s = number.toString();
-    console.log(s);
-    let s3 = s.split(".")[1].substring(0, 2);
+
+    let s3 =
+      s.split(".")[1].length > 1
+        ? s.split(".")[1].substring(0, 2)
+        : s.split(".")[1].substring(0, 1) + "0";
+
     let sx = s.split(".")[0];
-    let s1 = sx.substring(0, sx.length - 3);
+
+    let s1 = sx.substring(sx.length - 6, sx.length - 3);
+
+    let s1a = sx.substring(0, sx.length - 6);
+
     let s2 = sx.substring(sx.length - 3);
-    
-    return "" + s1 + "," + s2 + "." + s3;
+
+    return sx.length <= 3
+      ? s2 + "." + s3
+      : sx.length <= 4 || s1a.length == 0
+      ? s1 + "," + s2 + "." + s3
+      : s1a + "," + s1 + "," + s2 + "." + s3;
   }
 };
 
