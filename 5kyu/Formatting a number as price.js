@@ -27,6 +27,7 @@ const numberToPrice = (number) => {
     let sx = s.split(".")[0];
     let s1 = sx.substring(0, sx.length - 3);
     let s2 = sx.substring(sx.length - 3);
+    
     return "" + s1 + "," + s2 + "." + s3;
   }
 };
