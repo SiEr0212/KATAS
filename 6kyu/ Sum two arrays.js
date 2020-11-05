@@ -16,3 +16,4 @@ In some cases, there will be an array containing a negative number as the first 
 
 [3,2,6,6],[-7,2,2,8] --> [-3,9,6,2] # 3266 + (-7228) = -3962
 */
+//My solution:
