@@ -34,3 +34,4 @@ const addArrays = (array1, array2) => {
     return sum;
   };
 
+addArrays([4, 7, 3], [1, 2, 3]);
