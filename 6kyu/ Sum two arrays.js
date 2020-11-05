@@ -35,3 +35,4 @@ const addArrays = (array1, array2) => {
   };
 
 addArrays([4, 7, 3], [1, 2, 3]);
+//returns: [5, 9, 6] 
