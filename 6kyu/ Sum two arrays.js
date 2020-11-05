@@ -17,3 +17,20 @@ In some cases, there will be an array containing a negative number as the first 
 [3,2,6,6],[-7,2,2,8] --> [-3,9,6,2] # 3266 + (-7228) = -3962
 */
 //My solution:
+
+const addArrays = (array1, array2) => {
+    if (array2.length == 0) return array1;
+    if (array1.length == 0) return array2;
+    let arrayToNumber1 = parseInt(array1.join(""));
+    let arrayToNumber2 = parseInt(array2.join(""));
+    let sum = [(arrayToNumber1 + arrayToNumber2).toString()];
+    let res = sum[0].toString().split("");
+    let neg = [];
+    for (let e of res) {
+      e == "-" ? neg.push(e) : sum.push(parseFloat(e));
+    }
+    if (neg.length > 0) sum.splice(1, 1, sum[1] * -1);
+    sum.shift();
+    return sum;
+  };
+
