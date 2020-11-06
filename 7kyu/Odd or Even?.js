@@ -16,7 +16,9 @@ odd_or_even([0, -1, -5])  ==  "even"
 */
 //My solution:
 
-const oddOrEven = (array) => { return array.reduce((acc, val) => acc + val, 0) % 2 == 0 ? 'even': 'odd';};
+const oddOrEven = (array) => {
+  return array.reduce((acc, val) => acc + val, 0) % 2 == 0 ? "even" : "odd";
+};
 
 oddOrEven([0, 1, 5]);
 //returns: 'even'
