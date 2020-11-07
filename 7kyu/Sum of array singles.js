@@ -17,3 +17,4 @@ Sum of prime-indexed elements
 
 Sum of integer combinations
 */
+//My solution:
