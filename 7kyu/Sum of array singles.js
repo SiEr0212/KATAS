@@ -20,14 +20,14 @@ Sum of integer combinations
 //My solution:
 
 const repeats = (arr) => {
-    let uniques = [];
-    for (let i = 0, l = arr.length; i < l; ++i) {
-      if (arr.lastIndexOf(arr[i]) == arr.indexOf(arr[i])) {
-        uniques.push(arr[i]);
-      }
+  let uniques = [];
+  for (let i = 0, l = arr.length; i < l; ++i) {
+    if (arr.lastIndexOf(arr[i]) == arr.indexOf(arr[i])) {
+      uniques.push(arr[i]);
     }
-    return uniques.reduce((prev, curr) => prev + curr);
-  };
+  }
+  return uniques.reduce((prev, curr) => prev + curr);
+};
 
 repeats([4, 5, 7, 5, 4, 8]);
 //returns: 15
