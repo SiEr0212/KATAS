@@ -18,3 +18,13 @@ Sum of prime-indexed elements
 Sum of integer combinations
 */
 //My solution:
+
+const repeats = (arr) => {
+    let uniques = [];
+    for (let i = 0, l = arr.length; i < l; ++i) {
+      if (arr.lastIndexOf(arr[i]) == arr.indexOf(arr[i])) {
+        uniques.push(arr[i]);
+      }
+    }
+    return uniques.reduce((prev, curr) => prev + curr);
+  };
