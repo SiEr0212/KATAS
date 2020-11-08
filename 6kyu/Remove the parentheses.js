@@ -17,3 +17,16 @@ There can be multiple parentheses.
 The parentheses can be nested.
 */
 //My solution:
+
+const removeParentheses = (s) =>{
+    let result = "";
+    let count = 0;
+    for (let letter of s){
+      if (letter == "(") count += 1;
+      if (count == 0) result += letter;
+      if (letter == ")") count -= 1
+    }
+    return result
+  };
+  
+
