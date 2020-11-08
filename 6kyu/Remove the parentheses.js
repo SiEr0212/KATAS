@@ -28,5 +28,6 @@ const removeParentheses = (s) =>{
     }
     return result
   };
-  
+
+removeParentheses("a(b(c))");
 
