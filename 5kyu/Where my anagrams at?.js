@@ -23,14 +23,14 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 //My solution:
 
 const anagrams = (word, words) => {
-    let res = [];
-    for (let w of words) {
-      word.split("").sort().join() == w.split("").sort().join()
-        ? res.push(w)
-        : null;
-    }
-    return res;
-  };
+  let res = [];
+  for (let w of words) {
+    word.split("").sort().join() == w.split("").sort().join()
+      ? res.push(w)
+      : null;
+  }
+  return res;
+};
 
-anagrams("ab", [ 'aa', 'ab', 'ac', 'ba', 'bb', 'bc', 'cc', 'cd' ]);
+anagrams("ab", ["aa", "ab", "ac", "ba", "bb", "bc", "cc", "cd"]);
 // returns: [ 'ab', 'ba' ]
