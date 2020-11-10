@@ -1,6 +1,8 @@
 /*
 Where my anagrams at?'
 
+from codewars: https://www.codewars.com/kata/523a86aa4230ebb5420001e1/train/javascript
+
 What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
 
 'abba' & 'baab' == true
