@@ -33,3 +33,4 @@ const anagrams = (word, words) => {
   };
 
 anagrams("ab", [ 'aa', 'ab', 'ac', 'ba', 'bb', 'bc', 'cc', 'cd' ]);
+// returns: [ 'ab', 'ba' ]
