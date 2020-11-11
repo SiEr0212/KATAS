@@ -25,3 +25,4 @@ const stray = (numbers) => {
   };
 
 stray([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1]); 
+//returns: 2
