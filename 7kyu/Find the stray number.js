@@ -16,13 +16,13 @@ Examples
 //My solution:
 
 const stray = (numbers) => {
-    for (let num of numbers) {
-      if (numbers.indexOf(numbers[0]) != numbers.indexOf(numbers[1])) {
-        return numbers[0];
-      }
-      if (numbers.indexOf(num) > 0) return num;
+  for (let num of numbers) {
+    if (numbers.indexOf(numbers[0]) != numbers.indexOf(numbers[1])) {
+      return numbers[0];
     }
-  };
+    if (numbers.indexOf(num) > 0) return num;
+  }
+};
 
-stray([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1]); 
+stray([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1]);
 //returns: 2
