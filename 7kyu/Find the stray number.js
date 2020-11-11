@@ -23,3 +23,5 @@ const stray = (numbers) => {
       if (numbers.indexOf(num) > 0) return num;
     }
   };
+
+stray([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1]); 
