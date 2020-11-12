@@ -55,3 +55,8 @@ Note : The last element 2 is greater than the sum of its right elements (abstrac
 */
 //My solution:
 
+const arrayLeaders = numbers => {
+    return numbers.filter((v,i,arr)=>v>(arr.slice(i+1).reduce((a,b)=>a+b,0)))
+  };
+  
+
