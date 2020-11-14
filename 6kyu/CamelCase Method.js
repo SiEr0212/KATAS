@@ -13,13 +13,13 @@ For instance:
 //My solution:
 
 const camelCase = (s) => {
-    let cleaned = s.trim().split(" ")
-    let res = [];
-    for (let word of cleaned) {
-      res.push(word[0].toUpperCase() + word.substring(1));
-    }
-    return res.join("");
-  };
+  let cleaned = s.trim().split(" ");
+  let res = [];
+  for (let word of cleaned) {
+    res.push(word[0].toUpperCase() + word.substring(1));
+  }
+  return res.join("");
+};
 
-camelCase("camel case method"); 
+camelCase("camel case method");
 //returns: "CamelCaseMethod"
