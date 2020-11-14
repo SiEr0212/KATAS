@@ -21,4 +21,5 @@ const camelCase = (s) => {
     return res.join("");
   };
 
-
+camelCase("camel case method"); 
+//"CamelCaseMethod")
