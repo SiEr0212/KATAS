@@ -22,4 +22,4 @@ const camelCase = (s) => {
   };
 
 camelCase("camel case method"); 
-//"CamelCaseMethod")
+//returns: "CamelCaseMethod"
