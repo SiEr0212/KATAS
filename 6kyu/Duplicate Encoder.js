@@ -25,4 +25,4 @@ const duplicateEncode = (word) => {
   };
 
 duplicateEncode("recede"); 
-//"()()()")
+//returns: "()()()")
