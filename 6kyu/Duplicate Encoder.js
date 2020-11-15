@@ -23,3 +23,6 @@ const duplicateEncode = (word) => {
     }
     return newS.join("");
   };
+
+duplicateEncode("recede"); 
+//"()()()")
