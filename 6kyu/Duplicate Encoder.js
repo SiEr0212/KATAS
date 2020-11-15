@@ -12,3 +12,14 @@ Examples
 "(( @"     =>  "))((" 
 */
 //My solution:
+
+const duplicateEncode = (word) => {
+    let lowercased = word.toLowerCase();
+    let newS = [];
+    for (let i = 0; i < lowercased.length; i++) {
+      lowercased.indexOf(lowercased[i]) !== lowercased.lastIndexOf(lowercased[i])
+        ? newS.push(")")
+        : newS.push("(");
+    }
+    return newS.join("");
+  };
