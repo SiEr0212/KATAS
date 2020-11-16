@@ -22,4 +22,4 @@ const solution = (str) => {
 
 
 solution("camelCasingTest"); 
-  //'camel Casing Test'
+//returns: 'camel Casing Test'
