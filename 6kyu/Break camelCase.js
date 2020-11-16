@@ -19,4 +19,7 @@ const solution = (str) => {
     }
     return cleaned.join("");
   };
-  
+
+
+  solution("camelCasingTest"); 
+  //'camel Casing Test'
