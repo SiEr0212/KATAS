@@ -21,5 +21,5 @@ const solution = (str) => {
   };
 
 
-  solution("camelCasingTest"); 
+solution("camelCasingTest"); 
   //'camel Casing Test'
