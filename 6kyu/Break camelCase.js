@@ -11,15 +11,14 @@ solution("camelCasing")  ==  "camel Casing"
 //My solution:
 
 const solution = (str) => {
-    let cleaned = [];
-    for (let i = 0; i < str.length; i++) {
-      str[i] === str[i].toUpperCase()
-        ? cleaned.push(" " + str[i])
-        : cleaned.push(str[i]);
-    }
-    return cleaned.join("");
-  };
+  let cleaned = [];
+  for (let i = 0; i < str.length; i++) {
+    str[i] === str[i].toUpperCase()
+      ? cleaned.push(" " + str[i])
+      : cleaned.push(str[i]);
+  }
+  return cleaned.join("");
+};
 
-
-solution("camelCasingTest"); 
+solution("camelCasingTest");
 //returns: 'camel Casing Test'
