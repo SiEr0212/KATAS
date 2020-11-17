@@ -11,7 +11,9 @@ letter_count('arithmetics') //=> {"a": 1, "c": 1, "e": 1, "h": 1, "i": 2, "m": 1
 */
 //My solution:
 
-const letterCount = (s) =>{
-    return [...s].sort().reduce((a, e) => { a[e] = a[e] ? a[e] + 1 : 1; return a }, {}); 
-   };
-
+const letterCount = (s) => {
+  return [...s].sort().reduce((a, e) => {
+    a[e] = a[e] ? a[e] + 1 : 1;
+    return a;
+  }, {});
+};
