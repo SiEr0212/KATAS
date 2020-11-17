@@ -1,2 +1,4 @@
 /*
+Count letters in string
+
 */
