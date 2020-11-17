@@ -17,3 +17,5 @@ const letterCount = (s) => {
     return a;
   }, {});
 };
+
+letterCount("daydreamer");
