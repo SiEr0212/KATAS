@@ -19,3 +19,4 @@ const letterCount = (s) => {
 };
 
 letterCount("daydreamer");
+//returns:  {"a": 2, "d": 2, "e": 2, "m": 1, "r": 2, "y": 1}
