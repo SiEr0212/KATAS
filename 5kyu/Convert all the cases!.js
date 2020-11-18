@@ -48,7 +48,6 @@ const snakeCase = (s) => {
   if (s.includes("_")) return s;
   let cleaned2 = [];
   for (let i = 0; i < s.length; i++) {
-    //console.log(s[i])
     s[i] === s[i].toUpperCase()
       ? cleaned2.push("_" + s[i].toLowerCase())
       : cleaned2.push(s[i].toLowerCase());
@@ -57,6 +56,7 @@ const snakeCase = (s) => {
 };
 
 const kebabCase = (s) => {
+  if (s.includes("-")) return s;
   let cleaned3 = [];
   for (let i = 0; i < s.length; i++) {
     s[i] === s[i].toUpperCase()
