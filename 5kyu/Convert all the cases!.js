@@ -23,4 +23,5 @@ js> changeCase("", "camel")
 ""
 Your function must deal with invalid input as shown, though it will only be passed strings. Furthermore, all valid identifiers will be lowercase except when necessary, in other words on word boundaries in camelCase.
 */
+//Mys solution:
 
