@@ -87,5 +87,5 @@ const camelCase = (s) => {
     if (targetCase === "kebab") return kebabCase(identifier);
   };
 
-  
+  changeCase("some-lisp-name", "camel"); //, "someLispName");
 
