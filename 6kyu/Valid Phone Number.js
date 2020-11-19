@@ -38,4 +38,4 @@ const validPhoneNumber = (phoneNumber) => {
   };
 
   validPhoneNumber("(123) 456-7890");
-  //  =>  returns true
+  //returns:  true
