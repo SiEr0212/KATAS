@@ -18,24 +18,24 @@ validPhoneNumber("(098) 123 4567")  => returns false
 //My solution:
 
 const validPhoneNumber = (phoneNumber) => {
-    let check = 0;
-    if (phoneNumber.indexOf("(") == 0 && phoneNumber.indexOf(")") == 4) {
-      check += 1;
-    }
-    if (
-      phoneNumber.substring(
-        phoneNumber.indexOf("(") + 1,
-        phoneNumber.indexOf(")")
-      ).length == 3
-    ) {
-      check += 1;
-    }
-    if (phoneNumber[5] == " ") check += 1;
-    if (phoneNumber[9] == "-") check += 1;
-    if (phoneNumber.substring(6, phoneNumber.length).length == 8) check += 1;
-  
-    return check == 5 ? true : false;
-  };
+  let check = 0;
+  if (phoneNumber.indexOf("(") == 0 && phoneNumber.indexOf(")") == 4) {
+    check += 1;
+  }
+  if (
+    phoneNumber.substring(
+      phoneNumber.indexOf("(") + 1,
+      phoneNumber.indexOf(")")
+    ).length == 3
+  ) {
+    check += 1;
+  }
+  if (phoneNumber[5] == " ") check += 1;
+  if (phoneNumber[9] == "-") check += 1;
+  if (phoneNumber.substring(6, phoneNumber.length).length == 8) check += 1;
 
-  validPhoneNumber("(123) 456-7890");
-  //returns:  true
+  return check == 5 ? true : false;
+};
+
+validPhoneNumber("(123) 456-7890");
+//returns:  true
