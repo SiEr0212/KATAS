@@ -37,3 +37,5 @@ const validPhoneNumber = (phoneNumber) => {
     return check == 5 ? true : false;
   };
 
+  validPhoneNumber("(123) 456-7890");
+  //  =>  returns true
