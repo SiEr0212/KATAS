@@ -46,3 +46,4 @@ const dashatize = (num) => {
   };
 
   dashatize(-28369);
+  //returns: '28-3-6-9'
