@@ -45,3 +45,4 @@ const dashatize = (num) => {
     return res4;
   };
 
+  dashatize(-28369);
