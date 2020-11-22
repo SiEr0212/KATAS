@@ -13,3 +13,25 @@ If the total of both even and odd numbers are identical return: "Even and Odd ar
 */
 //My solution:
 
+const evenOrOdd = (str) => {
+  const sumLetters = (s) => {
+    let sum = 0;
+    for (let char of s) {
+      sum += +char;
+    }
+    return sum;
+  };
+
+  let even = "";
+
+  let odd = "";
+
+  for (let i = 0; i < str.length; i++) {
+    str[i] % 2 == 0 ? (even += str[i]) : (odd += str[i]);
+  }
+
+  if (sumLetters(even) == sumLetters(odd)) return "Even and Odd are the same";
+  return sumLetters(even) > sumLetters(odd)
+    ? "Even is greater than Odd"
+    : "Odd is greater than Even";
+};
