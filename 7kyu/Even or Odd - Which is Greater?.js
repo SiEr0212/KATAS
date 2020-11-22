@@ -37,4 +37,4 @@ const evenOrOdd = (str) => {
 };
 
 evenOrOdd('123');
-// 'Odd is greater than Even')
+// returns: 'Odd is greater than Even'
