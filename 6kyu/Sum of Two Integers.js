@@ -26,6 +26,6 @@ const add = (x, y) => {
 };
 
 add(5, 19); 
-// ==> return (24)
+//returns: (24)
 
 
