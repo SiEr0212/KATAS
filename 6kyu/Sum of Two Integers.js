@@ -19,3 +19,6 @@ Input >> Output Examples
 
 3- Add (-14,-16) ==> return (-30)
 */
+//My solution:
+
+
