@@ -25,4 +25,7 @@ const add = (x, y) => {
   return y ? add(x ^ y, (x & y) << 1) : x;
 };
 
+add(5, 19); 
+// ==> return (24)
+
 
