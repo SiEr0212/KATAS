@@ -12,3 +12,11 @@ You can assume that all values are integers. Do not mutate the input array/list.
 */
 //My solution:
 
+const invert = (array) =>{
+    let res = [];
+    for (let num of array) {
+      Math.sign(num) === 1 ? res.push(-num) : res.push(Math.abs(num));
+    }
+    return res;
+  };
+
