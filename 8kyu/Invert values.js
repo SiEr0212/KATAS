@@ -20,3 +20,5 @@ const invert = (array) =>{
     return res;
   };
 
+invert([1, -2, 3, -4, 5]);
+
