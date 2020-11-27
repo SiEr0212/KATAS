@@ -17,4 +17,5 @@ const solution = (a, b) =>{
     };
 
 solution("22", "1"); 
-// returns "1221"
+// returns: "1221"
+
