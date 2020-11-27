@@ -10,3 +10,5 @@ For example:
 solution("1", "22") // returns "1221"
 solution("22", "1") // returns "1221"
 */
+//My solution:
+
