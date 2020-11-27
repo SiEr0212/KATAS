@@ -12,3 +12,7 @@ solution("22", "1") // returns "1221"
 */
 //My solution:
 
+const solution = (a, b) =>{
+    return a.length < b.length ? a.concat(b,a) : b.concat(a,b)
+    };
+    
