@@ -24,4 +24,11 @@ The middle character(s) of the word represented as a string.
 */
 //My solution:
 
+const getMiddle = (s) => {
+    const even = s.length / 2 - 1;
+    const odd = s.length / 2;
+    return s.length % 2 === 0 ? s.charAt(even) + s.charAt(odd) : s.charAt(odd);
+  };
+
+
 
