@@ -31,6 +31,6 @@ const getMiddle = (s) => {
   };
 
   getMiddle("middle"); 
-  // should return "dd"
+  //returns: "dd"
 
 
