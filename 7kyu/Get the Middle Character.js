@@ -30,5 +30,7 @@ const getMiddle = (s) => {
     return s.length % 2 === 0 ? s.charAt(even) + s.charAt(odd) : s.charAt(odd);
   };
 
+  getMiddle("middle"); 
+  // should return "dd"
 
 
