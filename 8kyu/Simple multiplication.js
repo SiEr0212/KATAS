@@ -12,4 +12,4 @@ const simpleMultiplication = (number) => {
   };
 
 simpleMultiplication(1); 
-//,9,
+//returns: 9
