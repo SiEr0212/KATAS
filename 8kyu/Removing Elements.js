@@ -12,3 +12,12 @@ None of the arrays will be empty, so you don't have to worry about that!
 */
 //My solution:
 
+const removeEveryOther = (arr) => {
+    let res = [];
+    for (let i = 0; i < arr.length; i++) {
+      console.log(arr[i]);
+      i % 2 === 0 ? res.push(arr[i]) : i;
+    }
+    return res;
+  };
+
