@@ -13,13 +13,13 @@ None of the arrays will be empty, so you don't have to worry about that!
 //My solution:
 
 const removeEveryOther = (arr) => {
-    let res = [];
-    for (let i = 0; i < arr.length; i++) {
-      console.log(arr[i]);
-      i % 2 === 0 ? res.push(arr[i]) : i;
-    }
-    return res;
-  };
+  let res = [];
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+    i % 2 === 0 ? res.push(arr[i]) : i;
+  }
+  return res;
+};
 
-removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); 
+removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 //returns: [1, 3, 5, 7, 9]
