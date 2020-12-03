@@ -9,3 +9,9 @@ repeatStr(6, "I") // "IIIIII"
 repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 */
 //My solution:
+
+const repeatStr = (n, s) => {
+    return s.repeat(n);
+  };
+  
+  
