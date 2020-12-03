@@ -15,4 +15,5 @@ const repeatStr = (n, s) => {
   };
   
 repeatStr(3, "*");
- //, "***")
+ //returns: "***" 
+
