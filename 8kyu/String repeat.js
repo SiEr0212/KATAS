@@ -11,9 +11,8 @@ repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 //My solution:
 
 const repeatStr = (n, s) => {
-    return s.repeat(n);
-  };
-  
-repeatStr(3, "*");
- //returns: "***" 
+  return s.repeat(n);
+};
 
+repeatStr(3, "*");
+//returns: "***"
