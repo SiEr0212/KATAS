@@ -33,23 +33,23 @@ The menu items are fairly simple, there is no overlap in the names of the items:
 //My solution:
 
 const getOrder = (input) => {
-    const items = [
-      "Burger",
-      "Fries",
-      "Chicken",
-      "Pizza",
-      "Sandwich",
-      "Onionrings",
-      "Milkshake",
-      "Coke",
-    ];
-    let list = [];
-    for (let item of items) {
-      const num = input.split(item.toLowerCase()).length - 1;
-      list.push(...Array(num).fill(item));
-    }
-    return list.join(" ");
-  };
+  const items = [
+    "Burger",
+    "Fries",
+    "Chicken",
+    "Pizza",
+    "Sandwich",
+    "Onionrings",
+    "Milkshake",
+    "Coke",
+  ];
+  let list = [];
+  for (let item of items) {
+    const num = input.split(item.toLowerCase()).length - 1;
+    list.push(...Array(num).fill(item));
+  }
+  return list.join(" ");
+};
 
-  getOrder("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza");
-  //returns: "Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke";
+getOrder("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza");
+//returns: "Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke";
