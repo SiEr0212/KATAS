@@ -52,4 +52,4 @@ const getOrder = (input) => {
   };
 
   getOrder("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza");
-  //,"Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke");
+  //returns: "Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke";
