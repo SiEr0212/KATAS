@@ -50,3 +50,6 @@ const getOrder = (input) => {
     }
     return list.join(" ");
   };
+
+  getOrder("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza");
+  //,"Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke");
