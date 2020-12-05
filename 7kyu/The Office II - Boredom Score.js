@@ -26,3 +26,5 @@ Depending on the cumulative score of the team, return the appropriate sentiment:
 < 100 & > 80: 'i can handle this'
 100 or over: 'party time!!'
 */
+//My solution:
+
