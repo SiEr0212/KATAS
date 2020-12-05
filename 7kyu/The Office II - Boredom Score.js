@@ -49,4 +49,18 @@ onst boredom = (staff) => {
     if (boredomScore > 80 && boredomScore < 100) return "i can handle this";
     return "party time!!";
   };
-  
+
+  boredom({
+    tim: "IS",
+    jim: "finance",
+    randy: "pissing about",
+    sandy: "cleaning",
+    andy: "cleaning",
+    katie: "cleaning",
+    laura: "pissing about",
+    saajid: "regulation",
+    alex: "regulation",
+    john: "accounts",
+    mr: "canteen",
+  }); 
+  //, 'i can handle this');
