@@ -63,4 +63,4 @@ onst boredom = (staff) => {
     john: "accounts",
     mr: "canteen",
   }); 
-  //, 'i can handle this');
+  //returns:'i can handle this');
