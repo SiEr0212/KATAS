@@ -28,3 +28,25 @@ Depending on the cumulative score of the team, return the appropriate sentiment:
 */
 //My solution:
 
+onst boredom = (staff) => {
+    const score = {
+      accounts: 1,
+      finance: 2,
+      canteen: 10,
+      regulation: 3,
+      trading: 6,
+      change: 6,
+      IS: 8,
+      retail: 5,
+      cleaning: 4,
+      "pissing about": 25,
+    };
+    let boredomScore = 0;
+    for (let person in staff) {
+      boredomScore += score[staff[person]];
+    }
+    if (boredomScore <= 80) return "kill me now";
+    if (boredomScore > 80 && boredomScore < 100) return "i can handle this";
+    return "party time!!";
+  };
+  
