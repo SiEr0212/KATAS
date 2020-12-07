@@ -11,3 +11,4 @@ Example: replaceAll [1,2,2] 1 2 -> in list [1,2,2] we replace 1 with 2 to get ne
 
 replaceAll(replaceAll(array: [1,2,2], old: 1, new: 2) // [2,2,2]
 */
+//My solution:
