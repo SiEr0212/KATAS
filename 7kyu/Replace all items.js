@@ -29,5 +29,5 @@ const replaceAll = (seq, find, replace) => {
     return resNumber.length > 0 ? resNumber : resString.join("");
   };
 
-  replaceAll([1,2,2], 1, 2)
-  // [2,2,2]);
+  replaceAll([1,2,2], 1, 2);
+  // returns: [2,2,2]
