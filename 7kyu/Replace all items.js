@@ -14,20 +14,20 @@ replaceAll(replaceAll(array: [1,2,2], old: 1, new: 2) // [2,2,2]
 //My solution:
 
 const replaceAll = (seq, find, replace) => {
-    if (seq.length === 0) return seq;
-    let resNumber = [];
-    let resString = [];
-    for (let els of seq) {
-      if (els.length == undefined) {
-        els === find ? resNumber.push(replace) : resNumber.push(els);
-      } else {
-        for (let el of els) {
-          el === find ? resString.push(replace) : resString.push(el);
-        }
+  if (seq.length === 0) return seq;
+  let resNumber = [];
+  let resString = [];
+  for (let els of seq) {
+    if (els.length == undefined) {
+      els === find ? resNumber.push(replace) : resNumber.push(els);
+    } else {
+      for (let el of els) {
+        el === find ? resString.push(replace) : resString.push(el);
       }
     }
-    return resNumber.length > 0 ? resNumber : resString.join("");
-  };
+  }
+  return resNumber.length > 0 ? resNumber : resString.join("");
+};
 
-  replaceAll([1,2,2], 1, 2);
-  // returns: [2,2,2]
+replaceAll([1, 2, 2], 1, 2);
+// returns: [2,2,2]
