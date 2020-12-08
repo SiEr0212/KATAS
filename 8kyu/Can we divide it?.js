@@ -20,8 +20,8 @@ A few cases:
 //My solution:
 
 const isDivideBy = (number, a, b) => {
-    return number % a === 0 && number % b === 0 ? true : false
-    };
+  return number % a === 0 && number % b === 0 ? true : false;
+};
 
-    isDivideBy(45, 5, 15)
-    // returns true
+isDivideBy(45, 5, 15);
+// returns true
