@@ -17,5 +17,6 @@ A few cases:
 (4, 1, 4)     ->  true
 (15, -5, 3)   ->  true
 */
+//My solution:
 
 
