@@ -24,4 +24,4 @@ const isDivideBy = (number, a, b) => {
     };
 
     isDivideBy(45, 5, 15)
-    // true;
+    // returns true
