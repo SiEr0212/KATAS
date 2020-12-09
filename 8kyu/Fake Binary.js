@@ -16,3 +16,4 @@ const fakeBin = (x) => {
     return res.join("");
   };
 
+fakeBin("45385593107843568");
