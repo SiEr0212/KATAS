@@ -8,13 +8,13 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 //My solution:
 
 const fakeBin = (x) => {
-    let res = [];
-    for (let num of [...x]) {
-      console.log(num < 5);
-      num < 5 ? res.push("0") : res.push("1");
-    }
-    return res.join("");
-  };
+  let res = [];
+  for (let num of [...x]) {
+    console.log(num < 5);
+    num < 5 ? res.push("0") : res.push("1");
+  }
+  return res.join("");
+};
 
 fakeBin("45385593107843568");
 //retruns:  '01011110001100111'
