@@ -13,5 +13,6 @@ function noOdds( values )
 
 const noOdds = arr => arr.filter(item => !(item % 2));
 
-
+noOdds( [0,1,2,3] )
+//, [0,2]
 
