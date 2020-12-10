@@ -11,4 +11,7 @@ function noOdds( values )
 */
 //My solution:
 
+const noOdds = arr => arr.filter(item => !(item % 2));
+
+
 
