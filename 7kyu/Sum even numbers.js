@@ -15,3 +15,8 @@ Examples
 */
 //My solution:
 
+const sumEvenNumbers = (input) =>
+  input.length === 0
+    ? 0
+    : input.filter((item) => !(item % 2)).reduce((prev, curr) => prev + curr);
+
