@@ -20,3 +20,4 @@ const sumEvenNumbers = (input) =>
     ? 0
     : input.filter((item) => !(item % 2)).reduce((prev, curr) => prev + curr);
 
+sumEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // 30,
