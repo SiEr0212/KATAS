@@ -10,3 +10,12 @@ oddCount(15) //=> 7, i.e [1, 3, 5, 7, 9, 11, 13]
 Expect large Inputs!
 */
 //My solution:
+
+const oddCount = (n) => {
+    let count = 0;
+    for (let i = 0; i < n; i++) {
+      if (i % 2 !== 0) count += 1;
+    }
+    return count;
+  };
+  
