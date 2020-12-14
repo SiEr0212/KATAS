@@ -19,3 +19,4 @@ const oddCount = (n) => {
     return count;
   };
   
+oddCount(15); //, 7,
