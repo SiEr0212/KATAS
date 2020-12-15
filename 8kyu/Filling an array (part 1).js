@@ -17,4 +17,5 @@ const arr = (N) => {
     return typeof N !== "undefined" ? [...Array(N).keys()] : [];
   };
 
-arr(4); // [0,1,2,3]
+arr(4); 
+//returns: [0,1,2,3]
