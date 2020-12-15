@@ -14,8 +14,8 @@ arr(5) // => [0,1,2,3,4]
 //My solution:
 
 const arr = (N) => {
-    return typeof N !== "undefined" ? [...Array(N).keys()] : [];
-  };
+  return typeof N !== "undefined" ? [...Array(N).keys()] : [];
+};
 
-arr(4); 
+arr(4);
 //returns: [0,1,2,3]
