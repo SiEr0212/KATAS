@@ -10,8 +10,8 @@ Complete the solution so that it reverses the string passed into it.
 //My solution:
 
 const solution = (str) => {
-    return str.split("").reverse().join("");
-  };
+  return str.split("").reverse().join("");
+};
 
-solution("hello"); 
+solution("hello");
 //returns: 'olleh'
