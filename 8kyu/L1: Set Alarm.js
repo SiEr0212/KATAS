@@ -13,11 +13,10 @@ setAlarm(true, false) -> true
 //My solution:
 
 const setAlarm = (employed, vacation) => {
-    if (employed === false && vacation === true) return false;
-    return employed === vacation ? false : true;
-  }
+  if (employed === false && vacation === true) return false;
+  return employed === vacation ? false : true;
+};
 
 setAlarm(true, true); //returns: false
 setAlarm(false, true); //returns: false
 setAlarm(true, false); //returns: true
-  
