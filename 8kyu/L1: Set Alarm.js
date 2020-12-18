@@ -11,3 +11,9 @@ setAlarm(false, false) -> false
 setAlarm(true, false) -> true
 */
 //My solution:
+
+const setAlarm = (employed, vacation) => {
+    if (employed === false && vacation === true) return false;
+    return employed === vacation ? false : true;
+  }
+
