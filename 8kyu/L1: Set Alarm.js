@@ -17,3 +17,7 @@ const setAlarm = (employed, vacation) => {
     return employed === vacation ? false : true;
   }
 
+setAlarm(true, true); //, "Should be false.");
+setAlarm(false, true); //, "Should be false.");
+setAlarm(true, false); //, "Should be true.");
+  
