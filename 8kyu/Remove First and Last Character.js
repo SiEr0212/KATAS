@@ -13,3 +13,4 @@ const removeChar = (str) => {
     return str.substring(1, str.length - 1);
   };
 
+removeChar("country"); // 'ountr'
