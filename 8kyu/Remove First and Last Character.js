@@ -9,3 +9,7 @@ You don't have to worry with strings with less than two characters.
 */
 //My solution:
 
+const removeChar = (str) => {
+    return str.substring(1, str.length - 1);
+  };
+
