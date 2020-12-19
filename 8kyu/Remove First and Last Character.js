@@ -10,8 +10,8 @@ You don't have to worry with strings with less than two characters.
 //My solution:
 
 const removeChar = (str) => {
-    return str.substring(1, str.length - 1);
-  };
+  return str.substring(1, str.length - 1);
+};
 
-removeChar("country"); 
+removeChar("country");
 //returns: 'ountr'
