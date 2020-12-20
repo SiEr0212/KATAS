@@ -12,11 +12,11 @@ your function should simply return it.
 //My solution:
 
 const superSize = (num) => {
-    let max = Array.from(num.toString(), (val) => Number(val))
-      .sort((b, a) => a - b)
-      .join("");
-    return parseInt(max);
-  };
+  let max = Array.from(num.toString(), (val) => Number(val))
+    .sort((b, a) => a - b)
+    .join("");
+  return parseInt(max);
+};
 
-  superSize(2017); 
-  //returns: 7210
+superSize(2017);
+//returns: 7210
