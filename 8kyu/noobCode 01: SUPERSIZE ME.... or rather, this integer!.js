@@ -19,4 +19,4 @@ const superSize = (num) => {
   };
 
   superSize(2017); 
-  //7210
+  //returns: 7210
