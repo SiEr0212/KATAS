@@ -17,3 +17,6 @@ const superSize = (num) => {
       .join("");
     return parseInt(max);
   };
+
+  superSize(2017); 
+  //7210
