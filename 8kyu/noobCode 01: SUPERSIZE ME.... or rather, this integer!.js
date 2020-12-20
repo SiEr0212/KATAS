@@ -10,3 +10,10 @@ If the argument passed through is single digit or is already the maximum possibl
 your function should simply return it.
 */
 //My solution:
+
+const superSize = (num) => {
+    let max = Array.from(num.toString(), (val) => Number(val))
+      .sort((b, a) => a - b)
+      .join("");
+    return parseInt(max);
+  };
