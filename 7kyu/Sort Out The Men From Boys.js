@@ -41,17 +41,17 @@ Since , (Duplications are not included when separating) , then you can see only 
 //My solution:
 
 const menFromBoys = (arr) => {
-    let men = [];
-    let boys = [];
-    for (let el of arr) {
-      el % 2 === 0 ? men.push(el) : boys.push(el);
-    }
-    let sorted = men.sort((a, b) => a - b).concat(boys.sort((a, b) => b - a));
-    return sorted.reduce(
-      (acc, curr) => (acc.includes(curr) ? acc : [...acc, curr]),
-      []
-    );
-  };
+  let men = [];
+  let boys = [];
+  for (let el of arr) {
+    el % 2 === 0 ? men.push(el) : boys.push(el);
+  }
+  let sorted = men.sort((a, b) => a - b).concat(boys.sort((a, b) => b - a));
+  return sorted.reduce(
+    (acc, curr) => (acc.includes(curr) ? acc : [...acc, curr]),
+    []
+  );
+};
 
-  menFromBoys([82, 91, 72, 76, 76, 100, 85]); 
-  //returns: [72,76,82,100,91,85]
+menFromBoys([82, 91, 72, 76, 76, 100, 85]);
+//returns: [72,76,82,100,91,85]
