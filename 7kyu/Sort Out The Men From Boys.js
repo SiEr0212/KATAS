@@ -39,3 +39,4 @@ Since , {-282 , 818 , 900 , 928 } is the even numbers here , So it came first in
 Since , (Duplications are not included when separating) , then you can see only one (-282) was appeared in the final array/list .
 */
 //My solution:
+
