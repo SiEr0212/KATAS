@@ -13,8 +13,8 @@ solution(null); // should return []
 //My solution:
 
 const solution = (nums) => {
-    return nums === null ? [] : nums.sort((a, b) => a - b);
-  };
+  return nums === null ? [] : nums.sort((a, b) => a - b);
+};
 
-solution([1, 2, 10, 50, 5]); 
+solution([1, 2, 10, 50, 5]);
 //returnS [1,2,5,10,50]
