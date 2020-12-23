@@ -12,3 +12,8 @@ Function should return true (1 in Prolog) if it is possible and false (0 in Prol
 The input values are always positive.
 */
 //My solution:
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return distanceToPump / mpg <= fuelLeft ? true : false
+    };
+    
