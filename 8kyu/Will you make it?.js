@@ -11,3 +11,4 @@ Considering these factors, write a function that tells you if it is possible to 
 Function should return true (1 in Prolog) if it is possible and false (0 in Prolog) if not. 
 The input values are always positive.
 */
+//My solution:
