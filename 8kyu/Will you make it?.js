@@ -20,3 +20,4 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     zeroFuel(50, 25, 2)
     //returns: true
 zeroFuel(100, 50, 1)
+//returns: false
