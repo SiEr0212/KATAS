@@ -36,13 +36,13 @@ if the parameter percent is 2 you have to convert it to 0.02.
 //My solution:
 
 const nbYear = (p0, percent, aug, p) => {
-    let year = 0;
-    while (p0 < p) {
-      year++;
-      p0 = p0 + p0 * (percent / 100) + aug;
-    }
-    return year;
-  };
+  let year = 0;
+  while (p0 < p) {
+    year++;
+    p0 = p0 + p0 * (percent / 100) + aug;
+  }
+  return year;
+};
 
- nbYear(1500, 5, 100, 5000);
-  //returns: 15
+nbYear(1500, 5, 100, 5000);
+//returns: 15
