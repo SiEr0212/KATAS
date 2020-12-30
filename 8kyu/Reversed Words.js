@@ -13,8 +13,8 @@ reverseWords("The greatest victory is that which requires no battle")
 //My solution:
 
 const reverseWords = (str) => {
-    return str.split(" ").reverse().join(" ");
-  };
+  return str.split(" ").reverse().join(" ");
+};
 
-reverseWords("yoda doesn't speak like this"); 
+reverseWords("yoda doesn't speak like this");
 // "this like speak doesn't yoda")
