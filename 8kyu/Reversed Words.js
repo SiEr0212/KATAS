@@ -11,3 +11,8 @@ reverseWords("The greatest victory is that which requires no battle")
 // should return "battle no requires which that is victory greatest The"
 */
 //My solution:
+
+const reverseWords = (str) => {
+    return str.split(" ").reverse().join(" ");
+  };
+  
