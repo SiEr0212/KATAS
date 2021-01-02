@@ -13,6 +13,7 @@ const grow = (x) =>{
     return x.reduce((product, n) => product * n, 1)
     }
 
-grow([1, 2, 3])//, 6);
+grow([1, 2, 3])
+//returns: 6
     
 
