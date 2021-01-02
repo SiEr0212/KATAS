@@ -8,6 +8,7 @@ Given a non-empty array of integers, return the result of multiplying the values
 [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
 */
 //My solution:
+
 const grow = (x) =>{
     return x.reduce((product, n) => product * n, 1)
     }
