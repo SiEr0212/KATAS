@@ -17,12 +17,12 @@ remove("Hi") === "Hi!"
 //My solution:
 
 const remove = (s) => {
-    const res = [];
-    for (let char of s) {
-      char !== "!" ? res.push(char) : null;
-    }
-    return res.join("") + "!";
-  };
+  const res = [];
+  for (let char of s) {
+    char !== "!" ? res.push(char) : null;
+  }
+  return res.join("") + "!";
+};
 
-  remove("Hi! Hi!"); 
-  //returns:  "Hi Hi!"
+remove("Hi! Hi!");
+//returns:  "Hi Hi!"
