@@ -24,4 +24,5 @@ const remove = (s) => {
     return res.join("") + "!";
   };
 
-  remove("Hi! Hi!"); // "Hi Hi!"
+  remove("Hi! Hi!"); 
+  //returns:  "Hi Hi!"
