@@ -18,19 +18,19 @@ For example:
 //My solution:
 
 const persistence = (num) => {
-    let times = 0;
-    num = num.toString();
-    while (num.length > 1) {
-      times++;
-      num = num
-        .split("")
-        .map(Number)
-        .reduce((a, b) => a * b)
-        .toString();
-    }
-  
-    return times;
-  };
+  let times = 0;
+  num = num.toString();
+  while (num.length > 1) {
+    times++;
+    num = num
+      .split("")
+      .map(Number)
+      .reduce((a, b) => a * b)
+      .toString();
+  }
 
-  persistence(39); 
-  //returns: 3
+  return times;
+};
+
+persistence(39);
+//returns: 3
