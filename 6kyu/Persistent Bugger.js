@@ -31,3 +31,5 @@ const persistence = (num) => {
   
     return times;
   };
+
+  persistence(39); //,3);
