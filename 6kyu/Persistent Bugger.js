@@ -15,3 +15,4 @@ For example:
 
  persistence(4) === 0 // because 4 is already a one-digit number
 */
+//My solution:
