@@ -52,24 +52,24 @@ or "Battle Result: No victor on this battle field" if it ends in a tie.
 //My solution:
 
 const goodVsEvil = (good, evil) => {
-    const goods = good.split(" ").map((x) => x * 1);
-    const goodsValue = [1, 2, 3, 3, 4, 10];
-    let goodCount = 0;
-    for (let i = 0; i < goods.length; i++) {
-      goodCount += goods[i] * goodsValue[i];
-    }
-    const evils = evil.split(" ").map((x) => x * 1);
-    const evilsValue = [1, 2, 2, 2, 3, 5, 10];
-    let evilCount = 0;
-    for (let i = 0; i < evils.length; i++) {
-      evilCount += evils[i] * evilsValue[i];
-    }
-    if (goodCount === evilCount)
-      return "Battle Result: No victor on this battle field";
-    return goodCount > evilCount
-      ? "Battle Result: Good triumphs over Evil"
-      : "Battle Result: Evil eradicates all trace of Good";
-  };
+  const goods = good.split(" ").map((x) => x * 1);
+  const goodsValue = [1, 2, 3, 3, 4, 10];
+  let goodCount = 0;
+  for (let i = 0; i < goods.length; i++) {
+    goodCount += goods[i] * goodsValue[i];
+  }
+  const evils = evil.split(" ").map((x) => x * 1);
+  const evilsValue = [1, 2, 2, 2, 3, 5, 10];
+  let evilCount = 0;
+  for (let i = 0; i < evils.length; i++) {
+    evilCount += evils[i] * evilsValue[i];
+  }
+  if (goodCount === evilCount)
+    return "Battle Result: No victor on this battle field";
+  return goodCount > evilCount
+    ? "Battle Result: Good triumphs over Evil"
+    : "Battle Result: Evil eradicates all trace of Good";
+};
 
-  goodVsEvil("0 0 0 0 0 10", "0 1 1 1 1 0 0"); 
-  //returns: 'Battle Result: Good triumphs over Evil'
+goodVsEvil("0 0 0 0 0 10", "0 1 1 1 1 0 0");
+//returns: 'Battle Result: Good triumphs over Evil'
