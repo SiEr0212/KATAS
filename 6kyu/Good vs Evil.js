@@ -70,3 +70,5 @@ const goodVsEvil = (good, evil) => {
       ? "Battle Result: Good triumphs over Evil"
       : "Battle Result: Evil eradicates all trace of Good";
   };
+
+  goodVsEvil("0 0 0 0 0 10", "0 1 1 1 1 0 0"); // === 'Battle Result: Good triumphs over Evil', 'Good should win' );
