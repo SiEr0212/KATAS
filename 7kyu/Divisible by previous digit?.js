@@ -13,3 +13,4 @@ Examples
 635          => [false, false, false]
 * Remember 0 is evenly divisible by all integers but not the other way around *
 */
+//My solution:
