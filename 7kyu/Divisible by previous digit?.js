@@ -1,2 +1,3 @@
 /*
+Divisible by previous digit?
 */
