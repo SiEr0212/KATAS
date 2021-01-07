@@ -23,3 +23,5 @@ const divisibleByLast = (n) => {
     }
     return res;
   };
+
+  divisibleByLast(73312); //, [false, false, true, false, true]);
