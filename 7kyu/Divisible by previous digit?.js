@@ -16,13 +16,13 @@ Examples
 //My solution:
 
 const divisibleByLast = (n) => {
-    let s = n.toString().split("");
-    let res = [];
-    for (let i = 0; i < s.length; i++) {
-      Number.isInteger(s[i] / s[i - 1]) ? res.push(true) : res.push(false); 
-    }
-    return res;
-  };
+  let s = n.toString().split("");
+  let res = [];
+  for (let i = 0; i < s.length; i++) {
+    Number.isInteger(s[i] / s[i - 1]) ? res.push(true) : res.push(false);
+  }
+  return res;
+};
 
-  divisibleByLast(73312); 
-  //returns: [false, false, true, false, true]
+divisibleByLast(73312);
+//returns: [false, false, true, false, true]
