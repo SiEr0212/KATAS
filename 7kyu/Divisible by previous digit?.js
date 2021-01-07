@@ -14,3 +14,12 @@ Examples
 * Remember 0 is evenly divisible by all integers but not the other way around *
 */
 //My solution:
+
+const divisibleByLast = (n) => {
+    let s = n.toString().split("");
+    let res = [];
+    for (let i = 0; i < s.length; i++) {
+      Number.isInteger(s[i] / s[i - 1]) ? res.push(true) : res.push(false); 
+    }
+    return res;
+  };
