@@ -16,3 +16,7 @@ you have to return all the numbers in that string in the order they occur.
 */
 //My solution:
 
+const FilterString = (value) => {
+    return Number(value.split("").map(Number).filter(Number.isFinite).join(""));d
+  };
+  
