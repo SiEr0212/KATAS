@@ -20,3 +20,4 @@ const FilterString = (value) => {
     return Number(value.split("").map(Number).filter(Number.isFinite).join(""));d
   };
   
+FilterString("aa1bb2cc3dd"); // 123
