@@ -22,4 +22,5 @@ const addLength = (str) => {
     return res;
   };
 
-  ddLength("you will win"); //,["you 3", "will 4", "win 3"]);
+  ddLength("you will win"); 
+  //returns: ["you 3", "will 4", "win 3"]);
