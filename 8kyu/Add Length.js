@@ -14,13 +14,13 @@ Note: String will have at least one element; words will always be separated by a
 //My solution:
 
 const addLength = (str) => {
-    let words = str.split(" ");
-    let res = [];
-    for (let word of words) {
-      res.push(word + " " + word.length);
-    }
-    return res;
-  };
+  let words = str.split(" ");
+  let res = [];
+  for (let word of words) {
+    res.push(word + " " + word.length);
+  }
+  return res;
+};
 
-  ddLength("you will win"); 
-  //returns: ["you 3", "will 4", "win 3"]);
+ddLength("you will win");
+//returns: ["you 3", "will 4", "win 3"]);
