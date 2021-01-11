@@ -12,3 +12,12 @@ Your task is to write a function that takes a String and returns an Array/list w
 Note: String will have at least one element; words will always be separated by a space.
 */
 //My solution:
+
+const addLength = (str) => {
+    let words = str.split(" ");
+    let res = [];
+    for (let word of words) {
+      res.push(word + " " + word.length);
+    }
+    return res;
+  };
