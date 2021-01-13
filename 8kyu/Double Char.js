@@ -9,3 +9,4 @@ doubleChar("Hello World") ==> "HHeelllloo  WWoorrlldd"
 
 doubleChar("1234!_ ") ==> "11223344!!__  "
 */
+//My solution:
