@@ -15,8 +15,8 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 //My solution:
 
 const arrayDiff = (a, b) => {
-    return a.filter((e) => !b.includes(e));
-  };
+  return a.filter((e) => !b.includes(e));
+};
 
-arrayDiff([1, 2, 2, 2, 3], [2]); 
+arrayDiff([1, 2, 2, 2, 3], [2]);
 //returns: [1,3]
