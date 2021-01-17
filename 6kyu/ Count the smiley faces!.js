@@ -23,3 +23,4 @@ In case of an empty array return 0. You will not be tested with invalid input (i
 Order of the face (eyes, nose, mouth) elements will always be the same.
 */
 //My solution:
+
