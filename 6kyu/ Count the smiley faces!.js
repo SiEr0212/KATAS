@@ -25,23 +25,22 @@ Order of the face (eyes, nose, mouth) elements will always be the same.
 //My solution:
 
 const countSmileys = (arr) => {
-    return arr.filter(
-      (smiley) =>
-        smiley == ":D" ||
-        smiley == ":~D" ||
-        smiley == ":-D" ||
-        smiley == ":~)" ||
-        smiley == ":-)" ||
-        smiley == ":)" ||
-        smiley == ";-D" ||
-        smiley == ";~D" ||
-        smiley == ";D" ||
-        smiley == ";-)" ||
-        smiley == ";~)" ||
-        smiley == ";)"
-    ).length;
-  };
+  return arr.filter(
+    (smiley) =>
+      smiley == ":D" ||
+      smiley == ":~D" ||
+      smiley == ":-D" ||
+      smiley == ":~)" ||
+      smiley == ":-)" ||
+      smiley == ":)" ||
+      smiley == ";-D" ||
+      smiley == ";~D" ||
+      smiley == ";D" ||
+      smiley == ";-)" ||
+      smiley == ";~)" ||
+      smiley == ";)"
+  ).length;
+};
 
 countSmileys([":D", ":~)", ";~D", ":)"]);
 //returns: 4
-
