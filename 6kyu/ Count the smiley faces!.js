@@ -43,5 +43,5 @@ const countSmileys = (arr) => {
   };
 
 countSmileys([":D", ":~)", ";~D", ":)"]);
- //, 4
+//returns: 4
 
