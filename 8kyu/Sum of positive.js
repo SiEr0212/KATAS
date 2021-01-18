@@ -17,3 +17,11 @@ const positiveSum = (arr) => {
  }
 
 //with a for of loop:
+const positiveSum = (arr) => {
+    let res = 0;
+    for (let num of arr) {
+      num > 0 ? (res += num) : null;
+    }
+    return res;
+  };
+
