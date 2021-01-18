@@ -18,7 +18,7 @@ const positiveSum = (arr) => {
 
 
 positiveSum([1, -2, 3, 4, 5]);
- //13)
+ //returns: 13
 
 
 /*
