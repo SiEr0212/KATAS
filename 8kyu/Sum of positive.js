@@ -13,13 +13,11 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 //with reduce:
 const positiveSum = (arr) => {
-    return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
- }
-
+  return arr.reduce((a, b) => a + (b > 0 ? b : 0), 0);
+};
 
 positiveSum([1, -2, 3, 4, 5]);
- //returns: 13
-
+//returns: 13
 
 /*
 
@@ -38,5 +36,3 @@ const positiveSum = (arr) => {
 
 
   */
-
-
