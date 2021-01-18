@@ -16,7 +16,10 @@ const positiveSum = (arr) => {
     return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
  }
 
-//with a for of loop:
+/*
+
+with a for of loop:
+
 const positiveSum = (arr) => {
     let res = 0;
     for (let num of arr) {
@@ -24,4 +27,7 @@ const positiveSum = (arr) => {
     }
     return res;
   };
+
+  */
+
 
