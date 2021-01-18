@@ -33,6 +33,10 @@ const positiveSum = (arr) => {
     return res;
   };
 
+  positiveSum([1, -2, 3, 4, 5]);
+ //returns: 13
+
+
   */
 
 
