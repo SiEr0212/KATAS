@@ -25,3 +25,9 @@ removeSmallest([5,3,2,1,4]) = [5,3,2,4]
 removeSmallest([2,2,1,2,1]) = [2,2,2,1]
 */
 //My solution:
+
+
+const removeSmallest = (numbers) => {
+    let indexOfMin = numbers.indexOf(Math.min(...numbers));
+    return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
+  };
