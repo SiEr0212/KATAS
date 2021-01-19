@@ -32,4 +32,5 @@ const removeSmallest = (numbers) => {
     return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
   };
 
-  removeSmallest([5, 3, 2, 1, 4]); // [5,3,2,4]
+removeSmallest([5, 3, 2, 1, 4]); 
+//returns: [5,3,2,4]
