@@ -1,2 +1,3 @@
 /*
+No zeros for heros
 */
