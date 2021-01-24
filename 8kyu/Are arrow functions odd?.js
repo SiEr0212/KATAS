@@ -1,2 +1,3 @@
 /*
+Are arrow functions odd?
 */
