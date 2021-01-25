@@ -23,4 +23,5 @@ const highAndLow = (numbers) => {
     return Math.max(...numbersArray) + " " + Math.min(...numbersArray);
   };
 
-highAndLow("1 2 3 4 5"); // return "5 1"
+highAndLow("1 2 3 4 5"); 
+//returns: "5 1"
