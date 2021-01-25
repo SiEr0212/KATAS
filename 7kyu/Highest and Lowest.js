@@ -19,9 +19,9 @@ Output string must be two numbers separated by a single space, and highest numbe
 //My Solution:
 
 const highAndLow = (numbers) => {
-    let numbersArray = numbers.split(" ").map((i) => Number(i));
-    return Math.max(...numbersArray) + " " + Math.min(...numbersArray);
-  };
+  let numbersArray = numbers.split(" ").map((i) => Number(i));
+  return Math.max(...numbersArray) + " " + Math.min(...numbersArray);
+};
 
-highAndLow("1 2 3 4 5"); 
+highAndLow("1 2 3 4 5");
 //returns: "5 1"
