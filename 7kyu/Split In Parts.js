@@ -32,4 +32,4 @@ const splitInParts = (s, partLength) => {
   
 
   splitInParts("supercalifragilisticexpialidocious", 3);
-  //"sup erc ali fra gil ist ice xpi ali doc iou s")
+  //returns: "sup erc ali fra gil ist ice xpi ali doc iou s"
