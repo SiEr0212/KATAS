@@ -21,3 +21,12 @@ String has no spaces
 Size is always positive
 */
 //My solution:
+
+const splitInParts = (s, partLength) => {
+    return s
+      .split("")
+      .map((c, i) => ((i + 1) % partLength ? c : `${c} `))
+      .join("")
+      .trim();
+  };
+  
