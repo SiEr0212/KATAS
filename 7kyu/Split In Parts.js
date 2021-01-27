@@ -23,13 +23,12 @@ Size is always positive
 //My solution:
 
 const splitInParts = (s, partLength) => {
-    return s
-      .split("")
-      .map((c, i) => ((i + 1) % partLength ? c : `${c} `))
-      .join("")
-      .trim();
-  };
-  
+  return s
+    .split("")
+    .map((c, i) => ((i + 1) % partLength ? c : `${c} `))
+    .join("")
+    .trim();
+};
 
-  splitInParts("supercalifragilisticexpialidocious", 3);
-  //returns: "sup erc ali fra gil ist ice xpi ali doc iou s"
+splitInParts("supercalifragilisticexpialidocious", 3);
+//returns: "sup erc ali fra gil ist ice xpi ali doc iou s"
