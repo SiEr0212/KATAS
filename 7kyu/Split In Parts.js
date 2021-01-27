@@ -30,3 +30,6 @@ const splitInParts = (s, partLength) => {
       .trim();
   };
   
+
+  splitInParts("supercalifragilisticexpialidocious", 3);
+  //"sup erc ali fra gil ist ice xpi ali doc iou s")
