@@ -14,3 +14,14 @@ For empty string return:
 Happy coding! :)
 */
 //My solution:
+
+const longestRepetition = (s) => {
+    if(s==='') return ["", 0]
+    let result = [null, 0];
+    for (let i = 0; i < s.length; null) {
+      let start = i++;
+      while (i < s.length && s[i] === s[start]) i++;
+      if (i - start > result[1]) result = [s[start], i - start];
+    }
+    return result;
+  };
