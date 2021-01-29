@@ -25,3 +25,6 @@ const longestRepetition = (s) => {
     }
     return result;
   };
+
+  longestRepetition("aaaabb"); 
+  //    ["a",4] 
