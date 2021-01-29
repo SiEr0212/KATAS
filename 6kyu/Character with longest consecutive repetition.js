@@ -13,3 +13,4 @@ For empty string return:
 ["", 0]
 Happy coding! :)
 */
+//My solution:
