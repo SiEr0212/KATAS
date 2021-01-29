@@ -27,4 +27,4 @@ const longestRepetition = (s) => {
   };
 
   longestRepetition("aaaabb"); 
-  //    ["a",4] 
+  //returns: ["a",4] 
