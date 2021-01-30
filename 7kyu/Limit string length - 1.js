@@ -16,9 +16,8 @@ solution('Test', 8)           --> 'Test'
 //My solution:
 
 const solution = (string, limit) => {
-    return string.length > limit ? string.substr(0, limit) + "..." : string;
-  };
+  return string.length > limit ? string.substr(0, limit) + "..." : string;
+};
 
-solution("Simon Ertel", 5); 
+solution("Simon Ertel", 5);
 //returns: 'Simon...'
-
