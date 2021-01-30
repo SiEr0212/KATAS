@@ -13,3 +13,4 @@ solution('Testing String', 3) --> 'Tes...'
 solution('Testing String', 8) --> 'Testing ...'
 solution('Test', 8)           --> 'Test'
 */
+//My solution:
