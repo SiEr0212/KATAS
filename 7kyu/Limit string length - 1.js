@@ -18,4 +18,6 @@ solution('Test', 8)           --> 'Test'
 const solution = (string, limit) => {
     return string.length > limit ? string.substr(0, limit) + "..." : string;
   };
-  
+
+solution("Simon Ertel", 5); //'Simon...'
+
