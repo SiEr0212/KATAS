@@ -14,3 +14,8 @@ solution('Testing String', 8) --> 'Testing ...'
 solution('Test', 8)           --> 'Test'
 */
 //My solution:
+
+const solution = (string, limit) => {
+    return string.length > limit ? string.substr(0, limit) + "..." : string;
+  };
+  
