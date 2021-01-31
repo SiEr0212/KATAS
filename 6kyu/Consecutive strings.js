@@ -1,2 +1,3 @@
 /*
+Consecutive strings'
 */
