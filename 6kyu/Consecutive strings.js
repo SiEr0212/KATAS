@@ -28,3 +28,4 @@ n being the length of the string array, if n = 0 or k > n or k <= 0 return "".
 Note
 consecutive strings : follow one after another without an interruption
 */
+//My solution:
