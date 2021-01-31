@@ -43,4 +43,4 @@ const longestConsec = (strarr, k) => {
   };
 
   longestConsec(["zone", "abigail", "theta", "form", "libe", "zas"], 2); 
-  //, "abigailtheta")
+  //returns:"abigailtheta"
