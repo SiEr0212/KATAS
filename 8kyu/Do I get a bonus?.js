@@ -18,4 +18,5 @@ const bonusTime = (salary, bonus) => {
     return bonus ? `£${salary * 10}` : `£${salary}`;
   };
 
-bonusTime(10000, true); //, '£100000');
+bonusTime(10000, true);
+ //, '£100000'
