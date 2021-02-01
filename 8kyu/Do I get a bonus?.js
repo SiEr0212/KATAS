@@ -19,4 +19,4 @@ const bonusTime = (salary, bonus) => {
   };
 
 bonusTime(10000, true);
- //, '£100000'
+ //returns: '£100000'
