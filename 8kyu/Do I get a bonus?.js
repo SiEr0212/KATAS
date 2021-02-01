@@ -13,3 +13,7 @@ Return the total figure the individual will receive as a string prefixed with "�
 "$" (C#, C++, Ruby, Clojure, Elixir, PHP, Python, Haskell and Lua) or "¥" (Rust).
 */
 //My solution:
+
+const bonusTime = (salary, bonus) => {
+    return bonus ? `£${salary * 10}` : `£${salary}`;
+  };
