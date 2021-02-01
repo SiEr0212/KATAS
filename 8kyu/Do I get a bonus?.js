@@ -17,3 +17,5 @@ Return the total figure the individual will receive as a string prefixed with "�
 const bonusTime = (salary, bonus) => {
     return bonus ? `£${salary * 10}` : `£${salary}`;
   };
+
+bonusTime(10000, true); //, '£100000');
