@@ -15,8 +15,8 @@ Return the total figure the individual will receive as a string prefixed with "�
 //My solution:
 
 const bonusTime = (salary, bonus) => {
-    return bonus ? `£${salary * 10}` : `£${salary}`;
-  };
+  return bonus ? `£${salary * 10}` : `£${salary}`;
+};
 
 bonusTime(10000, true);
- //returns: '£100000'
+//returns: '£100000'
