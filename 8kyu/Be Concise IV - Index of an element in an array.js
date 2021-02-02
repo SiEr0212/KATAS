@@ -9,3 +9,7 @@ Provided is a function find which accepts two parameters in the following order:
 (no more than 85) You may assume that all array elements are unique.
 */
 //My solution:
+
+const find = (arr, el) => {
+    return arr.includes(el) ? arr.indexOf(el) : "Not found";
+  };
