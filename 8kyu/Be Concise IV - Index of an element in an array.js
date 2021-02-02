@@ -16,5 +16,6 @@ const find = (arr, el) => {
 
 var array = [2, 3, 3, 7, 11];
 
-find(array, 5); //, 2)
+find(array, 5); 
+//returns : 2
   
