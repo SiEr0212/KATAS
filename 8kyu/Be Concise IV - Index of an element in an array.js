@@ -13,3 +13,8 @@ Provided is a function find which accepts two parameters in the following order:
 const find = (arr, el) => {
     return arr.includes(el) ? arr.indexOf(el) : "Not found";
   };
+
+var array = [2, 3, 3, 7, 11];
+
+find(array, 5); //, 2)
+  
