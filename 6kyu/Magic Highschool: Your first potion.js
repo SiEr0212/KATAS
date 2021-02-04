@@ -79,3 +79,5 @@ var recipes = [
     console.log(res);
     return res;
   };
+
+  getIngredients(recipes, "invisibility potion"); //, {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
