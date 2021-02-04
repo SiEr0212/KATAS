@@ -80,4 +80,5 @@ var recipes = [
     return res;
   };
 
-  getIngredients(recipes, "invisibility potion"); //, {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
+  getIngredients(recipes, "invisibility potion"); 
+  //returns: {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
