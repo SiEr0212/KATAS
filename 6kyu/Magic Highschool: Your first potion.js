@@ -14,3 +14,4 @@ final: the name of the final compound/potion to get
 The function should output an object, whose keys are the ingredient name and their values their quantity
 If your grimoire doesn't include any recipe for the final compound, you should return null
 */
+//My solution:
