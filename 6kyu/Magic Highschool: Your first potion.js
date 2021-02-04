@@ -15,3 +15,67 @@ The function should output an object, whose keys are the ingredient name and the
 If your grimoire doesn't include any recipe for the final compound, you should return null
 */
 //My solution:
+
+var recipes = [
+    {
+      ingredients: [
+        ["troll nail", 2],
+        ["dewdrop", 4],
+      ],
+      result: "foot-smelling potion",
+    },
+    {
+      ingredients: [
+        ["foot-smelling potion", 3],
+        ["siren teardrop", 1],
+      ],
+      result: "invisibility potion",
+    },
+    {
+      ingredients: [
+        ["reindeer hair", 2],
+        ["pine essence", 1],
+        ["moonshine essence", 2],
+      ],
+      result: "winterheat potion",
+    },
+    {
+      ingredients: [
+        ["pine resin", 3],
+        ["pure alcohol", 2],
+      ],
+      result: "pine essence",
+    },
+  ];
+  
+  const getIngredients = (recipes, final) => {
+    let check = [];
+    for (let recipe of recipes) {
+      //console.log(recipe.result)
+      if (recipe.result === final) {
+        check = recipe.ingredients;
+      }
+    }
+    //console.log(check)
+    for (let potion of recipes) {
+      //console.log(potion.result)
+      for (let ingredient of check) {
+        //console.log(ingredient[0])
+        if (ingredient[0] === potion.result) {
+          //console.log(potion.ingredients)
+          for (let amount of potion.ingredients) {
+            //console.log(amount[1])
+            // console.log(amount[1]*ingredient[1])
+            let multiplicator = amount[1] * ingredient[1];
+            //console.log(multiplicator)
+            //console.log(potion.ingredients)
+            amount.splice(1, 1, multiplicator);
+          }
+          check.splice(0, 1, potion.ingredients);
+        }
+      }
+    }
+    let res = check.reduce((a, b) => a.concat(b), []);
+    console.log(res);
+    return res;
+  };
