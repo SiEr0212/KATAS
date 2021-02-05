@@ -75,10 +75,17 @@ const getIngredients = (recipes, final) => {
       }
     }
   }
-  let res = check.reduce((a, b) => a.concat(b), []);
-  console.log(res);
-  return res;
-};
+  //console.log(check)
+  let res = check.flat(1) 
+ 
+  console.log(res)
+  //check.reduce((a, b) => a.concat(b), []);
+  //const obj = Object.fromEntries(res);
+  //return obj;
+  const convertArrayToObject = (res, key) => 
+  res.reduce((acc, curr) =>(acc[item[key]] = item, acc), {});
+  
+  return convertArrayToObject[1]
+}
 
-getIngredients(recipes, "invisibility potion");
-//returns: {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
+getIngredients(recipes, "invisibility potion"); //, {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
