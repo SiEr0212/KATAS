@@ -51,41 +51,24 @@ var recipes = [
 const getIngredients = (recipes, final) => {
   let check = [];
   for (let recipe of recipes) {
-    //console.log(recipe.result)
     if (recipe.result === final) {
       check = recipe.ingredients;
     }
   }
-  //console.log(check)
+
   for (let potion of recipes) {
-    //console.log(potion.result)
     for (let ingredient of check) {
-      //console.log(ingredient[0])
       if (ingredient[0] === potion.result) {
-        //console.log(potion.ingredients)
         for (let amount of potion.ingredients) {
-          //console.log(amount[1])
-          // console.log(amount[1]*ingredient[1])
           let multiplicator = amount[1] * ingredient[1];
-          //console.log(multiplicator)
-          //console.log(potion.ingredients)
           amount.splice(1, 1, multiplicator);
         }
         check.splice(0, 1, potion.ingredients);
       }
     }
   }
-  //console.log(check)
-  let res = check.flat(1) 
- 
-  console.log(res)
-  //check.reduce((a, b) => a.concat(b), []);
-  //const obj = Object.fromEntries(res);
-  //return obj;
-  const convertArrayToObject = (res, key) => 
-  res.reduce((acc, curr) =>(acc[item[key]] = item, acc), {});
-  
-  return convertArrayToObject[1]
-}
+
+  return check.flat(1);
+};
 
 getIngredients(recipes, "invisibility potion"); //, {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
