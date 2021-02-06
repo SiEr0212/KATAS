@@ -49,7 +49,6 @@ var recipes = [
   },
 ];
 
-
 const getIngredients = (recipes, final) => {
   let check = [];
   for (let recipe of recipes) {
@@ -57,7 +56,6 @@ const getIngredients = (recipes, final) => {
       check = recipe.ingredients;
     }
   }
-
   for (let potion of recipes) {
     for (let ingredient of check) {
       if (ingredient[0] === potion.result) {
