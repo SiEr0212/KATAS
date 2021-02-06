@@ -73,4 +73,5 @@ const getIngredients = (recipes, final) => {
 };
 
 getIngredients(recipes, "invisibility potion"); 
+
 //returns: {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
