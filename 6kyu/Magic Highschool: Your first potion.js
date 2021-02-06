@@ -49,6 +49,7 @@ var recipes = [
   },
 ];
 
+
 const getIngredients = (recipes, final) => {
   let check = [];
   for (let recipe of recipes) {
