@@ -16,7 +16,6 @@ If your grimoire doesn't include any recipe for the final compound, you should r
 */
 //My solution:
 
-
 var recipes = [
   {
     ingredients: [
@@ -56,35 +55,30 @@ const getIngredients = (recipes, final) => {
       check = recipe.ingredients;
     }
   }
-  
+
   for (let potion of recipes) {
-    
     for (let ingredient of check) {
-    
       if (ingredient[0] === potion.result) {
-     
         for (let amount of potion.ingredients) {
-          
           let multiplicator = amount[1] * ingredient[1];
-          
+
           amount.splice(1, 1, multiplicator);
         }
         check.splice(0, 1, potion.ingredients);
       }
     }
   }
-  
-  let flattened = check.flat(Infinity)//.slice(0,2)
+
+  let flattened = check.flat(Infinity); //.slice(0,2)
   let pairs = [];
-  flattened.reduce(function(result, value, index, array) {
-  if (index % 2 === 0)
-    pairs.push(array.slice(index, index + 2));
-}, []);
-  pairs.sort((a, b) => (a > b) ? 1 : -1)
+  flattened.reduce(function (result, value, index, array) {
+    if (index % 2 === 0) pairs.push(array.slice(index, index + 2));
+  }, []);
+  pairs.sort((a, b) => (a > b ? 1 : -1));
   const obj = Object.fromEntries(pairs);
   return obj;
-}
+};
 
-getIngredients(recipes, "invisibility potion"); 
+getIngredients(recipes, "invisibility potion");
 
 //=>returns: {"dewdrop": 12, "troll nail": 6, "siren teardrop": 1},
