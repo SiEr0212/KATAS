@@ -61,7 +61,6 @@ const getIngredients = (recipes, final) => {
       if (ingredient[0] === potion.result) {
         for (let amount of potion.ingredients) {
           let multiplicator = amount[1] * ingredient[1];
-
           amount.splice(1, 1, multiplicator);
         }
         check.splice(0, 1, potion.ingredients);
