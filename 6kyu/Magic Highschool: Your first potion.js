@@ -67,7 +67,6 @@ const getIngredients = (recipes, final) => {
       }
     }
   }
-
   let flattened = check.flat(Infinity); //.slice(0,2)
   let pairs = [];
   flattened.reduce(function (result, value, index, array) {
