@@ -10,3 +10,6 @@ Example:
 */
 //My solution:
 
+const digitize = (n) => {
+    return (n + '').split('').reverse().map(x => x * 1)  
+   }
