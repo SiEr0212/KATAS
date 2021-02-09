@@ -15,5 +15,5 @@ const digitize = (n) => {
    }
 
 digitize(35231)
-   //,[1,3,2,5,3]);
+//,returns: [1,3,2,5,3];
  
