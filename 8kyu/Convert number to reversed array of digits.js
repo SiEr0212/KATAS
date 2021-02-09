@@ -13,3 +13,7 @@ Example:
 const digitize = (n) => {
     return (n + '').split('').reverse().map(x => x * 1)  
    }
+
+digitize(35231)
+   //,[1,3,2,5,3]);
+ 
