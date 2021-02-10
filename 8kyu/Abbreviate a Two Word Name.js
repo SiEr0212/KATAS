@@ -24,3 +24,9 @@ const abbrevName = (name) => {
     }
     return res.join(".");
   };
+
+/* shorter approach with map: 
+const abbrevName = (name) => {
+  return name.split(" ").map(name => name[0].toUpperCase()).join(".");
+};
+*/
