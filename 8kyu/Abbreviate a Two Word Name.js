@@ -15,3 +15,12 @@ Sam Harris => S.H
 Patrick Feeney => P.F
 */
 //My solution:
+
+const abbrevName = (name) => {
+    const names = name.split(" ");
+    let res = [];
+    for (let name of names) {
+      res.push(name.substring(0, 1).toUpperCase());
+    }
+    return res.join(".");
+  };
