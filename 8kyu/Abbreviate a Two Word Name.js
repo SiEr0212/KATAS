@@ -17,13 +17,13 @@ Patrick Feeney => P.F
 //My solution:
 
 const abbrevName = (name) => {
-    const names = name.split(" ");
-    let res = [];
-    for (let name of names) {
-      res.push(name.substring(0, 1).toUpperCase());
-    }
-    return res.join(".");
-  };
+  const names = name.split(" ");
+  let res = [];
+  for (let name of names) {
+    res.push(name.substring(0, 1).toUpperCase());
+  }
+  return res.join(".");
+};
 
 /* shorter approach with map: 
 const abbrevName = (name) => {
@@ -31,5 +31,5 @@ const abbrevName = (name) => {
 };
 */
 
-abbrevName("Sam Harris"); 
-//returns: "S.H" 
+abbrevName("Sam Harris");
+//returns: "S.H"
