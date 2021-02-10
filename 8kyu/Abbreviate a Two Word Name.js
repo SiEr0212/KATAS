@@ -31,4 +31,5 @@ const abbrevName = (name) => {
 };
 */
 
-abbrevName("Sam Harris"); //, "S.H");
+abbrevName("Sam Harris"); 
+//returns: "S.H" 
