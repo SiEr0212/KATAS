@@ -14,3 +14,6 @@ Can you help her?
 const greet = (name) => {
     return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!";
   };
+
+  greet("Jane"); //"Hello, Jane!");
+  greet("Johnny");
