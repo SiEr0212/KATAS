@@ -15,5 +15,5 @@ const greet = (name) => {
     return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!";
   };
 
-  greet("Jane"); //"Hello, Jane!");
-  greet("Johnny");
+  greet("Jane"); //returns: "Hello, Jane!"
+  greet("Johnny"); // returns: "Hello, my love!"
