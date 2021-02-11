@@ -9,3 +9,4 @@ She added a special case to her function, but she made a mistake.
 
 Can you help her?
 */
+//My solution:
