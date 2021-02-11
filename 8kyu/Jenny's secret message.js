@@ -10,3 +10,7 @@ She added a special case to her function, but she made a mistake.
 Can you help her?
 */
 //My solution:
+
+const greet = (name) => {
+    return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!";
+  };
