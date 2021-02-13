@@ -23,12 +23,12 @@ and floor values between 0 and 30.
 //My solution:
 
 const elevatorDistance = (array) => {
-    let res = [];
-    for (let i = 0; i < array.length - 1; i++) {
-      res.push(array[i] - array[i + 1]);
-    }
-    return res.map(Math.abs).reduce((a, b) => a + b, 0);
-  };
+  let res = [];
+  for (let i = 0; i < array.length - 1; i++) {
+    res.push(array[i] - array[i + 1]);
+  }
+  return res.map(Math.abs).reduce((a, b) => a + b, 0);
+};
 
-  elevatorDistance([7, 1, 7, 1]); 
-  //returns: 18
+elevatorDistance([7, 1, 7, 1]);
+//returns: 18
