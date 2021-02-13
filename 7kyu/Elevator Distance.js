@@ -30,4 +30,5 @@ const elevatorDistance = (array) => {
     return res.map(Math.abs).reduce((a, b) => a + b, 0);
   };
 
-  elevatorDistance([7, 1, 7, 1]); //, 18);
+  elevatorDistance([7, 1, 7, 1]); 
+  //, 18);
