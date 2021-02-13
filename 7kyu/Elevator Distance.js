@@ -31,4 +31,4 @@ const elevatorDistance = (array) => {
   };
 
   elevatorDistance([7, 1, 7, 1]); 
-  //, 18);
+  //returns: 18
