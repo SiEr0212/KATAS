@@ -15,3 +15,17 @@ vowel2index('') == ''
 Your function should be case insensitive to the vowels.
 */
 //My solution: 
+
+const vowel2index = (str) => {
+    let res = "";
+    for (let i = 0; i < str.length; i++) {
+      str[i].toLowerCase() === "a" ||
+      str[i].toLowerCase() === "e" ||
+      str[i].toLowerCase() === "i" ||
+      str[i].toLowerCase() === "o" ||
+      str[i].toLowerCase() === "u"
+        ? (res += i + 1)
+        : (res += str[i]);
+    }
+    return res;
+  };
