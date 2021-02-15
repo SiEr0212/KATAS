@@ -14,3 +14,4 @@ vowel2index('Codewars is the best site in the world') == 'C2d4w6rs 10s th15 b18s
 vowel2index('') == ''
 Your function should be case insensitive to the vowels.
 */
+//My solution: 
