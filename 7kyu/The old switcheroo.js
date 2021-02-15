@@ -29,3 +29,5 @@ const vowel2index = (str) => {
     }
     return res;
   };
+
+  vowel2index("this is my string"); //,'th3s 6s my str15ng')
