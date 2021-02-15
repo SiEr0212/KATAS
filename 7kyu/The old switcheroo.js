@@ -31,4 +31,4 @@ const vowel2index = (str) => {
   };
 
   vowel2index("this is my string"); 
-  //,'th3s 6s my str15ng')
+  //returns: 'th3s 6s my str15ng'
