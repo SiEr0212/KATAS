@@ -18,5 +18,5 @@ const last = (x) => {
   };
 
 last("man i need a taxi up to ubud");
-//['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']);
+//returns: ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']);
   
