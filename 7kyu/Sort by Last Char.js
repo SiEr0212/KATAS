@@ -16,4 +16,7 @@ All inputs will be valid.
 const last = (x) => {
     return x.split(" ").sort((a, b) => a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1));
   };
+
+last("man i need a taxi up to ubud");
+//['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']);
   
