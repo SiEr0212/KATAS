@@ -34,3 +34,5 @@ onst gordon = (a) => {
     }
     return res.split(" ").join("!!!! ").toUpperCase() + "!!!!";
   };
+
+  gordon('What feck damn cake'), 'WH@T!!!! F*CK!!!! D@MN!!!! C@K*!!!!')
