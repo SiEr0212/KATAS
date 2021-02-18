@@ -14,3 +14,23 @@ Any letter 'a' or 'A' should become '@',
 Any other vowel should become '*'.
 */
 //Mu solution: 
+
+onst gordon = (a) => {
+    let res = "";
+    for (let char of a) {
+      if (char.toLowerCase() === "a") {
+        res += "@";
+      }
+      if (
+        char.toLowerCase() === "e" ||
+        char.toLowerCase() === "i" ||
+        char.toLowerCase() === "o" ||
+        char.toLowerCase() === "u"
+      ) {
+        res += "*";
+      } else if (char.toLowerCase() !== "a") {
+        res += char;
+      }
+    }
+    return res.split(" ").join("!!!! ").toUpperCase() + "!!!!";
+  };
