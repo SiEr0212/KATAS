@@ -13,27 +13,27 @@ Obviously the words should be Caps, Every word should end with '!!!!',
 Any letter 'a' or 'A' should become '@', 
 Any other vowel should become '*'.
 */
-//Mu solution: 
+//Mu solution:
 
-onst gordon = (a) => {
-    let res = "";
-    for (let char of a) {
-      if (char.toLowerCase() === "a") {
-        res += "@";
-      }
-      if (
-        char.toLowerCase() === "e" ||
-        char.toLowerCase() === "i" ||
-        char.toLowerCase() === "o" ||
-        char.toLowerCase() === "u"
-      ) {
-        res += "*";
-      } else if (char.toLowerCase() !== "a") {
-        res += char;
-      }
+const gordon = (a) => {
+  let res = "";
+  for (let char of a) {
+    if (char.toLowerCase() === "a") {
+      res += "@";
     }
-    return res.split(" ").join("!!!! ").toUpperCase() + "!!!!";
-  };
+    if (
+      char.toLowerCase() === "e" ||
+      char.toLowerCase() === "i" ||
+      char.toLowerCase() === "o" ||
+      char.toLowerCase() === "u"
+    ) {
+      res += "*";
+    } else if (char.toLowerCase() !== "a") {
+      res += char;
+    }
+  }
+  return res.split(" ").join("!!!! ").toUpperCase() + "!!!!";
+};
 
-  gordon('What feck damn cake');
-  //returns:'WH@T!!!! F*CK!!!! D@MN!!!! C@K*!!!!'
+gordon("What feck damn cake");
+//returns:'WH@T!!!! F*CK!!!! D@MN!!!! C@K*!!!!'
