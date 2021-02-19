@@ -16,9 +16,11 @@ For Example:
 //My solution:
 
 const sumOfMinimums = (arr) => {
-    let res = [];
-    for (let el of arr) {
-      res.push(Math.min(...el));
-    }
-    return res.reduce((prev, curr) => prev + curr);
-  };
+  let res = [];
+  for (let el of arr) {
+    res.push(Math.min(...el));
+  }
+  return res.reduce((prev, curr) => prev + curr);
+};
+
+
