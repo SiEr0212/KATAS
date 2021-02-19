@@ -13,3 +13,4 @@ For Example:
   [20, 21, 34, 56, 100]  // minimum value of row is 20
 ]
 */
+//My solution:
