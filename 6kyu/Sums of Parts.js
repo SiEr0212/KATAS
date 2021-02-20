@@ -30,3 +30,9 @@ parts_sums(ls) ->
 [10037855, 9293730, 9292795, 9292388, 9291934, 9291504, 9291414, 9291270, 2581057, 2580168, 2579358, 0]
 */
 //My solution:
+
+const partsSums = (ls) => {
+    let arr = [0];
+    ls.reverse().forEach(v => arr.push(arr[arr.length - 1] + v));
+    return arr.reverse();
+  }
