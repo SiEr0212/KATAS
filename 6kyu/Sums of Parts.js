@@ -36,3 +36,6 @@ const partsSums = (ls) => {
     ls.reverse().forEach(v => arr.push(arr[arr.length - 1] + v));
     return arr.reverse();
   }
+
+partsSums([1, 2, 3, 4, 5, 6]);
+ //[21, 20, 18, 15, 11, 6, 0]);
