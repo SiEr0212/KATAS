@@ -32,10 +32,10 @@ parts_sums(ls) ->
 //My solution:
 
 const partsSums = (ls) => {
-    let arr = [0];
-    ls.reverse().forEach(v => arr.push(arr[arr.length - 1] + v));
-    return arr.reverse();
-  }
+  let arr = [0];
+  ls.reverse().forEach((v) => arr.push(arr[arr.length - 1] + v));
+  return arr.reverse();
+};
 
 partsSums([1, 2, 3, 4, 5, 6]);
- //returns: [21, 20, 18, 15, 11, 6, 0]
+//returns: [21, 20, 18, 15, 11, 6, 0]
