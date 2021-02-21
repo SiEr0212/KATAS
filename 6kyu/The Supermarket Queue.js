@@ -39,3 +39,13 @@ P.S. The situation in this kata can be likened to the more-computer-science-rela
 with relation to running multiple processes at the same time: https://en.wikipedia.org/wiki/Thread_pool
 */
 //My solution:
+
+const queueTime = (customers, n) => {
+    if (customers == '') return 0;
+    let aux = customers.splice(0, n)
+    for (let i = 0; i < customers.length; i++) {
+        let indexMinValue = aux.indexOf(Math.min(...aux))
+        aux[indexMinValue] += customers[i]
+    }
+    return Math.max(...aux)
+}
