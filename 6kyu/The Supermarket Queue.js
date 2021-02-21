@@ -41,14 +41,14 @@ with relation to running multiple processes at the same time: https://en.wikiped
 //My solution:
 
 const queueTime = (customers, n) => {
-    if (customers == '') return 0;
-    let aux = customers.splice(0, n)
-    for (let i = 0; i < customers.length; i++) {
-        let indexMinValue = aux.indexOf(Math.min(...aux))
-        aux[indexMinValue] += customers[i]
-    }
-    return Math.max(...aux)
-}
+  if (customers == "") return 0;
+  let aux = customers.splice(0, n);
+  for (let i = 0; i < customers.length; i++) {
+    let indexMinValue = aux.indexOf(Math.min(...aux));
+    aux[indexMinValue] += customers[i];
+  }
+  return Math.max(...aux);
+};
 
-queueTime([10,2,3,3], 2) 
+queueTime([10, 2, 3, 3], 2);
 //returns: 10
