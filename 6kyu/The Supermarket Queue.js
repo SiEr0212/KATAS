@@ -50,4 +50,5 @@ const queueTime = (customers, n) => {
     return Math.max(...aux)
 }
 
-queueTime([10,2,3,3], 2) //, 10)
+queueTime([10,2,3,3], 2) 
+//returns: 10
