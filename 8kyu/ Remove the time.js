@@ -21,3 +21,6 @@ Assume shortenToDate's output will be the shortened string, e.g., "Friday May 2"
 const shortenToDate = (longDate) => {
     return longDate.split(',')[0]
   }
+
+  shortenToDate("Monday December 2, 11pm")
+  //, "Monday December 2")
