@@ -22,5 +22,5 @@ const shortenToDate = (longDate) => {
     return longDate.split(',')[0]
   }
 
-  shortenToDate("Monday December 2, 11pm")
-  //, "Monday December 2")
+shortenToDate("Monday December 2, 11pm")
+//, "Monday December 2"
