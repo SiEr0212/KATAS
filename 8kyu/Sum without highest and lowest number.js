@@ -24,4 +24,5 @@ const sumArray = (array) => {
           .reduce((a, b) => a + b);
   };
 
-sumArray([6, 0, 1, 10, 10]); // 17)
+sumArray([6, 0, 1, 10, 10]); 
+//returns: 17
