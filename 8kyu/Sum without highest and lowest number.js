@@ -23,3 +23,5 @@ const sumArray = (array) => {
           .splice(1, array.length - 2)
           .reduce((a, b) => a + b);
   };
+
+sumArray([6, 0, 1, 10, 10]); // 17)
