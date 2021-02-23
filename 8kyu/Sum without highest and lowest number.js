@@ -13,3 +13,4 @@ Example:
 
 If array is empty, null or None, or if only 1 Element exists, return 0.
 */
+//My solution:
