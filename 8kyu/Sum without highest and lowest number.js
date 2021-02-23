@@ -14,3 +14,12 @@ Example:
 If array is empty, null or None, or if only 1 Element exists, return 0.
 */
 //My solution:
+
+const sumArray = (array) => {
+    return !array || array.length < 4
+      ? 0
+      : array
+          .sort((a, b) => a - b)
+          .splice(1, array.length - 2)
+          .reduce((a, b) => a + b);
+  };
