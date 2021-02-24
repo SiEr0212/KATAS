@@ -35,4 +35,4 @@ const calc = (x) => {
   };
 
   calc("abcdef"); 
-  //, 6)
+  //returns: 6
