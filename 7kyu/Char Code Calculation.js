@@ -38,6 +38,7 @@ const calc = (x) => {
     .map((x) => (x === "7" ? "1" : x))
     .map((c) => Number(c))
     .reduce((a, c) => a + c);
+
   return sum1 - total2;
 };
 
