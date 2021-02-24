@@ -34,4 +34,5 @@ const calc = (x) => {
     return sum1 - total2 
   };
 
-  calc("abcdef"); //, 6)
+  calc("abcdef"); 
+  //, 6)
