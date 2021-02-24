@@ -23,16 +23,23 @@ Then return the difference between the sum of the digits in total1 and total2:
 //My solution:
 
 const calc = (x) => {
-    let total1 = [];
-    let total1Joined = ''
-    for (let char of x) {
-      total1.push(char.charCodeAt())
-      total1Joined += char.charCodeAt()
-    }
-    let sum1 = total1Joined.split('').map(c => Number(c)).reduce((a, c) => a + c)
-    let total2 = total1Joined.split("").map((x) => (x === "7" ? "1" : x)).map(c => Number(c)).reduce((a, c) => a + c)
-    return sum1 - total2 
-  };
+  let total1 = [];
+  let total1Joined = "";
+  for (let char of x) {
+    total1.push(char.charCodeAt());
+    total1Joined += char.charCodeAt();
+  }
+  let sum1 = total1Joined
+    .split("")
+    .map((c) => Number(c))
+    .reduce((a, c) => a + c);
+  let total2 = total1Joined
+    .split("")
+    .map((x) => (x === "7" ? "1" : x))
+    .map((c) => Number(c))
+    .reduce((a, c) => a + c);
+  return sum1 - total2;
+};
 
-  calc("abcdef"); 
-  //returns: 6
+calc("abcdef");
+//returns: 6
