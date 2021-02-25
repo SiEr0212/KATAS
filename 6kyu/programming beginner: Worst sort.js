@@ -53,4 +53,5 @@ const correctResult = (resultOfJohn) =>{
     return notj.reverse().join('') + (notj.length > 0 && john.length > 0 ? ' ' : '') + john.slice(john.length/2).join('');
   }
 
-  
+  correctResult(resultOfJohn) //" say ell Johnho"
+
