@@ -45,3 +45,4 @@ Some examples:
  resultOfJohn=sortByJohn("Anne and John are good friends")
  correctResult(resultOfJohn) === "Ae ad  are gd frieds nnnJohnoon"
 */
+//My solution:
