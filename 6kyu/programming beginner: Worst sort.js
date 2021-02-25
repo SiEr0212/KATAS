@@ -47,12 +47,19 @@ Some examples:
 */
 //My solution:
 
-const correctResult = (resultOfJohn) =>{
-    resultOfJohn = resultOfJohn.slice(9).split('').filter((el, ix) => ix % 2 == 1);
-    let john = resultOfJohn.filter(el => 'John'.includes(el)), notj = resultOfJohn.filter(el => !'John'.includes(el));
-    return notj.reverse().join('') + (notj.length > 0 && john.length > 0 ? ' ' : '') + john.slice(john.length/2).join('');
-  }
+const correctResult = (resultOfJohn) => {
+  resultOfJohn = resultOfJohn
+    .slice(9)
+    .split("")
+    .filter((el, ix) => ix % 2 == 1);
+  let john = resultOfJohn.filter((el) => "John".includes(el)),
+    notj = resultOfJohn.filter((el) => !"John".includes(el));
+  return (
+    notj.reverse().join("") +
+    (notj.length > 0 && john.length > 0 ? " " : "") +
+    john.slice(john.length / 2).join("")
+  );
+};
 
-  correctResult(resultOfJohn) 
-  //returns: " say ell Johnho"
-
+correctResult(resultOfJohn);
+//returns: " say ell Johnho"
