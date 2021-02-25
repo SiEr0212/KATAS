@@ -46,3 +46,11 @@ Some examples:
  correctResult(resultOfJohn) === "Ae ad  are gd frieds nnnJohnoon"
 */
 //My solution:
+
+const correctResult = (resultOfJohn) =>{
+    resultOfJohn = resultOfJohn.slice(9).split('').filter((el, ix) => ix % 2 == 1);
+    let john = resultOfJohn.filter(el => 'John'.includes(el)), notj = resultOfJohn.filter(el => !'John'.includes(el));
+    return notj.reverse().join('') + (notj.length > 0 && john.length > 0 ? ' ' : '') + john.slice(john.length/2).join('');
+  }
+
+  
