@@ -19,3 +19,10 @@ time = 6.7---> litres = 3
 time = 11.8--> litres = 5
 */
 //My solution: 
+
+const litres = (time) => {
+    return Math.floor(time / 2);
+  };
+  
+  
+  
