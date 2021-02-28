@@ -25,4 +25,5 @@ const litres = (time) => {
   };
   
   
-litres(1787); //893
+litres(1787); 
+//returns: 893
