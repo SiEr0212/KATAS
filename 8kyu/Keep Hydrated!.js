@@ -18,12 +18,11 @@ time = 6.7---> litres = 3
 
 time = 11.8--> litres = 5
 */
-//My solution: 
+//My solution:
 
 const litres = (time) => {
-    return Math.floor(time / 2);
-  };
-  
-  
-litres(1787); 
+  return Math.floor(time / 2);
+};
+
+litres(1787);
 //returns: 893
