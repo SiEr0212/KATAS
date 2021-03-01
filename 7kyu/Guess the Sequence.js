@@ -14,10 +14,10 @@ Good luck!
 //My solution:
 
 const sequence = (x) => {
-    let res = [];
-    for (let i = 1; i <= x; i++) res.push(i);
-    return res.sort();
-  };
+  let res = [];
+  for (let i = 1; i <= x; i++) res.push(i);
+  return res.sort();
+};
 
-sequence(16); 
+sequence(16);
 //returns: [1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6, 7, 8, 9]
