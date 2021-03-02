@@ -20,5 +20,6 @@ const divCon = (x) => {
     );
   }
 
-  divCon([9, 3, "7", "3"]); //, 2);
+  divCon([9, 3, "7", "3"]); 
+  //returns: 2
 
