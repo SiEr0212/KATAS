@@ -19,3 +19,6 @@ const divCon = (x) => {
       string.map((s) => Number(s)).reduce((a, c) => a + c)
     );
   }
+
+  divCon([9, 3, "7", "3"]); //, 2);
+
