@@ -16,6 +16,7 @@ const maxRedigit = (num) => {
    return  num <= 0 || s.length !== 3 ? null : Number(s.split('').map(el => Number(el)).sort((a, b) => b - a).join(''))
   };
 
-  
+maxRedigit(123), 321, "123 => 321");
+
 
   
