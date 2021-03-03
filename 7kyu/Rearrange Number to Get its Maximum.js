@@ -7,6 +7,7 @@ Create function that takes one positive three digit integer and rearranges its d
 Assume that argument is integer. Return null (nil for ruby) if argument is not valid.
 
 maxRedigit(123); // returns 321
+maxRedigit(-1), null
 */
 //My solution:
 
