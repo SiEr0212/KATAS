@@ -19,3 +19,4 @@ The size will always be positive and will only use whole numbers.
 
 const stringy = size => "10".repeat(size).substring(0,size);
 
+stringy(12);
