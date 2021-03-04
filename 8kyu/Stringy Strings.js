@@ -17,7 +17,7 @@ The size will always be positive and will only use whole numbers.
  */
 //My solution:
 
-const stringy = size => "10".repeat(size).substring(0,size);
+const stringy = (size) => "10".repeat(size).substring(0, size);
 
 stringy(12);
 //returns: '101010101010'
