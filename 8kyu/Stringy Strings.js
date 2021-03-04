@@ -16,3 +16,6 @@ with size 12 should return : '101010101010'.
 The size will always be positive and will only use whole numbers.
  */
 //My solution:
+
+const stringy = size => "10".repeat(size).substring(0,size);
+
