@@ -16,14 +16,13 @@ XO("zzoo") => false
 //My solution:
 
 const XO = (str) => {
-    let counter = 0;
-    for (let char of str.toLowerCase()) {
-      if (char === "x") counter += 1;
-      if (char === "o") counter -= 1;
-    }
-    return counter > 0 || counter < 0 ? false : true;
-  };
+  let counter = 0;
+  for (let char of str.toLowerCase()) {
+    if (char === "x") counter += 1;
+    if (char === "o") counter -= 1;
+  }
+  return counter > 0 || counter < 0 ? false : true;
+};
 
-XO("ooxXm"); 
+XO("ooxXm");
 //returns: true
-  
