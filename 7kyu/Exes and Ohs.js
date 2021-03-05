@@ -25,5 +25,5 @@ const XO = (str) => {
   };
 
 XO("ooxXm"); 
-//true
+//returns: true
   
