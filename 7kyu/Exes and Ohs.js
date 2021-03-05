@@ -14,3 +14,13 @@ XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 XO("zzoo") => false
 */
 //My solution:
+
+const XO = (str) => {
+    let counter = 0;
+    for (let char of str.toLowerCase()) {
+      if (char === "x") counter += 1;
+      if (char === "o") counter -= 1;
+    }
+    return counter > 0 || counter < 0 ? false : true;
+  };
+  
