@@ -23,4 +23,7 @@ const XO = (str) => {
     }
     return counter > 0 || counter < 0 ? false : true;
   };
+
+XO("ooxXm"); 
+//true
   
