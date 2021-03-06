@@ -17,4 +17,5 @@ const reverseWords = (str) => {
     return str.split("").reverse().join("").split(" ").reverse().join(" ");
   };
 
-reverseWords("double  spaced  words"); //, 'elbuod  decaps  sdrow');
+reverseWords("double  spaced  words")
+ //elbuod  decaps  sdrow'
