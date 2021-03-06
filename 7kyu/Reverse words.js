@@ -12,3 +12,8 @@ Examples
 "double  spaces"      ==> "elbuod  secaps"
 */
 //My solution:
+
+const reverseWords = (str) => {
+    return str.split("").reverse().join("").split(" ").reverse().join(" ");
+  };
+  
