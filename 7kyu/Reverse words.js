@@ -18,4 +18,4 @@ const reverseWords = (str) => {
   };
 
 reverseWords("double  spaced  words")
- //elbuod  decaps  sdrow'
+ //returns: 'elbuod  decaps  sdrow'
