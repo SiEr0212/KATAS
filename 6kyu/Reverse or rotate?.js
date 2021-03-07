@@ -26,3 +26,28 @@ revrot("123456779", 0) --> ""
 revrot("563000655734469485", 4) --> "0365065073456944"
 */
 //My solution:
+
+const revrot = (str, sz) => {
+    if (sz <= 0 || str.length === 0) return "";
+    if (sz > str.length) return "";
+    let res = "";
+    res += str.charAt(0);
+    for (let i = 1; i < str.length; i++) {
+      (i + 1) % sz === 0 ? (res += str[i] + "_") : (res += str[i]);
+    }
+    let res2 = "";
+    let chunks = res.split("_").filter((word) => word.length === sz);
+    for (let chunk of chunks) {
+      let sum = chunk
+        .split("")
+        .map(Number)
+        .reduce((a, c) => a + c);
+      sum % 2 === 0
+        ? (res2 += chunk.toString().split("").reverse().join(""))
+        : (res2 +=
+            chunk.toString().substring(1, chunk.length) +
+            chunk.toString().substring(0, 1));
+    }
+    return res2;
+  };
+  revrot("563000655734469485", 4); //--> "0365065073456944"
