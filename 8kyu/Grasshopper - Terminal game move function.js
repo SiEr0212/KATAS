@@ -12,4 +12,8 @@ Create a function for the terminal game that takes the current position of the h
 Example:
 move(3, 6) should equal 15
 */
-//My sulution:
+//My solution:
+
+const move = (position, roll) => {
+    return position + roll * 2
+  }
