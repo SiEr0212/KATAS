@@ -18,4 +18,5 @@ const move = (position, roll) => {
     return position + roll * 2
   }
 
-  move(3, 6)//, 15
+move(3, 6)
+//returns: 15
