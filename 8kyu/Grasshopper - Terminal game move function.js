@@ -15,8 +15,8 @@ move(3, 6) should equal 15
 //My solution:
 
 const move = (position, roll) => {
-    return position + roll * 2
-  }
+  return position + roll * 2;
+};
 
-move(3, 6)
+move(3, 6);
 //returns: 15
