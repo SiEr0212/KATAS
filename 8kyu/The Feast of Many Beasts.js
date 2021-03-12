@@ -25,4 +25,5 @@ const feast = (beast, dish) => {
     );
   };
 
-  feast("chickadee", "chocolate cake"); //true)
+feast("chickadee", "chocolate cake"); 
+//returns: true
