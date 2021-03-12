@@ -24,3 +24,5 @@ const feast = (beast, dish) => {
       dished.substr(0, 1) + dished.substr(-1, 1)
     );
   };
+
+  feast("chickadee", "chocolate cake"); //true)
