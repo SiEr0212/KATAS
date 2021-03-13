@@ -17,13 +17,13 @@ They will not contain numerals.
 //My solution:
 
 const feast = (beast, dish) => {
-    let beasted = beast.split(" ").join("");
-    let dished = dish.split(" ").join("");
-    return (
-      beasted.substr(0, 1) + beasted.substr(-1, 1) ===
-      dished.substr(0, 1) + dished.substr(-1, 1)
-    );
-  };
+  let beasted = beast.split(" ").join("");
+  let dished = dish.split(" ").join("");
+  return (
+    beasted.substr(0, 1) + beasted.substr(-1, 1) ===
+    dished.substr(0, 1) + dished.substr(-1, 1)
+  );
+};
 
-feast("chickadee", "chocolate cake"); 
+feast("chickadee", "chocolate cake");
 //returns: true
