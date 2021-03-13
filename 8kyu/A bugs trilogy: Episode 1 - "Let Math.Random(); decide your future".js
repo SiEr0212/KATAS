@@ -18,3 +18,4 @@ This code is a mess! Would you help Pac to fix the code in time?
 
 (This might be helpful -> Math.random();)
  */
+//My solution:
