@@ -27,3 +27,4 @@ const yourFutureCareer = () => {
   };
 
 yourFutureCareer()
+//yourFutureCareer(0,71) returns: 'Full-Stack Developer'
