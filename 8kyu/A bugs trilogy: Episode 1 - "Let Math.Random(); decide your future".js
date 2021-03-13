@@ -21,10 +21,10 @@ This code is a mess! Would you help Pac to fix the code in time?
 //My solution:
 
 const yourFutureCareer = () => {
-    let career = Math.random();
-    if (career <= 0.32) return "FrontEnd Developer";
-    return career <= 0.65 ? "BackEnd Developer" : "Full-Stack Developer";
-  };
+  let career = Math.random();
+  if (career <= 0.32) return "FrontEnd Developer";
+  return career <= 0.65 ? "BackEnd Developer" : "Full-Stack Developer";
+};
 
-yourFutureCareer()
+yourFutureCareer();
 //yourFutureCareer(0,71) returns: 'Full-Stack Developer'
