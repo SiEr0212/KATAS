@@ -25,3 +25,5 @@ const yourFutureCareer = () => {
     if (career <= 0.32) return "FrontEnd Developer";
     return career <= 0.65 ? "BackEnd Developer" : "Full-Stack   Developer";
   };
+
+yourFutureCareer()
