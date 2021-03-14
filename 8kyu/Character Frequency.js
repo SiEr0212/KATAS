@@ -1,5 +1,5 @@
 /* 
 Character Frequency
 
-fro,:
+from codewars:
  */
