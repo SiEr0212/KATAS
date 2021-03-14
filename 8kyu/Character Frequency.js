@@ -1,7 +1,7 @@
 /* 
 Character Frequency
 
-from codewars:
+from codewars: https://www.codewars.com/kata/548ef5b7f33a646ea50000b2/train/javascript
 
 Description
 Welcome, Warrior! In this kata, you will get a message and you will need to get the frequency of each and every character!
