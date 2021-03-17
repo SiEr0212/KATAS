@@ -15,4 +15,5 @@ const hasUniqueChars = (str) => {
     return new Set(str).size == str.length;
   };
 
-hasUniqueChars("abcdef"); //,true)
+hasUniqueChars("abcdef"); 
+//returns: true
