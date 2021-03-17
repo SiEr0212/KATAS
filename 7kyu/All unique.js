@@ -12,8 +12,8 @@ Characters are case-sensitive, e.g. 'a' and 'A' are considered different charact
 //My solution:
 
 const hasUniqueChars = (str) => {
-    return new Set(str).size == str.length;
-  };
+  return new Set(str).size == str.length;
+};
 
-hasUniqueChars("abcdef"); 
+hasUniqueChars("abcdef");
 //returns: true
