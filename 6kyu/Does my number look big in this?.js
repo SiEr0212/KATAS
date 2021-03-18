@@ -28,4 +28,5 @@ const narcissistic = (value) => {
     return res1 === value;
   };
 
-  narcissistic(371); //, true,
+  narcissistic(371); 
+  //returns: true
