@@ -21,3 +21,9 @@ Error checking for text strings or other invalid inputs is not required,
 only valid positive non-zero integers will be passed into the function.
 */
 //My solution:
+
+const narcissistic = (value) => {
+    let arr = ("" + value).split("").map((x) => Number(x));
+    let res1 = arr.map((x) => x ** arr.length).reduce((a, c) => a + c);
+    return res1 === value;
+  };
