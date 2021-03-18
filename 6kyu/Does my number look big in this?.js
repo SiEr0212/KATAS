@@ -27,3 +27,5 @@ const narcissistic = (value) => {
     let res1 = arr.map((x) => x ** arr.length).reduce((a, c) => a + c);
     return res1 === value;
   };
+
+  narcissistic(371); //, true,
