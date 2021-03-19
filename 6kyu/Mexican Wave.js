@@ -27,3 +27,4 @@ Example
 wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 Good luck and enjoy!
  */
+//My solution:
