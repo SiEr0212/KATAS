@@ -41,3 +41,4 @@ const wave = (str) => {
       .filter((v) => v != v.toLowerCase());
   };
   
+wave("two words");
