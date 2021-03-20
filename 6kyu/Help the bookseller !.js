@@ -33,41 +33,41 @@ In the result codes and their values are in the same order as in M.
  */
 //My solution:
 
-let  = ["ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"];
+let = ["ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"];
 let c = ["A", "B"];
 
 const stockList = (listOfArt, listOfCat) => {
-    if (listOfArt.length === 0 || listOfCat.length === 0) return "";
-    let pairs = [];
-    for (let cat of listOfCat) {
-      for (let article of listOfArt) {
-        if (cat === article.charAt(0)) {
-          pairs.push({ [cat]: Number(article.split(" ")[1]) });
-        }
-        if (cat !== article.charAt(0)) {
-          pairs.push({ [cat]: 0 });
-        }
+  if (listOfArt.length === 0 || listOfCat.length === 0) return "";
+  let pairs = [];
+  for (let cat of listOfCat) {
+    for (let article of listOfArt) {
+      if (cat === article.charAt(0)) {
+        pairs.push({ [cat]: Number(article.split(" ")[1]) });
+      }
+      if (cat !== article.charAt(0)) {
+        pairs.push({ [cat]: 0 });
       }
     }
-    const sumOfArt = {};
-    pairs.forEach((amount) => {
-      for (let [key, value] of Object.entries(amount)) {
-        if (sumOfArt[key]) {
-          sumOfArt[key] += value;
-        } else {
-          sumOfArt[key] = value;
-        }
+  }
+  const sumOfArt = {};
+  pairs.forEach((amount) => {
+    for (let [key, value] of Object.entries(amount)) {
+      if (sumOfArt[key]) {
+        sumOfArt[key] += value;
+      } else {
+        sumOfArt[key] = value;
       }
-    });
-    let arr = Object.entries(sumOfArt); 
-    let res1 = "";
-    for (let el of arr) {
-      res1 += `(${el[0]} : ${el[1]}) - `;
     }
-    return res1.charAt(res1.length - 2) === "-"
-      ? res1.substring(0, res1.length - 3)
-      : res1;
-  };
-  
-  stockList(b, c);
-  //returns: "(A : 200) - (B : 1140)"
+  });
+  let arr = Object.entries(sumOfArt);
+  let res1 = "";
+  for (let el of arr) {
+    res1 += `(${el[0]} : ${el[1]}) - `;
+  }
+  return res1.charAt(res1.length - 2) === "-"
+    ? res1.substring(0, res1.length - 3)
+    : res1;
+};
+
+stockList(b, c);
+//returns: "(A : 200) - (B : 1140)"
