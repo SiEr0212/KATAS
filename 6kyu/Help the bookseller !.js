@@ -69,3 +69,4 @@ const stockList = (listOfArt, listOfCat) => {
       : res1;
   };
   
+  stockList(b, c);
