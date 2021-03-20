@@ -70,3 +70,4 @@ const stockList = (listOfArt, listOfCat) => {
   };
   
   stockList(b, c);
+  //returns: "(A : 200) - (B : 1140)"
