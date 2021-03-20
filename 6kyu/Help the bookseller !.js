@@ -32,3 +32,7 @@ Note:
 In the result codes and their values are in the same order as in M.
  */
 //My solution:
+
+let  = ["ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"];
+let c = ["A", "B"];
+
