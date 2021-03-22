@@ -16,3 +16,5 @@ For the beginner, try to use the map method - it comes in very handy quite a lot
 const maps = (x) => {
     return x.map((x) => x * 2);
   };
+
+maps([1, 2, 3]); //, [2, 4, 6])
