@@ -11,3 +11,4 @@ For example:
 
 For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
 */
+//My solution:
