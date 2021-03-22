@@ -14,3 +14,4 @@ and as values how many times that character is in the string. You can assume you
 Example: charFreq("I like cats") 
 // Returns {'a': 1, ' ': 2, 'c': 1, 'e': 1, 'I': 1, 'k': 1, 'l': 1, 'i': 1, 's': 1, 't': 1}
  */
+//My Solution:
