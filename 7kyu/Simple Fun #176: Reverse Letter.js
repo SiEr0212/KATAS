@@ -18,3 +18,4 @@ A string consists of lowercase latin letters, digits and symbols.
 
 [output] a string
  */
+//My solution:
