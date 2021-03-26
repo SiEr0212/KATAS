@@ -19,3 +19,12 @@ A string consists of lowercase latin letters, digits and symbols.
 [output] a string
  */
 //My solution:
+
+const reverseLetter = (str) => {
+    let res = [];
+    for (let char of str) {
+      char.toLowerCase() !== char.toUpperCase() ? res.push(char) : null;
+    }
+    return res.reverse().join("");
+  };
+
