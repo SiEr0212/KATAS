@@ -21,12 +21,12 @@ A string consists of lowercase latin letters, digits and symbols.
 //My solution:
 
 const reverseLetter = (str) => {
-    let res = [];
-    for (let char of str) {
-      char.toLowerCase() !== char.toUpperCase() ? res.push(char) : null;
-    }
-    return res.reverse().join("");
-  };
+  let res = [];
+  for (let char of str) {
+    char.toLowerCase() !== char.toUpperCase() ? res.push(char) : null;
+  }
+  return res.reverse().join("");
+};
 
-  reverseLetter("ultr53o?n"); 
-  //returns: "nortlu"
+reverseLetter("ultr53o?n");
+//returns: "nortlu"
