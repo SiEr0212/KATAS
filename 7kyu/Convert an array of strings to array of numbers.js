@@ -20,3 +20,5 @@ Note that you can receive floats as well.
 const toNumberArray = (stringarray) => {
     return stringarray.map(x=> Number(x))
   }
+
+toNumberArray(["1.1","2.2","3.3"])// [1.1,2.2,3.3]
