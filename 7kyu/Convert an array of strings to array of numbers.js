@@ -1,2 +1,3 @@
 /* 
+Convert an array of strings to array of numbers
  */
