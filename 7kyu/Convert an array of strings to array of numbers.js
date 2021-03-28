@@ -22,4 +22,4 @@ const toNumberArray = (stringarray) => {
   }
 
 toNumberArray(["1.1","2.2","3.3"])
-// [1.1,2.2,3.3]
+//returns: [1.1,2.2,3.3]
