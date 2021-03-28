@@ -18,8 +18,8 @@ Note that you can receive floats as well.
 //My solution:
 
 const toNumberArray = (stringarray) => {
-    return stringarray.map(x=> Number(x))
-  }
+  return stringarray.map((x) => Number(x));
+};
 
-toNumberArray(["1.1","2.2","3.3"])
+toNumberArray(["1.1", "2.2", "3.3"]);
 //returns: [1.1,2.2,3.3]
