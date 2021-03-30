@@ -12,3 +12,5 @@ stripUrlParams('www.codewars.com?a=1&b=2&a=2', ['b']) === 'www.codewars.com?a=1'
 stripUrlParams('www.codewars.com', ['b']) === 'www.codewars.com'
  */
 //My Solution:
+
+//Not yet fiished and solved, just the first draft, not yet working!!!!!!!!!!!
