@@ -25,3 +25,5 @@ const generateRange = (min, max, step) => {
   }
   return res;
 };
+
+generateRange(2, 10, 2); // should return array of [2,4,6,8,10]
