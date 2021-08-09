@@ -17,3 +17,11 @@ step > 0
 the range does not HAVE to include max (depending on the step)
 */
 //My solution:
+
+const generateRange = (min, max, step) => {
+    let res = [];
+    for (let i = min; i <= max; i += step) {
+      res.push(i);
+    }
+    return res; //.map(x => x + step);
+  };
