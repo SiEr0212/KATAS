@@ -1,3 +1,3 @@
 /*
-Generate range of integers`'
+Generate range of integers
 */
