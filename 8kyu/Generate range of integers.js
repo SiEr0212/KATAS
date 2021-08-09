@@ -16,3 +16,4 @@ min < max
 step > 0
 the range does not HAVE to include max (depending on the step)
 */
+//My solution:
