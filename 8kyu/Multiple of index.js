@@ -21,4 +21,4 @@ const multipleOfIndex = (array) => {
   return res;
 };
 
-multipleOfIndex([22, -6, 32, 82, 9, 25]); //[-6, 32, 25]
+multipleOfIndex([22, -6, 32, 82, 9, 25]); //returns: [-6, 32, 25]
