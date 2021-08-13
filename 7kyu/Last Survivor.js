@@ -30,4 +30,4 @@ const lastSurvivor = (letters, coords) => {
     return arr[0];
   };
 
-  lastSurvivor("kbc", [0, 1]); //'b'
+  lastSurvivor("kbc", [0, 1]); //returns:'b'
