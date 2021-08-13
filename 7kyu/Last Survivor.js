@@ -20,3 +20,7 @@ All numbers are valid.
 There can be duplicate letters and numbers.
  */
 // My solution:
+
+const lastSurvivor = (letters, coords) => {
+    
+  };
