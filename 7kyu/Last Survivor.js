@@ -22,5 +22,10 @@ There can be duplicate letters and numbers.
 // My solution:
 
 const lastSurvivor = (letters, coords) => {
-    
+    const arr = letters.split("");
+    while (coords.length > 0) {
+      let tempPosition = coords.shift();
+      arr.splice(tempPosition, 1);
+    }
+    return arr[0];
   };
