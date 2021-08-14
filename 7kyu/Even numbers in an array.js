@@ -11,3 +11,8 @@ For example:
 ([6, -25, 3, 7, 5, 5, 7, -3, 23], 1) => [6] 
  */
 //My solution:
+
+const evenNumbers = (array, number) => {
+    let evens = array.filter((x) => x % 2 === 0);
+    return evens.slice(evens.length - number);
+  };
