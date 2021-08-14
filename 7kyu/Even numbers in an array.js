@@ -17,5 +17,5 @@ const evenNumbers = (array, number) => {
     return evens.slice(evens.length - number);
   };
 
-  evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3) // => [4, 6, 8]
+  evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3) // returns:[4, 6, 8]
 
