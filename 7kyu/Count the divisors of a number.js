@@ -20,3 +20,6 @@ const getDivisorsCnt = (n) => {
     }
     return sum;
   };
+
+  divisors(30)//returns:8 // divisors: 1, 2, 3, 5, 6, 10, 15, 30
+
