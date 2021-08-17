@@ -17,11 +17,8 @@ Output:
 //My solution:
 
 const removeDuplicateWords = (s) => {
-    return Array.from(new Set(s.split(" "))).join(" ");
-  };
+  return Array.from(new Set(s.split(" "))).join(" ");
+};
 
-  removeDuplicateWords(
-    "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"
-  );
-  //returns: 'alpha beta gamma delta'
-  
+removeDuplicateWords("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta");
+//returns: 'alpha beta gamma delta'
