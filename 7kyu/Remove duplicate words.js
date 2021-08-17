@@ -23,5 +23,5 @@ const removeDuplicateWords = (s) => {
   removeDuplicateWords(
     "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"
   );
-  //, 'alpha beta gamma delta');
+  //returns: 'alpha beta gamma delta'
   
