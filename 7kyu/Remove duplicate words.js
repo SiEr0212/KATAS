@@ -7,7 +7,6 @@ leaving only single (first) words entries.
 Example:
 
 Input:
-
 'alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'
 
 Output:
