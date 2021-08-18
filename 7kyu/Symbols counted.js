@@ -21,3 +21,5 @@ const transform = (s) => {
     ),
   ].join``;
 };
+
+transform('elevation');// 'e2lvation');
