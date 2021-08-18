@@ -1,2 +1,4 @@
 /* 
+Synmbols counted
+
  */
