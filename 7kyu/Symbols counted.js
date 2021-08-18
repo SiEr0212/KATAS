@@ -6,3 +6,4 @@ starting from 2. The order of symbols should be preserved.
 
 "Example: abbreviation => a2b2revi2ton
 */
+//My solution:
