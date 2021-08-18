@@ -9,5 +9,15 @@ starting from 2. The order of symbols should be preserved.
 //My solution:
 
 const transform = (s) => {
-    return [...new Set([...s].map(v=>v+([...s].filter(x=>x===v).length>1?[...s].filter(x=>x===v).length:'')))].join``
-    }
+  return [
+    ...new Set(
+      [...s].map(
+        (v) =>
+          v +
+          ([...s].filter((x) => x === v).length > 1
+            ? [...s].filter((x) => x === v).length
+            : "")
+      )
+    ),
+  ].join``;
+};
