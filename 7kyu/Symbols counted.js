@@ -22,4 +22,4 @@ const transform = (s) => {
   ].join``;
 };
 
-transform('elevation');// 'e2lvation');
+transform('elevation'); //returns: 'e2lvation');
