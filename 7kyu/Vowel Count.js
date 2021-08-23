@@ -13,4 +13,4 @@ const getCount = (str) => {
   return str.split("").filter((c) => "aeiou".includes(c)).length;
 };
 
-getCount("Sealion"); // 4
+getCount("Sealion"); //returns: 4
