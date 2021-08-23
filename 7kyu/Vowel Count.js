@@ -12,3 +12,5 @@ The input string will only consist of lower case letters and/or spaces.
 const getCount = (str) => {
   return str.split("").filter((c) => "aeiou".includes(c)).length;
 };
+
+getCount("Sealion"); // 4
