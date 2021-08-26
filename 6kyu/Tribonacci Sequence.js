@@ -24,11 +24,11 @@ if n == 0, then return an empty array (except in C return NULL) and be ready for
 //My solution:
 
 const tribonacci = (signature, n) => {
-    if (n <= 3) return signature.slice(0, n);
-    for (let i = 0; i < n - 3; i++) {
-      signature.push(signature.slice(-3).reduce((prev, curr) => prev + curr));
-    }
-    return signature;
-  };
+  if (n <= 3) return signature.slice(0, n);
+  for (let i = 0; i < n - 3; i++) {
+    signature.push(signature.slice(-3).reduce((prev, curr) => prev + curr));
+  }
+  return signature;
+};
 
-tribonacci([1,1,1],10); //returns: [1,1,1,3,5,9,17,31,57,105]
+tribonacci([1, 1, 1], 10); //returns: [1,1,1,3,5,9,17,31,57,105]
