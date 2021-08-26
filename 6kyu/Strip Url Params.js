@@ -13,4 +13,3 @@ stripUrlParams('www.codewars.com', ['b']) === 'www.codewars.com'
  */
 //My Solution:
 
-//Not yet fiished and solved, just the first draft, not yet working!!!!!!!!!!!
