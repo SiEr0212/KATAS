@@ -33,7 +33,6 @@ const sortStringsByVowels = (strings) => {
     }
 
     order.push(max + word);
-    console.log(order);
   }
 
   return order.sort((a, b) => {
