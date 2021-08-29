@@ -17,30 +17,29 @@ then the strings should remain in the order in which they were found in the orgi
 //My solution NOT YET FINISHED!!!!!!!!! Not passing edge cases yet:
 
 const sortStringsByVowels = (strings) => {
-    let order = []
-   for (let word of strings){
-     let cur = 0
-      let max = 0
-      for (let i = 0; i < word.length; ++i) {
-         if ("aeiou".includes(word[i])) {
-            cur++
-            if (cur > max) {
-               max = cur
-            }
-         } else {
-            cur = 0
-         }
+  let order = [];
+  for (let word of strings) {
+    let cur = 0;
+    let max = 0;
+    for (let i = 0; i < word.length; ++i) {
+      if ("aeiou".includes(word[i])) {
+        cur++;
+        if (cur > max) {
+          max = cur;
+        }
+      } else {
+        cur = 0;
       }
-     
-    order.push(max+ word)
-    console.log(order)
-   }
-     
-     return  order.sort((a, b) => {
-     return b.localeCompare(a, undefined, {
-       numeric: true,
-       sensitivity: 'base'
-     })
-   })
-      
-   }
+    }
+
+    order.push(max + word);
+    console.log(order);
+  }
+
+  return order.sort((a, b) => {
+    return b.localeCompare(a, undefined, {
+      numeric: true,
+      sensitivity: "base",
+    });
+  });
+};
