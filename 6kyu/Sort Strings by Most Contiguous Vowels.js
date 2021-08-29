@@ -42,3 +42,5 @@ const sortStringsByVowels = (strings) => {
     });
   });
 };
+
+sortStringsByVowels(["aa","eee","oo","iiii"]);//["iiii","eee","aa","oo"]);
