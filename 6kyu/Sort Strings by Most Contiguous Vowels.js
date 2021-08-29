@@ -40,7 +40,7 @@ const sortStringsByVowels = (strings) => {
       numeric: true,
       sensitivity: "base",
     });
-  });
+  }).map(x => x.substring(1,x.length));
 };
 
 sortStringsByVowels(["aa","eee","oo","iiii"]);//["iiii","eee","aa","oo"]);
