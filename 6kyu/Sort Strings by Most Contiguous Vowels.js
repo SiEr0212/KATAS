@@ -14,7 +14,7 @@ while str2 has as its longest sub-string of contiguous vowels "ee", which is of 
 If two or more strings in the array have maximum sub-strings of the same length, 
 then the strings should remain in the order in which they were found in the orginal array.
  */
-//My solution:
+//My solution NOT YET FINISHED!!!!!!!!! Not passing edge cases yet:
 
 const sortStringsByVowels = (strings) => {
     let order = []
