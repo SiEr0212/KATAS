@@ -10,3 +10,5 @@ isDivisible(12,2)--> true because 12 is divisible by 2
 isDivisible(100,5,4,10,25,20)--> true
 isDivisible(12,7)--> false because 12 is not divisible by 7
  */
+//My solution:
+
