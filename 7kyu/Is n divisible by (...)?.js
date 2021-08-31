@@ -12,3 +12,6 @@ isDivisible(12,7)--> false because 12 is not divisible by 7
  */
 //My solution:
 
+const isDivisible =(firstN, ...otherN) =>{
+    return otherN.every(n => firstN % n === 0);
+  }
