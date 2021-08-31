@@ -16,4 +16,4 @@ const isDivisible =(firstN, ...otherN) =>{
     return otherN.every(n => firstN % n === 0);
   }
 
-isDivisible(12,3,4);//,true);
+isDivisible(12,3,4);//returns: true
