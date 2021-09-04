@@ -10,3 +10,7 @@ Your function takes two arguments:
 (or in how many years he will be twice as old).
 */
 //My solution:
+
+const twiceAsOld = (dadYearsOld, sonYearsOld) => {
+    return dadYearsOld > sonYearsOld * 2 ? dadYearsOld - sonYearsOld * 2 : sonYearsOld * 2 - dadYearsOld;
+  };
