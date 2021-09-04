@@ -15,4 +15,4 @@ const twiceAsOld = (dadYearsOld, sonYearsOld) => {
     return dadYearsOld > sonYearsOld * 2 ? dadYearsOld - sonYearsOld * 2 : sonYearsOld * 2 - dadYearsOld;
   };
 
-twiceAsOld(36, 7); //, 22;
+twiceAsOld(36, 7);//returns: 22
