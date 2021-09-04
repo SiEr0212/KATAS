@@ -12,7 +12,9 @@ Your function takes two arguments:
 //My solution:
 
 const twiceAsOld = (dadYearsOld, sonYearsOld) => {
-    return dadYearsOld > sonYearsOld * 2 ? dadYearsOld - sonYearsOld * 2 : sonYearsOld * 2 - dadYearsOld;
-  };
+  return dadYearsOld > sonYearsOld * 2
+    ? dadYearsOld - sonYearsOld * 2
+    : sonYearsOld * 2 - dadYearsOld;
+};
 
-twiceAsOld(36, 7);//returns: 22
+twiceAsOld(36, 7); //returns: 22
