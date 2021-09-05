@@ -23,4 +23,4 @@ const  vowelChange = (str, vow) => {
   return res
   }
 
-  vowelChange('adira wants to go to the park', 'o') //, 'odoro wonts to go to tho pork');
+  vowelChange('adira wants to go to the park', 'o') //returns: 'odoro wonts to go to tho pork'
