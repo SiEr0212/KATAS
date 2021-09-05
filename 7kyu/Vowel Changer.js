@@ -13,6 +13,7 @@ For Example (input1, vowel) => output:
 
 ('adira wants to go to the park', 'o')
  =>'odoro wonts to go to tho pork'
+ 
 There will never be an uppercase letter as an input.
 */
 //My solution:
