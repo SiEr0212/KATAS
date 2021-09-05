@@ -23,3 +23,4 @@ const  vowelChange = (str, vow) => {
   return res
   }
 
+  vowelChange('adira wants to go to the park', 'o')
