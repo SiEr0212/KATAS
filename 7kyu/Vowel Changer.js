@@ -15,12 +15,14 @@ There will never be an uppercase letter as an input.
 */
 //My solution:
 
-const  vowelChange = (str, vow) => {
-    let res = ""
-    for (let char of str) {
-      ['a', 'e', 'i', 'o', 'u'].indexOf(char.toLowerCase()) !== -1 ? res += vow : res+= char
-    }
-  return res
+const vowelChange = (str, vow) => {
+  let res = "";
+  for (let char of str) {
+    ["a", "e", "i", "o", "u"].indexOf(char.toLowerCase()) !== -1
+      ? (res += vow)
+      : (res += char);
   }
+  return res;
+};
 
-  vowelChange('adira wants to go to the park', 'o') //returns: 'odoro wonts to go to tho pork'
+vowelChange("adira wants to go to the park", "o"); //returns: 'odoro wonts to go to tho pork'
