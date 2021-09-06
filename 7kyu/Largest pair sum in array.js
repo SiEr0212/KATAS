@@ -16,4 +16,4 @@ const largestPairSum = (numbers) => {
     return numbers.sort((a, b) => b - a).slice(0,2).reduce((p, c) => p + c);
   }
 
-  largestPairSum([10,14,2,23,19])// returns 42
+  largestPairSum([10,14,2,23,19])// returns: 42
