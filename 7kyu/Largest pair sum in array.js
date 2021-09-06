@@ -11,3 +11,7 @@ For example
 [99, 2, 2, 23, 19]  --> 122 (= 99 + 23)
 */
 //My solution:
+
+const largestPairSum = (numbers) => {
+    return numbers.sort((a, b) => b - a).slice(0,2).reduce((p, c) => p + c);
+  }
