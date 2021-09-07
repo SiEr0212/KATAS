@@ -17,3 +17,9 @@ Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 */
 //My solution:
+
+String.prototype.toJadenCase = function () {
+    return this.split(" ").map(x=>x.substring(0,1).toUpperCase()+ x.substring(1)).join(' ').replace(/\\"/g,'"')
+  };
+
+  
