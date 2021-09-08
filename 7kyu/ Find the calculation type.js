@@ -1,2 +1,3 @@
 /* 
- */
+Find the calculation type
+*/
