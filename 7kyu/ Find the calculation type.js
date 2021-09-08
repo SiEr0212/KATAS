@@ -32,3 +32,5 @@ const calcType = (a, b, res) => {
       ? "multiplication"
       : "division";
   };
+
+calcType(10, 5, 5); //,'subtraction');
