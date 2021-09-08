@@ -22,3 +22,13 @@ Only valid arguments will be passed to the function.
 Only valid arguments will be passed to the function!
 */
 //My solution:
+
+const calcType = (a, b, res) => {
+    return a + b === res
+      ? "addition"
+      : a - b === res
+      ? "subtraction"
+      : a * b === res
+      ? "multiplication"
+      : "division";
+  };
