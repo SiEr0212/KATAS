@@ -16,8 +16,9 @@ calcType(1, 2, 3) -->   1 ? 2 = 3   --> "addition"
 Notes
 In case of division you should expect that the result of the operation is obtained
  by using / operator on the input values - no manual data type conversion or rounding should be performed.
- 
+
 Cases with just one possible answers are generated.
 Only valid arguments will be passed to the function.
 Only valid arguments will be passed to the function!
 */
+//My solution:
