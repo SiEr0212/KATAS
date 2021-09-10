@@ -12,13 +12,13 @@ Ex: Input: 105 --> Output: "BangBoom" Ex: Input: 9 --> Output: "Bang" Ex:Input: 
 //My solution:
 
 const multiple = (x) => {
-    return x % 5 === 0 && x % 3 === 0
-      ? "BangBoom"
-      : x % 5 === 0 && x % 3 !== 0
-      ? "Boom"
-      : x % 3 === 0 && x % 5 !== 0
-      ? "Bang"
-      : "Miss";
-  };
+  return x % 5 === 0 && x % 3 === 0
+    ? "BangBoom"
+    : x % 5 === 0 && x % 3 !== 0
+    ? "Boom"
+    : x % 3 === 0 && x % 5 !== 0
+    ? "Bang"
+    : "Miss";
+};
 
-  multiple(30);// returns: "BangBoom"
+multiple(30); // returns: "BangBoom"
