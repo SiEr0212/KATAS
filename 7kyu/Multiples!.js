@@ -10,3 +10,13 @@ Make a program that takes a value (x) and returns "Bang" if the number is divisi
 Ex: Input: 105 --> Output: "BangBoom" Ex: Input: 9 --> Output: "Bang" Ex:Input: 25 --> Output: "Boom"
  */
 //My solution:
+
+const multiple = (x) => {
+    return x % 5 === 0 && x % 3 === 0
+      ? "BangBoom"
+      : x % 5 === 0 && x % 3 !== 0
+      ? "Boom"
+      : x % 3 === 0 && x % 5 !== 0
+      ? "Bang"
+      : "Miss";
+  };
