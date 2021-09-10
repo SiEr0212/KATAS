@@ -20,3 +20,5 @@ const multiple = (x) => {
       ? "Bang"
       : "Miss";
   };
+
+  multiple(30); // "BangBoom"5)
