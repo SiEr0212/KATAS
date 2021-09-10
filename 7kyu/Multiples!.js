@@ -21,4 +21,4 @@ const multiple = (x) => {
       : "Miss";
   };
 
-  multiple(30); // "BangBoom"5)
+  multiple(30); // returns: "BangBoom"
