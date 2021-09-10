@@ -9,3 +9,4 @@ Make a program that takes a value (x) and returns "Bang" if the number is divisi
 
 Ex: Input: 105 --> Output: "BangBoom" Ex: Input: 9 --> Output: "Bang" Ex:Input: 25 --> Output: "Boom"
  */
+//My solution:
