@@ -12,4 +12,10 @@ If the sequence is empty, you should return 0.
 */
  //My solution:
 
- 
+ const evenLast = (numbers) => {
+    let evens = [];
+    for (let i = 0; i < numbers.length; i++) {
+      i % 2 === 0 ? evens.push(numbers[i]) : null;
+    }
+    return evens.length === 0 ? 0 : evens.reduce((prev, curr) => prev + curr) * numbers.slice(-1)[0];
+  };
