@@ -20,4 +20,4 @@ If the sequence is empty, you should return 0.
     return evens.length === 0 ? 0 : evens.reduce((prev, curr) => prev + curr) * numbers.slice(-1)[0];
   };
 
-  evenLast([2, 3, 4, 5])// 30
+  evenLast([2, 3, 4, 5])// returns: 30
