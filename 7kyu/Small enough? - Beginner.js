@@ -19,4 +19,4 @@ const smallEnough = (a, limit) => {
     return check === a.length;
   };
   
-  smallEnough([80, 117, 115, 104, 45, 85, 112, 115], 120); // true
+  smallEnough([80, 117, 115, 104, 45, 85, 112, 115], 120); // returns: true
