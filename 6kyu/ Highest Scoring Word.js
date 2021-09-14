@@ -32,3 +32,5 @@ const high = (x) => {
     }
     return word;
   };
+
+  high("aa b"); //, 'aa');
