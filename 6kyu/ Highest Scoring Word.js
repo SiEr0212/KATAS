@@ -14,3 +14,21 @@ If two words score the same, return the word that appears earliest in the origin
 All letters will be lowercase and all inputs will be valid.
 */
 //My solution::
+
+const high = (x) => {
+    let highScore = 0;
+    let word = "";
+    let wordArr = x.split(" ");
+    for (let i = 0; i < wordArr.length; i++) {
+      let wordScore = 0;
+      let iword = wordArr[i];
+      for (let j = 0; j < iword.length; j++) {
+        wordScore = wordScore + (iword.charCodeAt(j) - 96);
+      }
+      if (wordScore > highScore) {
+        highScore = wordScore;
+        word = iword;
+      }
+    }
+    return word;
+  };
