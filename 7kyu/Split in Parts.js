@@ -20,3 +20,11 @@ String has no spaces
 Size is always positive
  */
 //My solution:'
+
+const splitInParts = (s, partLength) =>{
+    return s.split('').reduce(
+        (acc, rec, index) => {
+          return ((index % partLength) || !(index)) ? acc.concat(rec) : acc.concat(' ', rec)
+        },
+        '')
+    }
