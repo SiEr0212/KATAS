@@ -29,4 +29,4 @@ const splitInParts = (s, partLength) =>{
         '')
     };
 
-splitInParts("HelloKata", 1)//, "H e l l o K a t a")
+splitInParts("HelloKata", 1)//returns: "H e l l o K a t a"
