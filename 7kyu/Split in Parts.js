@@ -27,4 +27,4 @@ const splitInParts = (s, partLength) =>{
           return ((index % partLength) || !(index)) ? acc.concat(rec) : acc.concat(' ', rec)
         },
         '')
-    }
+    };
