@@ -21,12 +21,12 @@ Size is always positive
  */
 //My solution:'
 
-const splitInParts = (s, partLength) =>{
-    return s.split('').reduce(
-        (acc, rec, index) => {
-          return ((index % partLength) || !(index)) ? acc.concat(rec) : acc.concat(' ', rec)
-        },
-        '')
-    };
+const splitInParts = (s, partLength) => {
+  return s.split("").reduce((acc, rec, index) => {
+    return index % partLength || !index
+      ? acc.concat(rec)
+      : acc.concat(" ", rec);
+  }, "");
+};
 
-splitInParts("HelloKata", 1)//returns: "H e l l o K a t a"
+splitInParts("HelloKata", 1); //returns: "H e l l o K a t a"
