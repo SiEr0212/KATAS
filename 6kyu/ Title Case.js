@@ -27,3 +27,16 @@ titleCase('a clash of KINGS', 'a an the of') // should return: 'A Clash of Kings
 titleCase('THE WIND IN THE WILLOWS', 'The In') // should return: 'The Wind in the Willows'
 titleCase('the quick brown fox') // should return: 'The Quick Brown Fox'
  */
+
+const titleCase = (title, minorWords) => {
+    let titleCased = title.split(' ').map(x => x[0].toUpperCase() + x.substring(1).toLowerCase());
+    console.log(titleCased)
+    let res = []
+   let low =  titleCased.map(y => y.toLowerCase())
+   for (let el of low) {
+  for (let word of minorWords){
+    el === minorWords ? res.push(el) : res.push(el[0])
+  }
+    }
+   return res
+  }
