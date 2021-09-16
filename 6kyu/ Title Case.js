@@ -18,7 +18,8 @@ Second argument: the original string to be converted.
 ###Arguments (Other languages)
 
 First argument (required): the original string to be converted.
-Second argument (optional): space-delimited list of minor words that must always be lowercase except for the first word in the string. The JavaScript/CoffeeScript tests will pass undefined when this argument is unused.
+Second argument (optional): space-delimited list of minor words that must always be lowercase except for the first word in the string. 
+The JavaScript/CoffeeScript tests will pass undefined when this argument is unused.
 ###Example
 
 titleCase('a clash of KINGS', 'a an the of') // should return: 'A Clash of Kings'
