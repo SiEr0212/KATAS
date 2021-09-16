@@ -44,4 +44,4 @@ const titleCase = (title, minorWords) => {
   return res;
 };
 
-titleCase('a clash of KINGS', 'a an the of')// 'A Clash of Kings')
+titleCase('a clash of KINGS', 'a an the of')// returns: 'A Clash of Kings')
