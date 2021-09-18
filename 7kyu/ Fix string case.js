@@ -14,3 +14,4 @@ solve("coDe") = "code". Lowercase characters > uppercase. Change only the "D" to
 solve("CODe") = "CODE". Uppercase characters > lowecase. Change only the "e" to uppercase.
 solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
 */
+//My solution:
