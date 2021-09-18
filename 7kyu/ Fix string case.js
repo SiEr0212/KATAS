@@ -15,3 +15,12 @@ solve("CODe") = "CODE". Uppercase characters > lowecase. Change only the "e" to 
 solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
 */
 //My solution:
+
+const solve = (s) => {
+    let upperCaseChars = 0
+    let lowerCaseChars = 0
+    for (let char of s){
+      char === char.toLowerCase() ? ++ lowerCaseChars : ++ upperCaseChars
+    }
+     return upperCaseChars > lowerCaseChars ? s.toUpperCase() : s.toLowerCase()
+    }
