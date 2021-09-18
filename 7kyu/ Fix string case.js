@@ -24,3 +24,5 @@ const solve = (s) => {
     }
      return upperCaseChars > lowerCaseChars ? s.toUpperCase() : s.toLowerCase()
     }
+
+solve("CODe")//,"CODE"
