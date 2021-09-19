@@ -1,3 +1,5 @@
 /*  
 Halving Sum
+
+from codewars:
 */
