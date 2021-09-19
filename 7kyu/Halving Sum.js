@@ -17,3 +17,5 @@ Example
 const halvingSum = (n) => {
     
 }
+
+halvingSum(25)//47
