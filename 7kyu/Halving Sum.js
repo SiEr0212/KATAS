@@ -12,3 +12,4 @@ All elements of the sum are the results of integer division.
 Example
 25  =>  25 + 12 + 6 + 3 + 1 = 47
 */
+//My solution:
