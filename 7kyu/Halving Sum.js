@@ -13,3 +13,7 @@ Example
 25  =>  25 + 12 + 6 + 3 + 1 = 47
 */
 //My solution:
+
+const halvingSum = (n) => {
+    
+}
