@@ -21,4 +21,5 @@ const halvingSum = (n) => {
     n=Math.floor((n*1)/2);
     }
     return res
-}
+};
+
