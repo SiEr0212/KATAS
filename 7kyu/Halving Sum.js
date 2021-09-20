@@ -15,13 +15,12 @@ Example
 //My solution:
 
 const halvingSum = (n) => {
-    let res =0;
-    while (n>=1){
-    res+=n;
-    n=Math.floor((n*1)/2);
-    }
-    return res
+  let res = 0;
+  while (n >= 1) {
+    res += n;
+    n = Math.floor((n * 1) / 2);
+  }
+  return res;
 };
 
-halvingSum(25)//returns: 47
-
+halvingSum(25); //returns: 47
