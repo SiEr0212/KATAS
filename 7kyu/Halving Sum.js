@@ -23,3 +23,5 @@ const halvingSum = (n) => {
     return res
 };
 
+halvingSum(25)//,47);
+
