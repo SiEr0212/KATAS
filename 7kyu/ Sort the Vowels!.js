@@ -6,7 +6,7 @@ from codewars: https://www.codewars.com/kata/59e49b2afc3c494d5d00002a/train/java
 Sort the Vowels!
 In this kata, we want to sort the vowels in a special format.
 
-Task
+Task:
 Write a function which takes a input string s and return a string in the following way:
 
    
