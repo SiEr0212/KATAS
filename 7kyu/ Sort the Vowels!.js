@@ -27,3 +27,4 @@ Return every character in its original case
 Each line is seperated with \n
 Invalid input ( undefined / null / integer ) should return an empty string
  */
+//My solution:
