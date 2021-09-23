@@ -40,4 +40,4 @@ const sortVowels = (s) => {
   return res.substring(0, res.length - 1);
 };
 
-sortVowels("Codewars"); //returns: 'C|\n|o\nd|\n|e\nw|\n|a\nr|\ns|');
+sortVowels("Codewars"); //returns: 'C|\n|o\nd|\n|e\nw|\n|a\nr|\ns|'
