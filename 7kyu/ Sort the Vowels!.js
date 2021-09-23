@@ -30,14 +30,14 @@ Invalid input ( undefined / null / integer ) should return an empty string
 //My solution:
 
 const sortVowels = (s) => {
-    if (  s === undefined || s.length === 0 ||s % 1 === 0) return ""
-    let res = "";
-    for (let char of s) {
-      ["a", "e", "i", "o", "u"].indexOf(char.toLowerCase()) !== -1
-        ? (res += "|" + char + "\n")
-        : (res += char + "|" + "\n");
-    }
-    return res.substring(0,res.length-1);
-  };
+  if (s === undefined || s.length === 0 || s % 1 === 0) return "";
+  let res = "";
+  for (let char of s) {
+    ["a", "e", "i", "o", "u"].indexOf(char.toLowerCase()) !== -1
+      ? (res += "|" + char + "\n")
+      : (res += char + "|" + "\n");
+  }
+  return res.substring(0, res.length - 1);
+};
 
-  sortVowels("Codewars"); //returns: 'C|\n|o\nd|\n|e\nw|\n|a\nr|\ns|');
+sortVowels("Codewars"); //returns: 'C|\n|o\nd|\n|e\nw|\n|a\nr|\ns|');
