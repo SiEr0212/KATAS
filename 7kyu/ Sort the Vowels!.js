@@ -20,7 +20,6 @@ Write a function which takes a input string s and return a string in the followi
                   S|                          T|
 
 Notes:
-
 List all the Vowels on the right side of |
 List every character except Vowels on the left side of |
 Return every character in its original case
