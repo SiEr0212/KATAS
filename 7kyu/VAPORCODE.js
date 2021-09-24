@@ -16,3 +16,7 @@ Examples
 "Why isn't my code working?"  -->  "W  H  Y  I  S  N  '  T  M  Y  C  O  D  E  W  O  R  K  I  N  G  ?"
 */
 //My solution:
+
+const vaporcode = (string) => {
+    return string.split(" ").join("").split("").map(c => c.toUpperCase()).join("  ")
+  }
