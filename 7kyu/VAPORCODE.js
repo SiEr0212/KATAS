@@ -20,3 +20,4 @@ Examples
 const vaporcode = (string) => {
     return string.split(" ").join("").split("").map(c => c.toUpperCase()).join("  ")
   }
+
