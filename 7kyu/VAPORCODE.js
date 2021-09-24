@@ -18,7 +18,12 @@ Examples
 //My solution:
 
 const vaporcode = (string) => {
-    return string.split(" ").join("").split("").map(c => c.toUpperCase()).join("  ")
-  }
+  return string
+    .split(" ")
+    .join("")
+    .split("")
+    .map((c) => c.toUpperCase())
+    .join("  ");
+};
 
-vaporcode("Lets go to the movies")//,"L  E  T  S  G  O  T  O  T  H  E  M  O  V  I  E  S")
+vaporcode("Lets go to the movies"); //,"L  E  T  S  G  O  T  O  T  H  E  M  O  V  I  E  S")
