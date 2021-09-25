@@ -17,6 +17,7 @@ Specifically, your program will receive a list of words (reprensenting an acrost
 and will need to return a string corresponding to the word that is spelled out 
 by taking the first letter of each word in the acrostic.
 */
+
 //My solution:
 
 const readOut = (acrostic) => {
