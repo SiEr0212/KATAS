@@ -1,3 +1,5 @@
 /*  
 Acrostic reader
+
+ from codewars: 
 */
