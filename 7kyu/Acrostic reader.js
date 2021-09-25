@@ -23,4 +23,4 @@ const readOut = (acrostic) => {
     return acrostic.map(c => c[0]).join('')
   }
 
-readOut(['Jolly', 'Amazing', 'Courteous', 'Keen'])//, 'JACK'
+readOut(['Jolly', 'Amazing', 'Courteous', 'Keen'])//returns: 'JACK'
