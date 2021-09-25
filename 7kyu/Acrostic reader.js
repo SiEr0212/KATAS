@@ -20,7 +20,7 @@ by taking the first letter of each word in the acrostic.
 //My solution:
 
 const readOut = (acrostic) => {
-    return acrostic.map(c => c[0]).join('')
-  }
+  return acrostic.map((c) => c[0]).join("");
+};
 
-readOut(['Jolly', 'Amazing', 'Courteous', 'Keen'])//returns: 'JACK'
+readOut(["Jolly", "Amazing", "Courteous", "Keen"]); //returns: 'JACK'
