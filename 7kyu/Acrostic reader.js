@@ -22,3 +22,5 @@ by taking the first letter of each word in the acrostic.
 const readOut = (acrostic) => {
     return acrostic.map(c => c[0]).join('')
   }
+
+readOut(['Jolly', 'Amazing', 'Courteous', 'Keen'])//, 'JACK'
