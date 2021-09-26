@@ -27,3 +27,5 @@ const correctness = (bobsDecisions, expertDecisions) => {
     );
     return res;
   };
+
+  correctness(["M", "?", "M"], ["M", "F", "?"]); //returns: 2
