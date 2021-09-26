@@ -15,3 +15,15 @@ When they disagree but one has said '?', he gets 0.5 points.
 When they disagree completely, he gets 0 points.
 */
 //My solution:
+
+const correctness = (bobsDecisions, expertDecisions) => {
+    let res = 0;
+    bobsDecisions.map((v, i) =>
+      v === expertDecisions[i]
+        ? res++
+        : v !== expertDecisions[i] && (v === "?" || expertDecisions[i] === "?")
+        ? (res += 0.5)
+        : v
+    );
+    return res;
+  };
