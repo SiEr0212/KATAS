@@ -22,3 +22,5 @@ const countChar = (string, char) => {
     char === char.toUppercase ? string.split('').map(c => c === char.toUppercase() ? score ++ : null) : string.toLowerCase().split('').map(c => c === char ? score ++ : null)
     return score
   }
+
+countChar("fizzbuzz", "z")//, 4);
