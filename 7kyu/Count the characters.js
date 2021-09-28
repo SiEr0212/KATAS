@@ -1,2 +1,3 @@
 /*  
+Count hte characters
 */
