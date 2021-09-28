@@ -15,4 +15,4 @@ The character can be any alphanumeric character.
 
 Good luck.
 */
-//My solution:
+//My solution: NOT YET PASSING ALL EDGECASES!!
