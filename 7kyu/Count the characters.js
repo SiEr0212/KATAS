@@ -23,4 +23,4 @@ const countChar = (string, char) => {
     return score
   }
 
-countChar("fizzbuzz", "z")//, 4);
+countChar("fizzbuzz", "z")//, 4
