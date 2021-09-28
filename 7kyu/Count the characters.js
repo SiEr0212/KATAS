@@ -16,3 +16,9 @@ The character can be any alphanumeric character.
 Good luck.
 */
 //My solution: NOT YET PASSING ALL EDGECASES!!
+
+const countChar = (string, char) => {
+    let score = 0
+    char === char.toUppercase ? string.split('').map(c => c === char.toUppercase() ? score ++ : null) : string.toLowerCase().split('').map(c => c === char ? score ++ : null)
+    return score
+  }
