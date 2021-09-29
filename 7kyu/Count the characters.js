@@ -15,6 +15,7 @@ The character can be any alphanumeric character.
 
 Good luck.
 */
+
 //My solution: NOT YET PASSING ALL EDGECASES!!
 
 const countChar = (string, char) => {
