@@ -19,9 +19,14 @@ Good luck.
 //My solution: NOT YET PASSING ALL EDGECASES!!
 
 const countChar = (string, char) => {
-    let score = 0
-    char === char.toUppercase ? string.split('').map(c => c === char.toUppercase() ? score ++ : null) : string.toLowerCase().split('').map(c => c === char ? score ++ : null)
-    return score
-  }
+  let score = 0;
+  char === char.toUppercase
+    ? string.split("").map((c) => (c === char.toUppercase() ? score++ : null))
+    : string
+        .toLowerCase()
+        .split("")
+        .map((c) => (c === char ? score++ : null));
+  return score;
+};
 
-countChar("fizzbuzz", "z")//4
+countChar("fizzbuzz", "z"); //4
