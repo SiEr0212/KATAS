@@ -20,4 +20,4 @@ const howManyYears = (date1, date2) => {
     return year1 > year2 ? year1 - year2 : year2 - year1
    }
 
-howManyYears('1997/10/10', '2015/10/10')//18
+howManyYears('1997/10/10', '2015/10/10')//returns: 18
