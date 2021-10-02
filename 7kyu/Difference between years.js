@@ -15,9 +15,9 @@ At this level, you don't need validate months and days to calculate the differen
 //My solution:
 
 const howManyYears = (date1, date2) => {
-    let  year1 = Number(date1.substring(0,4))
-    let year2 = Number(date2.substring(0,4))
-    return year1 > year2 ? year1 - year2 : year2 - year1
-   }
+  let year1 = Number(date1.substring(0, 4));
+  let year2 = Number(date2.substring(0, 4));
+  return year1 > year2 ? year1 - year2 : year2 - year1;
+};
 
-howManyYears('1997/10/10', '2015/10/10')//returns: 18
+howManyYears("1997/10/10", "2015/10/10"); //returns: 18
