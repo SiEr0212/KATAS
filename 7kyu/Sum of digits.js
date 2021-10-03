@@ -25,3 +25,5 @@ const sum = (digits) => {
         .reduce((acc, cur) => acc + cur)
     );
   }
+
+  sum("64323")//, "6 + 4 + 3 + 2 + 3 = 18");
