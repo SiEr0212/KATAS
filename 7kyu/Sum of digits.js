@@ -1,2 +1,3 @@
 /*  
-Sunm of digits*/
+Sum of digits
+*/
