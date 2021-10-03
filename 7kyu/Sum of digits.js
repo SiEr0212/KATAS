@@ -25,7 +25,8 @@ const sum = (digits) => {
       .split("")
       .map((e) => Number(e))
       .reduce((acc, cur) => acc + cur)
-  );
+ 
+      );
 };
 
 sum("64323"); //returns: "6 + 4 + 3 + 2 + 3 = 18"
