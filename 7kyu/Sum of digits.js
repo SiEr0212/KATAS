@@ -3,7 +3,8 @@ Sum of digits
 
 from codewars:https://www.codewars.com/kata/59cf805aaeb28438fe00001c/train/javascript
 
-It involves implementing a program that sums the digits of a non-negative integer. For example, the sum of 3433 digits is 13.
+It involves implementing a program that sums the digits of a non-negative integer. 
+For example, the sum of 3433 digits is 13.
 
 Digits can be a number, a string, or undefined. In case of undefined return an empty string ''.
 
