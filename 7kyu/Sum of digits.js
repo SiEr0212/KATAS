@@ -12,3 +12,16 @@ To give you a little more excitement, the program will not only write the result
 but also write all the sums used: 3 + 4 + 3 + 3 = 13.
 */
 //My solution:
+
+const sum = (digits) => {
+    if (digits == undefined) return '';
+    return (
+      digits.toString().split('').join(' + ') +
+      ' = ' +
+      digits
+        .toString()
+        .split('')
+        .map((e) => Number(e))
+        .reduce((acc, cur) => acc + cur)
+    );
+  }
