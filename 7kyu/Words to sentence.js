@@ -11,9 +11,8 @@ Example:
  */
 //My solution:
 
-const wordsToSentence = (words)=> {
-    return words.join(" ");
-  }
-  
-wordsToSentence(["hello", "world"])// returns: "hello world"
-    
+const wordsToSentence = (words) => {
+  return words.join(" ");
+};
+
+wordsToSentence(["hello", "world"]); // returns: "hello world"
