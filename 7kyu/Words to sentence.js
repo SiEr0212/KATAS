@@ -10,3 +10,10 @@ Example:
 ["hello", "world"] -> "hello world"
  */
 //My solution:
+
+const wordsToSentence = (words)=> {
+    return words.join(" ");
+  }
+  
+wordsToSentence(["hello", "world"])//, "hello world");
+    
