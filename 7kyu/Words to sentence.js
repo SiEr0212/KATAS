@@ -15,5 +15,5 @@ const wordsToSentence = (words)=> {
     return words.join(" ");
   }
   
-wordsToSentence(["hello", "world"])//, "hello world");
+wordsToSentence(["hello", "world"])//, "hello world"
     
