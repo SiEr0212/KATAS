@@ -7,3 +7,5 @@ Create a function that returns the average of an array of numbers ("scores"), ro
 You are not allowed to use any loops (including for, for/in, while, and do/while loops).
 */
 //My solution:
+
+//Adding my solution soon...
