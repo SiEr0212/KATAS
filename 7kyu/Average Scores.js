@@ -13,4 +13,4 @@ const average = (scores) => {
 };
 
 scores = [49,3,5,300,7];
-average(scores) 73
+average(scores)//returns: 73
