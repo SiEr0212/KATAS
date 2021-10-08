@@ -11,3 +11,6 @@ You are not allowed to use any loops (including for, for/in, while, and do/while
 const average = (scores) => {
   return Math.round(scores.reduce((a, b) => a + b) / scores.length);
 };
+
+scores = [49,3,5,300,7];
+average(scores), 73
