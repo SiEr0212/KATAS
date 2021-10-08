@@ -8,8 +8,6 @@ You are not allowed to use any loops (including for, for/in, while, and do/while
 */
 //My solution:
 
-//Adding my solution soon...
-
 const average = (scores) => {
   return Math.round(scores.reduce((a, b) => a + b) / scores.length);
 };
