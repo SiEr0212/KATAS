@@ -12,5 +12,5 @@ const average = (scores) => {
   return Math.round(scores.reduce((a, b) => a + b) / scores.length);
 };
 
-scores = [49,3,5,300,7];
-average(scores)//returns: 73
+scores = [49, 3, 5, 300, 7];
+average(scores); //returns: 73
