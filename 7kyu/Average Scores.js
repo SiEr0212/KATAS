@@ -11,5 +11,5 @@ You are not allowed to use any loops (including for, for/in, while, and do/while
 //Adding my solution soon...
 
 const average = (scores) => {
-  return scores.reduce((a, b) => (a + b)) / scores.length;
+  return Math.round(scores.reduce((a, b) => (a + b)) / scores.length);
 };
