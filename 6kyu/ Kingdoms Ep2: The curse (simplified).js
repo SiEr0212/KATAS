@@ -22,6 +22,4 @@ return "hello world!"
 */
 //My solution:
 
-const translate = (speech, vocabulary) => {
-
-}
+const translate = (speech, vocabulary) => {};
