@@ -22,6 +22,6 @@ return "hello world!"
 */
 //My solution:
 
-function translate(speech, vocabulary) {
+const translate = (speech, vocabulary) => {
 
 }
