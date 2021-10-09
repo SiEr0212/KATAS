@@ -7,7 +7,8 @@ Kingdoms Ep2: The curse (normal)
 
 Our King was cursed - He can not pronounce an entire word anymore. 
 Looking for the witch, the inquisition punishes every beautiful and intelligent woman in the Kingdom. 
-Trying to save your wife and to stop the violence, you beg the audience of the Highest Priest, explaining that you can understand the King's speech. The future of your family is in your hands! Given the string speech and the array vocabulary. You should return a string of replaced "encoded" words in speech with appropriate word from vocabulary.
+Trying to save your wife and to stop the violence, you beg the audience of the Highest Priest, 
+explaining that you can understand the King's speech. The future of your family is in your hands! Given the string speech and the array vocabulary. You should return a string of replaced "encoded" words in speech with appropriate word from vocabulary.
 
 Notes:
 Encoded words consist of lowercase letters and at least one asterisk;
