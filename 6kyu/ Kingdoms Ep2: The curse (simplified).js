@@ -20,6 +20,6 @@ given: speech = "***lo w***d!" and vocabulary = ["hello", "world"]
 
 return "hello world!" 
 */
-//My solution:
+//My solution: COMING SOON!
 
 const translate = (speech, vocabulary) => {};
