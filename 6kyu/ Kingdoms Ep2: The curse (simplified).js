@@ -26,4 +26,8 @@ return "hello world!"
 */
 //My solution: COMING SOON!
 
+
+
+
+
 const translate = (speech, vocabulary) => {};
