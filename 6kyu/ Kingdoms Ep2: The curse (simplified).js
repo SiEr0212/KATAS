@@ -28,6 +28,6 @@ return "hello world!"
 
 
 
-
-
-const translate = (speech, vocabulary) => {};
+const translate = (speech, vocabulary) => {
+    
+};
