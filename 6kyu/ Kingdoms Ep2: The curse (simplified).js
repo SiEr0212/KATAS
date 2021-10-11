@@ -29,8 +29,7 @@ return "hello world!"
 
 
 const translate = (speech, vocabulary) => {
-    for(let char of speech){
-        
+    for(let char of speech){  
         console.log(char)
     }
 };
