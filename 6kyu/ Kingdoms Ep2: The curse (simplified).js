@@ -32,4 +32,7 @@ const translate = (speech, vocabulary) => {
     for(let char of speech){  
         console.log(char)
     }
+    for(let word of vocabulary){
+        console.log(word)
+      }
 };
