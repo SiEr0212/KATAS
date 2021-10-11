@@ -36,3 +36,5 @@ const translate = (speech, vocabulary) => {
         console.log(word)
       }
 };
+
+translate("***lo w***d!", ["hello", "world"])
