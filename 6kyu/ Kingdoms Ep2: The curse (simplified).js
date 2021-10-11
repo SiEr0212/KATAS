@@ -26,15 +26,13 @@ return "hello world!"
 */
 //My solution: COMING SOON!
 
-
-
 const translate = (speech, vocabulary) => {
-    for(let char of speech){  
-        console.log(char)
-    }
-    for(let word of vocabulary){
-        console.log(word)
-      }
+  for (let char of speech) {
+    console.log(char);
+  }
+  for (let word of vocabulary) {
+    console.log(word);
+  }
 };
 
-translate("***lo w***d!", ["hello", "world"])//returns:"hello world!" 
+translate("***lo w***d!", ["hello", "world"]); //returns:"hello world!"
