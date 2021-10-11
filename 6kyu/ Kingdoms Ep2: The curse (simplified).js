@@ -37,4 +37,4 @@ const translate = (speech, vocabulary) => {
       }
 };
 
-translate("***lo w***d!", ["hello", "world"])
+translate("***lo w***d!", ["hello", "world"])//returns:
