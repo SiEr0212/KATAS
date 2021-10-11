@@ -26,6 +26,7 @@ return "hello world!"
 */
 //My solution: COMING SOON!
 
+
 const translate = (speech, vocabulary) => {
   for (let char of speech) {
     console.log(char);
