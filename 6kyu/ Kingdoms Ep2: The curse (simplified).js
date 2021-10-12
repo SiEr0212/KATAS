@@ -22,6 +22,7 @@ The minimum length of a word is 3;
 Example:
 given: speech = "***lo w***d!" and vocabulary = ["hello", "world"]
 
+
 return "hello world!" 
 */
 //My solution: COMING SOON!
