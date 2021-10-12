@@ -33,7 +33,7 @@ const translate = (speech, vocabulary) => {
     console.log(char);
     for (let word of vocabulary) {
       console.log(word);
-      char === word || "*" ? 
+      char === word || "*" ? res += word : null
     }
   }
   
