@@ -36,7 +36,7 @@ const translate = (speech, vocabulary) => {
       char === word || "*" ? res += word : null
     }
   }
-  
+  return res
 };
 
 
