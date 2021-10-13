@@ -15,20 +15,18 @@ Given a number, Find if it is Strong or not.
 */
 //My solution:
 
-const strong = (n)=> {
-    let arr = [...n + ''].map(Number)
-    let res = 0
-    
-    for (let num of arr ){
-      if (num === 0 || num === 1)
-      res += 1;
+const strong = (n) => {
+  let arr = [...(n + "")].map(Number);
+  let res = 0;
+
+  for (let num of arr) {
+    if (num === 0 || num === 1) res += 1;
     for (let i = num - 1; i >= 1; i--) {
       num *= i;
     }
-    res += num
-      
-    }
-   return  res - 1 === n ? "STRONG!!!!" : "Not Strong !!"
+    res += num;
   }
+  return res - 1 === n ? "STRONG!!!!" : "Not Strong !!";
+};
 
-  strong(145)
+strong(145);
