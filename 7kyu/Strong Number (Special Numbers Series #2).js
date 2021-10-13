@@ -25,4 +25,4 @@ const strong = (n) => {
   return res === n ? "STRONG!!!!" : "Not Strong !!";
 };
 
-strong(145); //returns: "STRONG!!!!"
+strong(145); //returns:"STRONG!!!!"
