@@ -13,3 +13,4 @@ So, 145 is a Strong number.
 Task
 Given a number, Find if it is Strong or not.
 */
+//My solution:
