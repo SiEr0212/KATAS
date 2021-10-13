@@ -16,13 +16,13 @@ Given a number, Find if it is Strong or not.
 //My solution:
 
 const strong = (n) => {
-    let arr = [...(n + "")].map(Number);
-    let res = 0;
-    const factorial = (n) => (n < 0 ? 1 : n === 0 ? 1 : n * factorial(n - 1));
-    for (let num of arr) {
-      res += factorial(num);
-    }
-    return res === n ? "STRONG!!!!" : "Not Strong !!";
-  };
+  let arr = [...(n + "")].map(Number);
+  let res = 0;
+  const factorial = (n) => (n < 0 ? 1 : n === 0 ? 1 : n * factorial(n - 1));
+  for (let num of arr) {
+    res += factorial(num);
+  }
+  return res === n ? "STRONG!!!!" : "Not Strong !!";
+};
 
-strong(145);//returns: "STRONG!!!!"
+strong(145); //returns: "STRONG!!!!"
