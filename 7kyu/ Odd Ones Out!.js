@@ -29,7 +29,7 @@ oddOnesOut([1, 2, 3]) = []
 oddOnesOut([1]) = []
 Are you up to the challenge?
 */
-//My Solution:
+//My solution:
 
 const oddOnesOut = (nums) => {
     return nums.filter(n => nums.filter(x => x === n).length % 2 === 0);
