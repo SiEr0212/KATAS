@@ -35,5 +35,5 @@ const oddOnesOut = (nums) => {
     return nums.filter(n => nums.filter(x => x === n).length % 2 === 0);
   };
 
-oddOnesOut([1, 2, 3, 1, 3, 3]); //, [1, 1]);
+oddOnesOut([1, 2, 3, 1, 3, 3]); //returns: [1, 1]
 
