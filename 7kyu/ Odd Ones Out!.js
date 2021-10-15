@@ -13,7 +13,8 @@ In the above example:
 the number 1 appears twice
 the number 2 appears once
 the number 3 appears three times
-2 and 3 both appear an odd number of times, so they are removed from the list. The final result is: [1,1]
+2 and 3 both appear an odd number of times,
+ so they are removed from the list. The final result is: [1,1]
 
 Here are more examples:
 
