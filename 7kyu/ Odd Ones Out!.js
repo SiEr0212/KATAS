@@ -29,3 +29,4 @@ oddOnesOut([1, 2, 3]) = []
 oddOnesOut([1]) = []
 Are you up to the challenge?
 */
+//My Solution:
