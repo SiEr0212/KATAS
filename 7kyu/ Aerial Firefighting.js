@@ -1,3 +1,5 @@
 /*  
 Aerial Firefighting
+
+from Codewars:
 */
