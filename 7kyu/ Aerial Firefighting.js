@@ -37,4 +37,4 @@ const waterbombs = (fire, w) => {
     return waterbombsCount
 }
 
-waterbombs("xxYxx", 3); //, 2
+waterbombs("xxYxx", 3); //returns: 2
