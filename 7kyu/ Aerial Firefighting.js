@@ -27,3 +27,12 @@ Examples
 "xxxxxYxYx" and w = 2  -->  5
 */
 //My solution:
+
+const waterbombs = (fire, w) => {
+    let fires = fire.split("Y");
+    let waterbombsCount = 0;
+    for (let singularFire of fires) {
+      singularFire.length <= w ? waterbombsCount++ : (waterbombsCount += 2);
+    }
+    return waterbombsCount
+}
