@@ -29,12 +29,12 @@ Examples
 //My solution:
 
 const waterbombs = (fire, w) => {
-    let fires = fire.split("Y");
-    let waterbombsCount = 0;
-    for (let singularFire of fires) {
-      singularFire.length <= w ? waterbombsCount++ : (waterbombsCount += 2);
-    }
-    return waterbombsCount
-}
+  let fires = fire.split("Y");
+  let waterbombsCount = 0;
+  for (let singularFire of fires) {
+    singularFire.length <= w ? waterbombsCount++ : (waterbombsCount += 2);
+  }
+  return waterbombsCount;
+};
 
 waterbombs("xxYxx", 3); //returns: 2
