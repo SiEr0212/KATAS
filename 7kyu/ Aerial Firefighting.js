@@ -29,10 +29,16 @@ Examples
 //My solution:
 
 const waterbombs = (fire, w) => {
-  let fires = fire.split("Y");
+  let fires = [];
+  if (fire.length > 1 || fire[0] !== "Y") {
+    fires.push(fire.split("Y"));
+  }
   let waterbombsCount = 0;
-  for (let singularFire of fires) {
-    singularFire.length <= w ? waterbombsCount++ : (waterbombsCount += 2);
+  for (let singularFire of fires.flat()) {
+    console.log(singularFire.length)
+    if (singularFire.length === 0) waterbombsCount += 0;
+    if (singularFire.length <= w) waterbombsCount++;
+    if (singularFire.length > w) waterbombsCount += singularFire.length;
   }
   return waterbombsCount;
 };
