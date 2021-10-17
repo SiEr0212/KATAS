@@ -27,6 +27,7 @@ Examples
 "xxxxxYxYx" and w = 2  -->  5
 */
 //My solution:
+
 //NOT YET PASSING ALL EDGECASES!!!!
 
 const waterbombs = (fire, w) => {
