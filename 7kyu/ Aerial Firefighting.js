@@ -35,10 +35,9 @@ const waterbombs = (fire, w) => {
   }
   let waterbombsCount = 0;
   for (let singularFire of fires.flat()) {
-    console.log(singularFire.length)
     if (singularFire.length === 0) waterbombsCount += 0;
     if (singularFire.length <= w) waterbombsCount++;
-    if (singularFire.length > w) waterbombsCount += singularFire.length;
+    if (singularFire.length > w) waterbombsCount += Math.round(singularFire.length / w);
   }
   return waterbombsCount;
 };
