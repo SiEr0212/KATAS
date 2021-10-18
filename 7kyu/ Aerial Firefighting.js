@@ -28,6 +28,7 @@ Examples
 "xxxxYxYx" and w = 5   -->  3
 "xxxxxYxYx" and w = 2  -->  5
 */
+
 //My solution:
 
 //NOT YET PASSING ALL EDGECASES!!!!
