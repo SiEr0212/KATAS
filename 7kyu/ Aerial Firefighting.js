@@ -32,6 +32,7 @@ Examples
 
 const waterbombs = (fire, w) => {
   let fires = [];
+  
   if (fire.length > 1 || fire[0] !== "Y") {
     fires.push(fire.split("Y"));
   }
