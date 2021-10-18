@@ -12,6 +12,7 @@ The given string is a 2D plane of random length consisting of two characters:
 
 x representing fire
 Y representing buildings.
+
 Water that you drop cannot go through buildings and therefore individual sections of fire must be addressed separately.
 
 Your water bombs can only extinguish contiguous sections of fire up to a width (parameter w).
@@ -32,7 +33,7 @@ Examples
 
 const waterbombs = (fire, w) => {
   let fires = [];
-  
+
   if (fire.length > 1 || fire[0] !== "Y") {
     fires.push(fire.split("Y"));
   }
