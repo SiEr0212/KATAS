@@ -38,6 +38,7 @@ const waterbombs = (fire, w) => {
   if (fire.length > 1 || fire[0] !== "Y") {
     fires.push(fire.split("Y"));
   }
+  
   let waterbombsCount = 0;
 
   for (let singularFire of fires.flat()) {
