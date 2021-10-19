@@ -46,10 +46,10 @@ const waterbombs = (fire, w) => {
     if (singularFire.length === 0) waterbombsCount += 0;
 
     if (singularFire.length <= w) waterbombsCount++;
-    
+
     if (singularFire.length > w) waterbombsCount += Math.round(singularFire.length / w);
   }
   return waterbombsCount;
 };
 
-waterbombs("xxYxx", 3); //returns: 2
+waterbombs("xxYxx", 3);//returns: 2
