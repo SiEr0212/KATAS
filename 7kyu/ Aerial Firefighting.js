@@ -34,6 +34,7 @@ Examples
 //NOT YET PASSING ALL EDGECASES!!!!
 
 const waterbombs = (fire, w) => {
+  
   let fires = [];
 
   if (fire.length > 1 || fire[0] !== "Y") {
