@@ -22,4 +22,4 @@ const nthChar = (words) => {
   return words;
 };
 
-nthChar(["yoda", "best", "has"]); //, 'yes');
+nthChar(["yoda", "best", "has"]); //returns: 'yes'
