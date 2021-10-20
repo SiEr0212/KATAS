@@ -19,9 +19,11 @@ i.e. a string array or an empty array; and each word will have enough letters.
 //My solution:
 
 const nthChar = (words) => {
-  for (let word of words) {
-  }
-  return words;
-};
+    let str='';
+      for (let i=0;i<words.length;i++){
+      str+=words[i][i]
+      }
+     return words.length ? str : ''
+    }
 
 nthChar(["yoda", "best", "has"]); //returns: 'yes'
