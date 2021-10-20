@@ -17,3 +17,7 @@ Note: Test cases contain valid input only -
 i.e. a string array or an empty array; and each word will have enough letters.
 */
 //My solution:
+
+const nthChar = (words) => {
+    return words
+  };
