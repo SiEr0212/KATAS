@@ -14,7 +14,8 @@ Given [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]], your function should return [1, 2, 
 
 Addendum:
 
-Please, keep in mind, that JavaScript is by default sorting objects alphabetically. For more information, please consult:
+Please, keep in mind, that JavaScript is by default sorting objects alphabetically. 
+For more information, please consult:
 
 http://stackoverflow.com/questions/6093874/why-doesnt-the-sort-function-of-javascript-work-well
 
