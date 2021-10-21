@@ -5,7 +5,8 @@ from codewars: https://www.codewars.com/kata/57ee99a16c8df7b02d00045f/train/java
 
 Challenge:
 
-Given a two-dimensional array of integers, return the flattened version of the array with all the integers in the sorted (ascending) order.
+Given a two-dimensional array of integers, 
+return the flattened version of the array with all the integers in the sorted (ascending) order.
 
 Example:
 
