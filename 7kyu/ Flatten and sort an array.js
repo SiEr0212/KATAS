@@ -19,3 +19,4 @@ For more information, please consult:
 
 http://stackoverflow.com/questions/6093874/why-doesnt-the-sort-function-of-javascript-work-well
 */
+//My solution:
