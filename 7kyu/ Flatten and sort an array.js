@@ -22,8 +22,11 @@ http://stackoverflow.com/questions/6093874/why-doesnt-the-sort-function-of-javas
 //My solution:
 
 const flattenAndSort = (array) => {
+  return array.flat().sort();
+};
 
-    return array.flat().sort()
-  }
-
-flattenAndSort([[3, 2, 1], [7, 9, 8], [6, 4, 5]])
+flattenAndSort([
+  [3, 2, 1],
+  [7, 9, 8],
+  [6, 4, 5],
+]);
