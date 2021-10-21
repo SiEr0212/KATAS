@@ -1,2 +1,3 @@
 /*  
+Flatten and sort an array
 */
