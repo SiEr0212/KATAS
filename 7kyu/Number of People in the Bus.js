@@ -23,9 +23,13 @@ The second value in the first integer array is 0, since the bus is empty in the 
 //My solution:
 
 const number = (busStops) => {
-    let res = 0;
-    busStops.map((x) => (res += x[0] - x[1]));
-    return res;
-  };
+  let res = 0;
+  busStops.map((x) => (res += x[0] - x[1]));
+  return res;
+};
 
-number([[10, 0],[3, 5],[5, 8],]); //returns: 5
+number([
+  [10, 0],
+  [3, 5],
+  [5, 8],
+]); //returns: 5
