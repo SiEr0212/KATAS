@@ -20,3 +20,4 @@ So the return integer can't be negative.
 
 The second value in the first integer array is 0, since the bus is empty in the first bus stop.
 */
+//My solution:
