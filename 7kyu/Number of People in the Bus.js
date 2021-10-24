@@ -21,3 +21,9 @@ So the return integer can't be negative.
 The second value in the first integer array is 0, since the bus is empty in the first bus stop.
 */
 //My solution:
+
+const number = (busStops) => {
+    let res = 0;
+    busStops.map((x) => (res += x[0] - x[1]));
+    return res;
+  };
