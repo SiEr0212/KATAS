@@ -27,3 +27,5 @@ const number = (busStops) => {
     busStops.map((x) => (res += x[0] - x[1]));
     return res;
   };
+
+  number([[10, 0],[3, 5],[5, 8],]);
