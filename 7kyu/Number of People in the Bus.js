@@ -28,4 +28,4 @@ const number = (busStops) => {
     return res;
   };
 
-  number([[10, 0],[3, 5],[5, 8],]);
+number([[10, 0],[3, 5],[5, 8],]); //returns: 5
