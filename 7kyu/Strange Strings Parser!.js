@@ -1,2 +1,3 @@
 /* 
+Strange Strings Parser!
  */
