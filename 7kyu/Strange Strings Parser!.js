@@ -14,4 +14,4 @@ const wordSplitter(string){
 return string
   }
 
-wordSplitter("RADIO+FREQ+12500+NW+1600+END") //returns: ["RADIO","FREQ","12500","NW","1600","END"]);
+wordSplitter("RADIO+FREQ+12500+NW+1600+END") //returns:["RADIO","FREQ","12500","NW","1600","END"]
