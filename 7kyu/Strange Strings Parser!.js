@@ -13,3 +13,5 @@ There isn't much time, hurry we need your help!
 function wordSplitter(string){
     //your code here
   }
+
+wordSplitter("RADIO+FREQ+12500+NW+1600+END") // ["RADIO","FREQ","12500","NW","1600","END"]);
