@@ -11,7 +11,7 @@ There isn't much time, hurry we need your help!
 //My solution:
 
 const wordSplitter(string){
-return string
+    return string.split(/\W+/);
   }
 
 wordSplitter("RADIO+FREQ+12500+NW+1600+END") //returns:["RADIO","FREQ","12500","NW","1600","END"]
