@@ -10,8 +10,8 @@ There isn't much time, hurry we need your help!
  */
 //My solution:
 
-function wordSplitter(string){
-    //your code here
+const wordSplitter(string){
+return string
   }
 
 wordSplitter("RADIO+FREQ+12500+NW+1600+END") //returns: ["RADIO","FREQ","12500","NW","1600","END"]);
