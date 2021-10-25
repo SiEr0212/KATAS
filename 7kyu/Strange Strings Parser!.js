@@ -14,4 +14,4 @@ function wordSplitter(string){
     //your code here
   }
 
-wordSplitter("RADIO+FREQ+12500+NW+1600+END") // ["RADIO","FREQ","12500","NW","1600","END"]);
+wordSplitter("RADIO+FREQ+12500+NW+1600+END") //returns: ["RADIO","FREQ","12500","NW","1600","END"]);
