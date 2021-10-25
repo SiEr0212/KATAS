@@ -9,3 +9,7 @@ We need your help to find the special character, parse the data, and return it t
 There isn't much time, hurry we need your help!
  */
 //My solution:
+
+function wordSplitter(string){
+    //your code here
+  }
