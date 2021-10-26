@@ -32,3 +32,5 @@ const capitalize = (s) => {
     res.push(odds);
     return res;
   };
+
+capitalize("abcdef"); //,['AbCdEf', 'aBcDeF']);
