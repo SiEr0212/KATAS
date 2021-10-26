@@ -33,4 +33,4 @@ const capitalize = (s) => {
     return res;
   };
 
-capitalize("abcdef"); //,['AbCdEf', 'aBcDeF']);
+capitalize("abcdef"); //['AbCdEf', 'aBcDeF']
