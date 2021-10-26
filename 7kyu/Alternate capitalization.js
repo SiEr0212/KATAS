@@ -1,3 +1,5 @@
 /*  
 Alternate capitalization
+
+from codewars:
 */
