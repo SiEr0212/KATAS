@@ -15,4 +15,20 @@ The input will be a lowercase string with no spaces.
 Good luck!
 */
 //My solution:
+
 //NOT PASSING ALL EDGECASES YET AND NOT RERACTORED CODE!!!
+
+const capitalize = (s) => {
+    let evens = "";
+    let odds = "";
+    let res = [];
+    for (let char of s) {
+      s.indexOf(char) % 2 === 0 ? (evens += char.toUpperCase()) : (evens += char);
+    }
+    res.push(evens);
+    for (let even of evens) {
+      even === even.toLowerCase() ? (odds += even.toUpperCase()) : (odds += even.toLowerCase());
+    }
+    res.push(odds);
+    return res;
+  };
