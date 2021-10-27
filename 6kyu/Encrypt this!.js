@@ -23,3 +23,22 @@ encryptThis("good") === "103doo"
 encryptThis("hello world") === "104olle 119drlo"
 */
 //My solution:
+
+const encryptThis = (text) => {
+    if (text.length === 1) return `${text.charCodeAt(text)}`;
+    let arr = text.split(" ");
+    let res = "";
+    for (let word of arr) {
+      if (word.length === 1) res += word.charCodeAt(word[0]) + " ";
+      if (word.length > 1 && word.length < 3)
+        res += `${word.charCodeAt(word[0])}${word[1]} `;
+      if (word.length >= 3)
+        res +=
+          word.charCodeAt(word[0]) +
+          word.substring(word.length - 1) +
+          word.substring(2, word.length - 1) +
+          word[1] +
+          " ";
+    }
+    return res.trim();
+  };
