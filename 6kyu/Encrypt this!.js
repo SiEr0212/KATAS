@@ -9,7 +9,8 @@ I thank yvonne-liu for the idea and for the example tests :)
 Description:
 Encrypt this!
 
-You want to create secret messages which can be deciphered by the Decipher this! kata. Here are the conditions:
+You want to create secret messages which can be deciphered by the Decipher this! kata. 
+Here are the conditions:
 
 Your message is a string containing space separated words.
 You need to encrypt each word in the message using the following rules:
