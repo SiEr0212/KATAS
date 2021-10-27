@@ -42,3 +42,5 @@ const encryptThis = (text) => {
     }
     return res.trim();
   };
+
+  encryptThis("A wise old owl lived in an oak"); 
