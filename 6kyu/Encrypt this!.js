@@ -22,3 +22,4 @@ encryptThis("Hello") === "72olle"
 encryptThis("good") === "103doo"
 encryptThis("hello world") === "104olle 119drlo"
 */
+//My solution:
