@@ -24,4 +24,4 @@ const remove = (s) => {
   return exclamationMarks.flat().join("");
 };
 
-remove("Hi! Hi! Hi!");//returns: "Hi Hi Hi!!!"
+remove("Hi! Hi! Hi!"); //returns: "Hi Hi Hi!!!"
