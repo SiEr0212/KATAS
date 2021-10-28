@@ -13,6 +13,7 @@ remove("Hi! Hi! Hi!") === "Hi Hi Hi!!!"
 remove("Hi! !Hi Hi!") === "Hi Hi Hi!!!"
 remove("Hi! Hi!! Hi!") === "Hi Hi Hi!!!!"
 */
+
 //My solution:
 
 const remove = (s) => {
@@ -23,4 +24,4 @@ const remove = (s) => {
   return exclamationMarks.flat().join("");
 };
 
-remove("Hi! Hi! Hi!"); //returns: "Hi Hi Hi!!!"
+remove("Hi! Hi! Hi!");//returns: "Hi Hi Hi!!!"
