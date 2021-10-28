@@ -16,11 +16,11 @@ remove("Hi! Hi!! Hi!") === "Hi Hi Hi!!!!"
 //My solution:
 
 const remove = (s) => {
-    let arr = s.split("");
-    let chars = [];
-    let exclamationMarks = [chars];
-    arr.map((c) => (c === "!" ? exclamationMarks.push(c) : chars.push(c)));
-    return exclamationMarks.flat().join("");
-  };
-  
-remove("Hi! Hi! Hi!") //returns: "Hi Hi Hi!!!"
+  let arr = s.split("");
+  let chars = [];
+  let exclamationMarks = [chars];
+  arr.map((c) => (c === "!" ? exclamationMarks.push(c) : chars.push(c)));
+  return exclamationMarks.flat().join("");
+};
+
+remove("Hi! Hi! Hi!"); //returns: "Hi Hi Hi!!!"
