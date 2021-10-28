@@ -13,3 +13,4 @@ remove("Hi! Hi! Hi!") === "Hi Hi Hi!!!"
 remove("Hi! !Hi Hi!") === "Hi Hi Hi!!!"
 remove("Hi! Hi!! Hi!") === "Hi Hi Hi!!!!"
 */
+//My solution:
