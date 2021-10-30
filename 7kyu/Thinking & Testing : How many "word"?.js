@@ -11,3 +11,4 @@ Only by Thinking and Testing
 
 Look at result of testcase, guess the code!
 */
+//My solution:
