@@ -29,4 +29,4 @@ const testit = (s) => {
   return Math.round(res / 2);
 };
 
-testit("hello world")//, 1, 
+testit("hello world")//returns: 1
