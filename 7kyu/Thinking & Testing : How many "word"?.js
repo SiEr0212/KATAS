@@ -15,11 +15,16 @@ Look at result of testcase, guess the code!
 
 //NOT PASSING ALL EDGECASES YET!!!!!
 
-const testit = (s) =>{
-    let res = 0
-    let arr = s.toLowerCase().split("").filter(c => c === "w" || c === "o" || c === "r" || c === "d").join("").split("word")
-      for (let amount of arr){
-        amount === '' ? res ++ : null
-      }
-      return Math.round(res/2)
-    }
+const testit = (s) => {
+  let res = 0;
+  let arr = s
+    .toLowerCase()
+    .split("")
+    .filter((c) => c === "w" || c === "o" || c === "r" || c === "d")
+    .join("")
+    .split("word");
+  for (let amount of arr) {
+    amount === "" ? res++ : null;
+  }
+  return Math.round(res / 2);
+};
