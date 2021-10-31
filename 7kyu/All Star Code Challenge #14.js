@@ -34,4 +34,4 @@ const median = (array) => {
       : sorted[Math.floor(sorted.length / 2)];
   };
 
-  median([33,99,100,30,29,50]) // =>  41.5
+  median([33,99,100,30,29,50]) //returns:41.5
