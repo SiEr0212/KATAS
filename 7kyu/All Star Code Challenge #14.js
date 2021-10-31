@@ -21,3 +21,4 @@ The sorting step is vital
 median([33,99,100,30,29,50]) // =>  41.5
 median([3,2,1]) // => 2
 */
+//My solution:
