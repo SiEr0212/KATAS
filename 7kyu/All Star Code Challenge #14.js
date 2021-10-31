@@ -8,7 +8,8 @@ his Kata is intended as a small challenge for my students
 All Star Code Challenge #14
 
 Your non-profit company has assigned you the task of calculating some simple statistics on donations. 
-You have an array of integers, representing various amounts of donations your company has been given. In particular, you're interested in the median value for donations.
+You have an array of integers, representing various amounts of donations your company has been given. 
+In particular, you're interested in the median value for donations.
 
 The median is the middle number of a sorted list of numbers. If the list is of even length, the 2 middle values are averaged.
 
