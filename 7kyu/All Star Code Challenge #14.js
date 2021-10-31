@@ -22,3 +22,14 @@ median([33,99,100,30,29,50]) // =>  41.5
 median([3,2,1]) // => 2
 */
 //My solution:
+
+const median = (array) => {
+    let sorted = array.sort((a, b) => a - b);
+    let unevenArr = sorted.slice(
+      Math.floor(sorted.length / 2) - 1,
+      Math.ceil(sorted.length / 2) + 1
+    );
+    return sorted.length % 2 === 0
+      ? unevenArr.reduce((a, b) => a + b, 0) / unevenArr.length
+      : sorted[Math.floor(sorted.length / 2)];
+  };
