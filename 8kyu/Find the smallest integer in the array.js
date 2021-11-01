@@ -16,3 +16,5 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 const findSmallestInt = (args) => {
     return args.sort((a, b) => a - b)[0];
   }
+
+findSmallestInt([78,56,232,12,8])//,8
