@@ -14,4 +14,6 @@ Strings will only contain letters and spaces, with exactly 1 space between words
  //My solution:
 
  const makeString = s => s.split(" ").map(c => c[0]).join('')
- 
+
+ makeString("brown eyes are nice")//, "bean"
+
