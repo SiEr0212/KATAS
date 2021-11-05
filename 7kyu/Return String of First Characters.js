@@ -1,2 +1,3 @@
 /*
+ Return String of First Characters
   */
