@@ -12,3 +12,6 @@ For example:
 Strings will only contain letters and spaces, with exactly 1 space between words, and no leading/trailing spaces.
   */
  //My solution:
+
+ const makeString = s => s.split(" ").map(c => c[0]).join('')
+ 
