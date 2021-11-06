@@ -10,3 +10,4 @@ Example:
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!"
 */
+//My solution: 
