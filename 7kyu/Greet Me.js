@@ -1,3 +1,5 @@
 /*  
 Greet Me
+
+from codewars: 
 */
