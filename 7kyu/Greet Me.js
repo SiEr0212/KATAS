@@ -10,8 +10,13 @@ Example:
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!"
 */
-//My solution: 
+//My solution:
 
 const greet = (name) => {
-    return "Hello " + name.substring(0,1).toUpperCase() + name.substring(1,name.length).toLowerCase() + "!"
-  };
+  return (
+    "Hello " +
+    name.substring(0, 1).toUpperCase() +
+    name.substring(1, name.length).toLowerCase() +
+    "!"
+  );
+};
