@@ -21,4 +21,4 @@ const greet = (name) => {
   );
 };
 
-greet('riley')//, 'Hello Riley!');
+greet('riley')//'Hello Riley!'
