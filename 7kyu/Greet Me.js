@@ -20,3 +20,5 @@ const greet = (name) => {
     "!"
   );
 };
+
+greet('riley')//, 'Hello Riley!');
